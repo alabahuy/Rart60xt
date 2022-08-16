@@ -1,2 +1,2 @@
 # Rart60xt
- PCb for keyboard
+ PCB for keyboard
