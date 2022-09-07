@@ -2531,7 +2531,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <part name="E1" library="SRV05-4.TCT" deviceset="SRV05-4.TCT" device=""/>
 <part name="CHG" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
 <part name="X2" library="con-JST SH" deviceset="BM06B-SRSS" device="-TB"/>
-<part name="BAT1" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
 </parts>
 <sheets>
 <sheet>
@@ -2611,10 +2610,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <instance part="X2" gate="G$1" x="-287.02" y="279.4" smashed="yes">
 <attribute name="VALUE" x="-288.29" y="266.7" size="1.778" layer="96"/>
 <attribute name="NAME" x="-288.29" y="287.782" size="1.778" layer="95"/>
-</instance>
-<instance part="BAT1" gate="G$1" x="-345.44" y="294.64" smashed="yes">
-<attribute name="NAME" x="-351.79" y="300.355" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-351.79" y="289.56" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>

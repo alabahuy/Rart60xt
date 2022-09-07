@@ -2736,6 +2736,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="BAT" gate="G$1" pin="1"/>
 <wire x1="-347.98" y1="287.02" x2="-342.9" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="-342.9" y1="287.02" x2="-342.9" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="BAT1" gate="G$1" pin="1"/>
+<wire x1="-347.98" y1="297.18" x2="-342.9" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="-342.9" y1="297.18" x2="-342.9" y2="287.02" width="0.1524" layer="91"/>
+<junction x="-342.9" y="287.02"/>
 </segment>
 <segment>
 <label x="-314.96" y="276.86" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -2786,6 +2790,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="-398.78" y1="241.3" x2="-388.62" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="-388.62" y1="241.3" x2="-388.62" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="-314.96" y="284.48" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="X2" gate="G$1" pin="6"/>
+<wire x1="-314.96" y1="284.48" x2="-279.4" y2="284.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DP" class="0">
@@ -2841,11 +2850,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="J1" gate="G$1" pin="VBUS"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="-439.42" y1="279.4" x2="-434.34" y2="279.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="-314.96" y="284.48" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="X2" gate="G$1" pin="6"/>
-<wire x1="-314.96" y1="284.48" x2="-279.4" y2="284.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="E1" gate="G$1" pin="5"/>
@@ -2923,6 +2927,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="S2" gate="MSK-12C02" pin="L2"/>
 <wire x1="-355.6" y1="282.956" x2="-347.98" y2="282.956" width="0.1524" layer="91"/>
 <wire x1="-347.98" y1="282.956" x2="-347.98" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="BAT1" gate="G$1" pin="2"/>
+<wire x1="-347.98" y1="294.64" x2="-350.52" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="-350.52" y1="294.64" x2="-350.52" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="-350.52" y1="284.48" x2="-347.98" y2="284.48" width="0.1524" layer="91"/>
+<junction x="-347.98" y="284.48"/>
 </segment>
 </net>
 <net name="N$110" class="0">
