@@ -3,7 +3,7 @@
 <eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="8" display="yes" altdistance="2.5" altunitdist="mm" altunit="mm"/>
@@ -1522,6 +1522,272 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="8.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
 </element>
+<element name="J7" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="76.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="42.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="42.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="42.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="42.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="NAME" x="35" y="69.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="42.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="42.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="35" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X7" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="66.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J8" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="76.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="NAME" x="55" y="69.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="55" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X8" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="66.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="48.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J9" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="76.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="NAME" x="75" y="69.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="75" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X9" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="66.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="68.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J10" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="76.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="NAME" x="95" y="69.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="95" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X10" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="66.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="88.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J11" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="15" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X11" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="8.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J12" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="35" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X12" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J13" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="55" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="55" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X13" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="48.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J14" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="75" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="75" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X14" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="68.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J15" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="95" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="95" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X15" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="88.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J16" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="15" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X16" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="8.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J17" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="35" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X17" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J18" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="55" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="55" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X18" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="48.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J19" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="75" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="75" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X19" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="68.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J20" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="95" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="95" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X20" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="88.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J21" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="16.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15" y="9.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="15" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X21" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="6.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="8.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J22" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="16.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35" y="9.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="35" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X22" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="6.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J23" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="16.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="55" y="9.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="55" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X23" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="6.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="48.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J24" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="16.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="75" y="9.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="75" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X24" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="6.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="68.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="J25" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="16.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="95" y="9.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="95" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X25" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="6.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="88.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1540,6 +1806,44 @@ design rules under a new name.</description>
 <contactref element="J5" pad="A1B12"/>
 <contactref element="J6" pad="B1A12"/>
 <contactref element="J6" pad="A1B12"/>
+<contactref element="J7" pad="B1A12"/>
+<contactref element="J7" pad="A1B12"/>
+<contactref element="J8" pad="B1A12"/>
+<contactref element="J8" pad="A1B12"/>
+<contactref element="J9" pad="B1A12"/>
+<contactref element="J9" pad="A1B12"/>
+<contactref element="J10" pad="B1A12"/>
+<contactref element="J10" pad="A1B12"/>
+<contactref element="J11" pad="B1A12"/>
+<contactref element="J11" pad="A1B12"/>
+<contactref element="J12" pad="B1A12"/>
+<contactref element="J12" pad="A1B12"/>
+<contactref element="J13" pad="B1A12"/>
+<contactref element="J13" pad="A1B12"/>
+<contactref element="J14" pad="B1A12"/>
+<contactref element="J14" pad="A1B12"/>
+<contactref element="J15" pad="B1A12"/>
+<contactref element="J15" pad="A1B12"/>
+<contactref element="J16" pad="B1A12"/>
+<contactref element="J16" pad="A1B12"/>
+<contactref element="J17" pad="B1A12"/>
+<contactref element="J17" pad="A1B12"/>
+<contactref element="J18" pad="B1A12"/>
+<contactref element="J18" pad="A1B12"/>
+<contactref element="J19" pad="B1A12"/>
+<contactref element="J19" pad="A1B12"/>
+<contactref element="J20" pad="B1A12"/>
+<contactref element="J20" pad="A1B12"/>
+<contactref element="J21" pad="B1A12"/>
+<contactref element="J21" pad="A1B12"/>
+<contactref element="J22" pad="B1A12"/>
+<contactref element="J22" pad="A1B12"/>
+<contactref element="J23" pad="B1A12"/>
+<contactref element="J23" pad="A1B12"/>
+<contactref element="J24" pad="B1A12"/>
+<contactref element="J24" pad="A1B12"/>
+<contactref element="J25" pad="B1A12"/>
+<contactref element="J25" pad="A1B12"/>
 <wire x1="86.75" y1="91.155" x2="93.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="73.25" y1="91.155" x2="86.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="66.75" y1="91.155" x2="73.25" y2="91.155" width="0" layer="19" extent="1-1"/>
@@ -1549,8 +1853,46 @@ design rules under a new name.</description>
 <wire x1="26.75" y1="91.155" x2="33.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="13.25" y1="91.155" x2="26.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="6.75" y1="91.155" x2="13.25" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="13.25" y1="71.155" x2="13.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="93.25" y1="71.155" x2="93.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="86.75" y1="71.155" x2="93.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="71.155" x2="86.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="66.75" y1="71.155" x2="73.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="71.155" x2="66.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="46.75" y1="71.155" x2="53.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="33.25" y1="71.155" x2="46.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="26.75" y1="71.155" x2="33.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="71.155" x2="26.75" y2="71.155" width="0" layer="19" extent="1-1"/>
 <wire x1="6.75" y1="71.155" x2="13.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="93.25" y1="51.155" x2="93.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="86.75" y1="51.155" x2="93.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="51.155" x2="86.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="66.75" y1="51.155" x2="73.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="51.155" x2="66.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="46.75" y1="51.155" x2="53.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="33.25" y1="51.155" x2="46.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="26.75" y1="51.155" x2="33.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="51.155" x2="26.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="6.75" y1="51.155" x2="13.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="93.25" y1="31.155" x2="93.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="86.75" y1="31.155" x2="93.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="31.155" x2="86.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="66.75" y1="31.155" x2="73.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="31.155" x2="66.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="46.75" y1="31.155" x2="53.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="33.25" y1="31.155" x2="46.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="26.75" y1="31.155" x2="33.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="31.155" x2="26.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="6.75" y1="31.155" x2="13.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="93.25" y1="11.155" x2="93.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="86.75" y1="11.155" x2="93.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="11.155" x2="86.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="66.75" y1="11.155" x2="73.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="11.155" x2="66.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="46.75" y1="11.155" x2="53.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="33.25" y1="11.155" x2="46.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="26.75" y1="11.155" x2="33.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="11.155" x2="26.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="6.75" y1="11.155" x2="13.25" y2="11.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBUS">
 <contactref element="J1" pad="A4B9"/>
@@ -1565,6 +1907,44 @@ design rules under a new name.</description>
 <contactref element="J5" pad="B4A9"/>
 <contactref element="J6" pad="A4B9"/>
 <contactref element="J6" pad="B4A9"/>
+<contactref element="J7" pad="A4B9"/>
+<contactref element="J7" pad="B4A9"/>
+<contactref element="J8" pad="A4B9"/>
+<contactref element="J8" pad="B4A9"/>
+<contactref element="J9" pad="A4B9"/>
+<contactref element="J9" pad="B4A9"/>
+<contactref element="J10" pad="A4B9"/>
+<contactref element="J10" pad="B4A9"/>
+<contactref element="J11" pad="B4A9"/>
+<contactref element="J11" pad="A4B9"/>
+<contactref element="J12" pad="B4A9"/>
+<contactref element="J12" pad="A4B9"/>
+<contactref element="J13" pad="B4A9"/>
+<contactref element="J13" pad="A4B9"/>
+<contactref element="J14" pad="B4A9"/>
+<contactref element="J14" pad="A4B9"/>
+<contactref element="J15" pad="B4A9"/>
+<contactref element="J15" pad="A4B9"/>
+<contactref element="J16" pad="B4A9"/>
+<contactref element="J16" pad="A4B9"/>
+<contactref element="J17" pad="B4A9"/>
+<contactref element="J17" pad="A4B9"/>
+<contactref element="J18" pad="B4A9"/>
+<contactref element="J18" pad="A4B9"/>
+<contactref element="J19" pad="B4A9"/>
+<contactref element="J19" pad="A4B9"/>
+<contactref element="J20" pad="B4A9"/>
+<contactref element="J20" pad="A4B9"/>
+<contactref element="J21" pad="B4A9"/>
+<contactref element="J21" pad="A4B9"/>
+<contactref element="J22" pad="B4A9"/>
+<contactref element="J22" pad="A4B9"/>
+<contactref element="J23" pad="B4A9"/>
+<contactref element="J23" pad="A4B9"/>
+<contactref element="J24" pad="B4A9"/>
+<contactref element="J24" pad="A4B9"/>
+<contactref element="J25" pad="B4A9"/>
+<contactref element="J25" pad="A4B9"/>
 <wire x1="87.55" y1="91.155" x2="92.45" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="72.45" y1="91.155" x2="87.55" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="67.55" y1="91.155" x2="72.45" y2="91.155" width="0" layer="19" extent="1-1"/>
@@ -1574,8 +1954,46 @@ design rules under a new name.</description>
 <wire x1="27.55" y1="91.155" x2="32.45" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="12.45" y1="91.155" x2="27.55" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="7.55" y1="91.155" x2="12.45" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="12.45" y1="71.155" x2="12.45" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="92.45" y1="71.155" x2="92.45" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="87.55" y1="71.155" x2="92.45" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="72.45" y1="71.155" x2="87.55" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="67.55" y1="71.155" x2="72.45" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="52.45" y1="71.155" x2="67.55" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="47.55" y1="71.155" x2="52.45" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="32.45" y1="71.155" x2="47.55" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="27.55" y1="71.155" x2="32.45" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="12.45" y1="71.155" x2="27.55" y2="71.155" width="0" layer="19" extent="1-1"/>
 <wire x1="7.55" y1="71.155" x2="12.45" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="92.45" y1="51.155" x2="92.45" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="87.55" y1="51.155" x2="92.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="72.45" y1="51.155" x2="87.55" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="67.55" y1="51.155" x2="72.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="52.45" y1="51.155" x2="67.55" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="47.55" y1="51.155" x2="52.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="32.45" y1="51.155" x2="47.55" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="27.55" y1="51.155" x2="32.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="12.45" y1="51.155" x2="27.55" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="7.55" y1="51.155" x2="12.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="92.45" y1="31.155" x2="92.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="87.55" y1="31.155" x2="92.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="72.45" y1="31.155" x2="87.55" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="67.55" y1="31.155" x2="72.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="52.45" y1="31.155" x2="67.55" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="47.55" y1="31.155" x2="52.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="32.45" y1="31.155" x2="47.55" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="27.55" y1="31.155" x2="32.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="12.45" y1="31.155" x2="27.55" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="7.55" y1="31.155" x2="12.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="92.45" y1="11.155" x2="92.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="87.55" y1="11.155" x2="92.45" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="72.45" y1="11.155" x2="87.55" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="67.55" y1="11.155" x2="72.45" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="52.45" y1="11.155" x2="67.55" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="47.55" y1="11.155" x2="52.45" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="32.45" y1="11.155" x2="47.55" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="27.55" y1="11.155" x2="32.45" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="12.45" y1="11.155" x2="27.55" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="7.55" y1="11.155" x2="12.45" y2="11.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <via x="17" y="96.25" extent="1-16" drill="2.2"/>

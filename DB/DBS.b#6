@@ -8,7 +8,7 @@
 </settings>
 <grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="8" display="yes" altdistance="2.5" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -1200,6 +1200,56 @@
 </package>
 </packages>
 </library>
+<library name="con-JST SH">
+<description>
+&lt;b&gt;JST Connectors&lt;/b&gt; - SH Series, 1.00mm pitch disconnectable crimp style connectors&lt;p&gt;
+
+&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
+USE AT YOUR OWN RISK!&lt;p&gt;
+
+&lt;author&gt;Author: kylie &lt;/author&gt;, 04/2018&lt;p&gt;
+
+&lt;a href="http://www.jst-mfg.com/product/detail_e.php?series=231"&gt;
+&lt;img src="http://www.jst-mfg.com/product/images/pict/sh.jpg"  &gt;&lt;/a&gt;&lt;p&gt;
+&lt;a href="http://www.jst-mfg.com/product/pdf/eng/eSH.pdf"&gt; Data sheet (PDF)&lt;/a&gt;&lt;p&gt;
+&lt;p&gt; similar to:&lt;p&gt;
+</description>
+<packages>
+<package name="SM04B-SRSS-TB">
+<description>
+
+&lt;b&gt;JST SH series header&lt;/b&gt; 1.00mm pitch disconnectable crimp style connectors, SMT horizontal (side entry type), 4 pins&lt;p&gt;
+
+</description>
+<smd name="1" x="1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="3" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="4" x="-1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="M1" x="2.8" y="3.875" dx="1.2" dy="1.8" layer="1"/>
+<smd name="M2" x="-2.8" y="3.875" dx="1.2" dy="1.8" layer="1"/>
+<text x="4.04" y="1.905" size="1.016" layer="25" rot="R270" align="bottom-center">&gt;NAME</text>
+<text x="1.5" y="1.905" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
+<wire x1="-2" y1="4.575" x2="2" y2="4.575" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.8" x2="3" y2="0.325" width="0.1524" layer="21"/>
+<wire x1="3" y1="0.325" x2="2" y2="0.325" width="0.1524" layer="21"/>
+<wire x1="-2" y1="0.325" x2="-3" y2="0.325" width="0.1524" layer="21"/>
+<wire x1="-3" y1="0.325" x2="-3" y2="2.8" width="0.1524" layer="21"/>
+<wire x1="-3" y1="4.575" x2="3" y2="4.575" width="0.1524" layer="51"/>
+<wire x1="3" y1="4.575" x2="3" y2="0.325" width="0.1524" layer="51"/>
+<wire x1="3" y1="0.325" x2="-3" y2="0.325" width="0.1524" layer="51"/>
+<wire x1="-3" y1="0.325" x2="-3" y2="4.575" width="0.1524" layer="51"/>
+<rectangle x1="1.4" y1="-0.375" x2="1.6" y2="0.325" layer="51"/>
+<rectangle x1="0.4" y1="-0.375" x2="0.6" y2="0.325" layer="51"/>
+<rectangle x1="-0.6" y1="-0.375" x2="-0.4" y2="0.325" layer="51"/>
+<rectangle x1="-1.6" y1="-0.375" x2="-1.4" y2="0.325" layer="51"/>
+<polygon width="0.1524" layer="51">
+<vertex x="1.5" y="4.075"/>
+<vertex x="1.2" y="4.575"/>
+<vertex x="1.8" y="4.575"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1403,6 +1453,75 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="10" y="96.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="VALUE" x="15" y="99.75" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
+<element name="J2" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="96.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="30" y="96.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="30" y="96.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="30" y="96.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="30" y="96.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="NAME" x="30" y="94.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="30" y="96.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="30" y="96.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="35" y="99.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X1" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="86.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.96" y="84.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+</element>
+<element name="X2" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="86.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.96" y="84.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+</element>
+<element name="J3" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="96.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="62.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="62.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="62.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="62.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="NAME" x="55" y="89.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="62.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="62.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="55" y="99.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="J4" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="96.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="82.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="82.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="82.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="82.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="NAME" x="75" y="89.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="82.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="82.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="75" y="99.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="J5" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="96.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="102.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="102.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="102.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="102.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="NAME" x="95" y="89.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="102.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="102.5" y="81.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="95" y="99.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X3" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="86.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.96" y="84.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+</element>
+<element name="X4" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="86.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.96" y="84.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+</element>
+<element name="X5" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="86.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.96" y="84.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+</element>
+<element name="J6" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="76.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="22.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="22.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="22.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="22.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="NAME" x="15" y="69.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="22.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="22.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="15" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X6" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="66.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="8.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1411,12 +1530,52 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="J1" pad="B1A12"/>
 <contactref element="J1" pad="A1B12"/>
-<wire x1="13.25" y1="91.155" x2="6.75" y2="91.155" width="0" layer="19" extent="1-1"/>
+<contactref element="J2" pad="B1A12"/>
+<contactref element="J2" pad="A1B12"/>
+<contactref element="J3" pad="B1A12"/>
+<contactref element="J3" pad="A1B12"/>
+<contactref element="J4" pad="B1A12"/>
+<contactref element="J4" pad="A1B12"/>
+<contactref element="J5" pad="B1A12"/>
+<contactref element="J5" pad="A1B12"/>
+<contactref element="J6" pad="B1A12"/>
+<contactref element="J6" pad="A1B12"/>
+<wire x1="86.75" y1="91.155" x2="93.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="91.155" x2="86.75" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="66.75" y1="91.155" x2="73.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="91.155" x2="66.75" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="46.75" y1="91.155" x2="53.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="33.25" y1="91.155" x2="46.75" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="26.75" y1="91.155" x2="33.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="91.155" x2="26.75" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="6.75" y1="91.155" x2="13.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="71.155" x2="13.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="6.75" y1="71.155" x2="13.25" y2="71.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBUS">
 <contactref element="J1" pad="A4B9"/>
 <contactref element="J1" pad="B4A9"/>
-<wire x1="12.45" y1="91.155" x2="7.55" y2="91.155" width="0" layer="19" extent="1-1"/>
+<contactref element="J2" pad="A4B9"/>
+<contactref element="J2" pad="B4A9"/>
+<contactref element="J3" pad="A4B9"/>
+<contactref element="J3" pad="B4A9"/>
+<contactref element="J4" pad="A4B9"/>
+<contactref element="J4" pad="B4A9"/>
+<contactref element="J5" pad="A4B9"/>
+<contactref element="J5" pad="B4A9"/>
+<contactref element="J6" pad="A4B9"/>
+<contactref element="J6" pad="B4A9"/>
+<wire x1="87.55" y1="91.155" x2="92.45" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="72.45" y1="91.155" x2="87.55" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="67.55" y1="91.155" x2="72.45" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="52.45" y1="91.155" x2="67.55" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="47.55" y1="91.155" x2="52.45" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="32.45" y1="91.155" x2="47.55" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="27.55" y1="91.155" x2="32.45" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="12.45" y1="91.155" x2="27.55" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="7.55" y1="91.155" x2="12.45" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="12.45" y1="71.155" x2="12.45" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="7.55" y1="71.155" x2="12.45" y2="71.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <via x="17" y="96.25" extent="1-16" drill="2.2"/>
