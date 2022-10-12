@@ -1,7 +1,7 @@
 {
   "name": "RART60",
   "vendorId": "0x414C",
-  "productId": "0x0060",
+  "productId": "0x0061",
   "lighting": "none",
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
@@ -9,7 +9,8 @@
       "Split Backspace",
       "Split LShift",
       "Split RShift",
-      ["Bottom Row", "Tsangan", "HHKB", "WKL", "CWKL"]
+      ["Bottom Row", "Tsangan", "HHKB", "WKL", "CWKL"],
+      "Encoder"
     ],
     "keymap": [
       [
@@ -59,7 +60,11 @@
         {
           "x": 0.5
         },
-        "0,15"
+        "0,15\n\n\n4,0",
+        {
+          "x": 0.5
+        },
+        "0,15\n\n\n4,1\n\n\n\n\ne0"
       ],
       [
         "1,14",
