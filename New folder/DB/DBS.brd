@@ -3,7 +3,7 @@
 <eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.625" unitdist="mm" unit="mm" style="lines" multiple="8" display="yes" altdistance="2.5" altunitdist="mm" altunit="mm"/>
@@ -1246,6 +1246,7 @@
 <wire x1="22.223459375" y1="58.09218125" x2="22.59825" y2="58.20918125" width="0.025" layer="20"/>
 <wire x1="22.59825" y1="58.20918125" x2="23.00005" y2="58.24998125" width="0.025" layer="20"/>
 <wire x1="23.00005" y1="58.24998125" x2="27.500040625" y2="58.24998125" width="0.025" layer="20"/>
+<circle x="8.125" y="80.625" radius="0.25" width="0.01" layer="20"/>
 </plain>
 <libraries>
 <library name="TYPE-C-31-M-12">
@@ -1634,258 +1635,6 @@ design rules under a new name.</description>
 <element name="X1" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="86.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.78" y="84.71" size="1.016" layer="25" rot="R180" align="bottom-center"/>
 </element>
-<element name="J8" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="76.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="NAME" x="55" y="69.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="62.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="VALUE" x="55" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X8" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="48.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J9" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="76.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="NAME" x="75" y="69.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="82.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="VALUE" x="75" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X9" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="65.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="68.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J10" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="76.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="NAME" x="95" y="69.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="102.5" y="61.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="VALUE" x="95" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X10" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="85.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="88.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J11" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="56.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15" y="49.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="22.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="15" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X11" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="46.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="8.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J12" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="56.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35" y="49.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="75" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="35" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X12" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="46.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="28.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J13" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="56.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="55" y="49.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="97.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="55" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X13" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="46.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="48.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J14" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="56.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="75" y="49.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="150" y="48.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="75" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X14" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="46.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="65.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="68.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J15" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="56.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="95" y="49.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="172.5" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="95" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X15" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="46.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="85.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="88.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J16" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="36.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15" y="29.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="22.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="15" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X16" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="26.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="8.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J17" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="36.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35" y="29.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="75" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="35" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X17" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="26.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="28.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J18" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="36.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="55" y="29.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="97.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="55" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X18" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="26.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="48.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J19" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="36.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="75" y="29.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="150" y="28.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="75" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X19" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="26.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="65.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="68.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J20" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="36.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="95" y="29.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="172.5" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="95" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X20" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="26.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="85.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="88.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J21" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="16.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15" y="9.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="22.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="15" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X21" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="6.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="8.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J22" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="16.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35" y="9.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="35" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X22" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="6.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="28.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J23" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="16.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="55" y="9.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="97.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="55" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X23" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="6.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="48.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J24" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="16.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="75" y="9.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="150" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="75" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X24" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="6.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="65.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="68.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
-<element name="J25" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="16.25" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="95" y="9.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="172.5" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="95" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="X25" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="6.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="85.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="88.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
-</element>
 <element name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="2.5" y="88.125" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="2.5" y="88.125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="2.5" y="88.125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1896,15 +1645,15 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="2.5" y="88.125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="2.5" y="88.125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="E1" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="16.875" y="88.125" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="21.875" y="85.625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="21.875" y="85.625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Semtech" x="21.875" y="85.625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SRV05-4.TC" x="21.875" y="85.625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="14.375" y="88.125" size="0.8128" layer="25" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="21.875" y="85.625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="21.875" y="85.625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="21.875" y="85.625" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="E1" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="15.625" y="87.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="10.625" y="90" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="10.625" y="90" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="10.625" y="90" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="10.625" y="90" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18.125" y="87.5" size="0.8128" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="10.625" y="90" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="10.625" y="90" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="10.625" y="90" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="Components" package="R0603" value="5.1k" x="16.875" y="92.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.525" y="92.05" size="0.8128" layer="25" ratio="13" rot="R270"/>
@@ -1937,15 +1686,15 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="14.375" y="58.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="24.50148125" y="84.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="E2" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="36.875" y="88.125" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="22.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="22.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Semtech" x="22.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SRV05-4.TC" x="22.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.375" y="88.125" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="22.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="22.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="22.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="E2" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="35.625" y="87.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="50" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="50" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="50" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="50" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.125" y="87.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="50" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="50" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="50" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R3" library="Components" package="R0603" value="5.1k" x="36.875" y="92.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.225" y="91.7" size="1" layer="25" ratio="13" rot="R90"/>
@@ -1980,15 +1729,15 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="34.375" y="71.875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="44.50148125" y="84.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="E3" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="56.875" y="88.125" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="42.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="42.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Semtech" x="42.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SRV05-4.TC" x="42.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="54.375" y="88.125" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="42.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="42.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="42.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="E3" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="55.625" y="87.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="70" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="70" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="70" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="70" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.125" y="87.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="70" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="70" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="70" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="Components" package="R0603" value="5.1k" x="56.875" y="92.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.225" y="91.7" size="1" layer="25" ratio="13" rot="R90"/>
@@ -2023,15 +1772,15 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="54.375" y="71.875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="64.50148125" y="84.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="E4" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="76.875" y="88.125" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="62.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="62.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Semtech" x="62.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SRV05-4.TC" x="62.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="74.375" y="88.125" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="62.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="62.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="62.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="E4" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="75.625" y="87.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="90" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="90" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="90" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="90" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="78.125" y="87.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="90" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="90" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="90" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R7" library="Components" package="R0603" value="5.1k" x="76.875" y="92.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="76.225" y="91.7" size="1" layer="25" ratio="13" rot="R90"/>
@@ -2066,15 +1815,15 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="74.375" y="71.875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="84.50148125" y="84.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="E5" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="96.875" y="88.125" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="82.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="82.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Semtech" x="82.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SRV05-4.TC" x="82.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="93.75" y="88.125" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="82.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="82.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="82.5" y="65" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="E5" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="95.625" y="87.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="110" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="110" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="110" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="110" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="98.125" y="87.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="110" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="110" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="110" y="110.625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R9" library="Components" package="R0603" value="5.1k" x="96.875" y="92.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="96.225" y="91.7" size="1" layer="25" ratio="13" rot="R90"/>
@@ -2109,15 +1858,15 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="-5.625" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="4.50148125" y="64.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="E6" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="16.875" y="68.125" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="2.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="2.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Semtech" x="2.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SRV05-4.TC" x="2.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.75" y="68.125" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="2.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="2.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="2.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="E6" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="15.625" y="67.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="30" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="30" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="30" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="30" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18.75" y="67.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="30" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="30" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="30" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="Components" package="R0603" value="5.1k" x="16.875" y="72.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.225" y="71.7" size="1" layer="25" ratio="13" rot="R90"/>
@@ -2152,15 +1901,15 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="14.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="24.50148125" y="64.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="E7" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="36.875" y="68.125" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="22.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="22.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Semtech" x="22.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SRV05-4.TC" x="22.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.375" y="68.75" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="22.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="22.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="22.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="E7" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="35.625" y="67.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="50" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="50" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="50" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="50" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.125" y="66.875" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="50" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="50" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="50" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R13" library="Components" package="R0603" value="5.1k" x="36.875" y="72.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.225" y="71.7" size="1" layer="25" ratio="13" rot="R90"/>
@@ -2170,45 +1919,654 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.775" y="73.3" size="1" layer="25" ratio="13" rot="R270"/>
 <attribute name="VALUE" x="21.475" y="73.3" size="1" layer="27" ratio="13" rot="R270"/>
 </element>
+<element name="J7" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="76.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="61.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="61.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="61.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="61.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="55" y="69.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="61.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="61.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="55" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X7" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="66.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="48.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F8" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="42.5" y="68.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="34.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="34.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="34.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="34.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="40.49853125" y="64.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="34.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="34.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="34.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="44.50148125" y="64.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E8" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="55.625" y="67.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="70" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="70" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="70" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="70" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.125" y="68.125" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="70" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="70" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="70" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R15" library="Components" package="R0603" value="5.1k" x="56.875" y="72.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.225" y="71.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="58.525" y="71.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R16" library="Components" package="R0603" value="5.1k" x="43.125" y="72.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="42.475" y="71.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="44.775" y="71.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="J8" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="76.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="81.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="81.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="81.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="81.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="75" y="69.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="81.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="81.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="75" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X8" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="66.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="68.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F9" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="62.5" y="68.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="54.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="54.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="54.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="54.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="60.49853125" y="64.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="54.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="54.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="54.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="64.50148125" y="64.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E9" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="75.625" y="67.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="90" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="90" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="90" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="90" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="78.75" y="67.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="90" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="90" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="90" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R17" library="Components" package="R0603" value="5.1k" x="76.875" y="72.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="76.225" y="71.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="78.525" y="71.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R18" library="Components" package="R0603" value="5.1k" x="63.125" y="72.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="63.775" y="73.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="61.475" y="73.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J9" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="76.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="101.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="101.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="101.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="101.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="95" y="69.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="101.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="101.25" y="61.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="95" y="79.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X9" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="66.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.96" y="64.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="88.5" y="64.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F10" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="82.5" y="68.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="74.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="74.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="74.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="74.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="80.49853125" y="64.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="74.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="74.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="74.375" y="51.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.50148125" y="64.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E10" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="95.625" y="67.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="110" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="110" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="110" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="110" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="98.75" y="67.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="110" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="110" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="110" y="90.625" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R19" library="Components" package="R0603" value="5.1k" x="96.875" y="72.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.225" y="71.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="98.525" y="71.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R20" library="Components" package="R0603" value="5.1k" x="83.125" y="72.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.775" y="73.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="81.475" y="73.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J10" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="21.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="21.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="21.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="21.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="21.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="21.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="15" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X10" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="8.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F11" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="2.5" y="48.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="-5.625" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="-5.625" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="-5.625" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="-5.625" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="0.49853125" y="44.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="-5.625" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="-5.625" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="-5.625" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="4.50148125" y="44.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E11" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="15.625" y="47.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="30" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="30" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="30" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="30" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18.125" y="47.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="30" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="30" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="30" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R21" library="Components" package="R0603" value="5.1k" x="16.875" y="52.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.225" y="51.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="18.525" y="51.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R22" library="Components" package="R0603" value="5.1k" x="3.125" y="52.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="3.775" y="53.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="1.475" y="53.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J11" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="41.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="41.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="41.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="41.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="41.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="41.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="35" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X11" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F12" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="22.5" y="48.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="14.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="14.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="14.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="14.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="20.49853125" y="44.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="14.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="14.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="14.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="24.50148125" y="44.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E12" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="36.25" y="47.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="50.625" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="50.625" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="50.625" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="50.625" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.75" y="47.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="50.625" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="50.625" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="50.625" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R23" library="Components" package="R0603" value="5.1k" x="36.875" y="52.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.225" y="51.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="38.525" y="51.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R24" library="Components" package="R0603" value="5.1k" x="23.125" y="52.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.775" y="53.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="21.475" y="53.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J12" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="61.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="61.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="61.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="61.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="55" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="61.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="61.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="55" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X12" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="48.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F13" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="42.5" y="48.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="34.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="34.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="34.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="34.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="40.49853125" y="44.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="34.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="34.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="34.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="44.50148125" y="44.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E13" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="55.625" y="47.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="70" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="70" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="70" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="70" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.125" y="47.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="70" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="70" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="70" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R25" library="Components" package="R0603" value="5.1k" x="56.875" y="52.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.225" y="51.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="58.525" y="51.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R26" library="Components" package="R0603" value="5.1k" x="43.125" y="52.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.775" y="53.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="41.475" y="53.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J13" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="81.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="81.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="81.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="81.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="75" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="81.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="81.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="75" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X13" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="68.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F14" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="62.5" y="48.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="54.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="54.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="54.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="54.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="60.49853125" y="44.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="54.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="54.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="54.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="64.50148125" y="44.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E14" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="75.625" y="47.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="90" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="90" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="90" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="90" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="78.125" y="47.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="90" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="90" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="90" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R27" library="Components" package="R0603" value="5.1k" x="76.875" y="52.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="76.225" y="51.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="78.525" y="51.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R28" library="Components" package="R0603" value="5.1k" x="63.125" y="52.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="63.775" y="53.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="61.475" y="53.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J14" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="56.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="101.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="101.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="101.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="101.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="95" y="49.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="101.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="101.25" y="41.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="95" y="59.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X14" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="46.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.96" y="44.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="88.5" y="44.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F15" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="82.5" y="48.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="74.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="74.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="74.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="74.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="80.49853125" y="44.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="74.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="74.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="74.375" y="31.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.50148125" y="44.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E15" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="95.625" y="47.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="110" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="110" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="110" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="110" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="98.125" y="47.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="110" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="110" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="110" y="70.625" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R29" library="Components" package="R0603" value="5.1k" x="96.875" y="51.875" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.225" y="51.075" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="98.525" y="51.075" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R30" library="Components" package="R0603" value="5.1k" x="83.125" y="52.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.775" y="53.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="81.475" y="53.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J15" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="21.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="21.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="21.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="21.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="21.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="21.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="15" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X15" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="8.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F16" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="2.5" y="28.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="-5.625" y="11.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="-5.625" y="11.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="-5.625" y="11.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="-5.625" y="11.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="0.49853125" y="24.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="-5.625" y="11.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="-5.625" y="11.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="-5.625" y="11.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="4.50148125" y="24.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E16" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="15.625" y="27.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="30" y="50.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="30" y="50.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="30" y="50.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="30" y="50.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18.125" y="27.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="30" y="50.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="30" y="50.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="30" y="50.625" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R31" library="Components" package="R0603" value="5.1k" x="16.875" y="32.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.225" y="31.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="18.525" y="31.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R32" library="Components" package="R0603" value="5.1k" x="3.125" y="32.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="3.775" y="33.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="1.475" y="33.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J16" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="41.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="41.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="41.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="41.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="41.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="41.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="35" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X16" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F17" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="22.5" y="28.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="6.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="6.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="6.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="6.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="20.49853125" y="24.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="6.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="6.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="6.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="24.50148125" y="24.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E17" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="35.625" y="27.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="57.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="57.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="57.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="57.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.125" y="27.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="57.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="57.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="57.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R33" library="Components" package="R0603" value="5.1k" x="36.875" y="32.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.225" y="31.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="38.525" y="32.325" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R34" library="Components" package="R0603" value="5.1k" x="23.125" y="32.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.775" y="33.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="21.475" y="33.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J17" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="50" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="61.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="61.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="61.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="61.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="55" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="61.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="61.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="55" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X17" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="48.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F18" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="42.5" y="28.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="26.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="26.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="26.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="26.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="40.49853125" y="24.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="26.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="26.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="26.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="44.50148125" y="24.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E18" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="55.625" y="27.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="77.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="77.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="77.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="77.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.125" y="27.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="77.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="77.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="77.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R35" library="Components" package="R0603" value="5.1k" x="56.875" y="32.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.225" y="31.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="58.525" y="31.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R36" library="Components" package="R0603" value="5.1k" x="43.125" y="32.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.775" y="33.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="41.475" y="33.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J18" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="70" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="81.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="81.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="81.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="81.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="75" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="81.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="81.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="75" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X18" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="70" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="68.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F19" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="62.5" y="28.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="46.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="46.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="46.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="46.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="60.49853125" y="24.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="46.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="46.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="46.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="64.50148125" y="24.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E19" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="75.625" y="27.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="97.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="97.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="97.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="97.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="78.125" y="27.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="97.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="97.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="97.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R37" library="Components" package="R0603" value="5.1k" x="76.875" y="32.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="76.225" y="31.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="78.525" y="31.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R38" library="Components" package="R0603" value="5.1k" x="63.125" y="32.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="63.775" y="33.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="61.475" y="33.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J19" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="90" y="36.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="101.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="101.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="101.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="101.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="95" y="29.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="101.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="101.25" y="21.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="95" y="39.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X19" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="90" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.96" y="24.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="88.5" y="24.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F20" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="82.5" y="28.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="66.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="66.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="66.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="66.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="80.49853125" y="24.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="66.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="66.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="66.25" y="3.125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.50148125" y="24.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E20" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="95.625" y="27.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="117.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="117.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="117.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="117.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="98.125" y="27.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="117.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="117.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="117.5" y="59.375" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R39" library="Components" package="R0603" value="5.1k" x="96.875" y="32.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.225" y="31.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="98.525" y="31.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R40" library="Components" package="R0603" value="5.1k" x="83.125" y="32.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.775" y="33.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="81.475" y="33.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J20" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="10" y="16.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="21.25" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="21.25" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="21.25" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="21.25" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15" y="9.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="21.25" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="21.25" y="1.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="15" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X20" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="10" y="6.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="8.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F21" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="2.5" y="8.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="-13.75" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="-13.75" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="-13.75" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="-13.75" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="0.49853125" y="4.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="-13.75" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="-13.75" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="-13.75" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="4.50148125" y="4.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E21" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="15.625" y="7.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="37.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="37.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="37.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="37.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18.125" y="7.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="37.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="37.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="37.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R41" library="Components" package="R0603" value="5.1k" x="16.875" y="12.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.225" y="11.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="18.525" y="11.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R42" library="Components" package="R0603" value="5.1k" x="3.125" y="12.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="3.775" y="13.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="1.475" y="13.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
+<element name="J21" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="30" y="16.25" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="41.25" y="1.875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="41.25" y="1.875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="41.25" y="1.875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="41.25" y="1.875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35" y="9.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Package " x="41.25" y="1.875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="41.25" y="1.875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="35" y="19.75" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="X21" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="30" y="6.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.96" y="4.595" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.5" y="4.595" size="1.016" layer="27" rot="R180" align="bottom-right"/>
+</element>
+<element name="F22" library="fuse" library_urn="urn:adsk.eagle:library:233" package="RESC3216X125N" value="500mA" x="22.5" y="8.125" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="6.25" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="6.25" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Bel Fuse" x="6.25" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="0ZCJ0075AF2E" x="6.25" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="20.49853125" y="4.9877" size="1.27093125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1206 Bel Fuse" x="6.25" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="6.25" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="6.25" y="-16.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="24.50148125" y="4.98768125" size="1.270940625" layer="27" rot="R90" align="top-left"/>
+</element>
+<element name="E22" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="35.625" y="7.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="57.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 17.5V Clamp 12A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="57.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Semtech" x="57.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="SRV05-4.TC" x="57.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.125" y="7.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-6 Semtech" x="57.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="57.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRV05-4.TC/?ref=eda" x="57.5" y="39.375" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R43" library="Components" package="R0603" value="5.1k" x="36.875" y="12.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.225" y="11.7" size="1" layer="25" ratio="13" rot="R90"/>
+<attribute name="VALUE" x="38.525" y="11.7" size="1" layer="27" ratio="13" rot="R90"/>
+</element>
+<element name="R44" library="Components" package="R0603" value="5.1k" x="23.125" y="12.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.775" y="13.3" size="1" layer="25" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="21.475" y="13.3" size="1" layer="27" ratio="13" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="J8" pad="B1A12"/>
-<contactref element="J8" pad="A1B12"/>
-<contactref element="J9" pad="B1A12"/>
-<contactref element="J9" pad="A1B12"/>
-<contactref element="J10" pad="B1A12"/>
-<contactref element="J10" pad="A1B12"/>
-<contactref element="J11" pad="B1A12"/>
-<contactref element="J11" pad="A1B12"/>
-<contactref element="J12" pad="B1A12"/>
-<contactref element="J12" pad="A1B12"/>
-<contactref element="J13" pad="B1A12"/>
-<contactref element="J13" pad="A1B12"/>
-<contactref element="J14" pad="B1A12"/>
-<contactref element="J14" pad="A1B12"/>
-<contactref element="J15" pad="B1A12"/>
-<contactref element="J15" pad="A1B12"/>
-<contactref element="J16" pad="B1A12"/>
-<contactref element="J16" pad="A1B12"/>
-<contactref element="J17" pad="B1A12"/>
-<contactref element="J17" pad="A1B12"/>
-<contactref element="J18" pad="B1A12"/>
-<contactref element="J18" pad="A1B12"/>
-<contactref element="J19" pad="B1A12"/>
-<contactref element="J19" pad="A1B12"/>
-<contactref element="J20" pad="B1A12"/>
-<contactref element="J20" pad="A1B12"/>
-<contactref element="J21" pad="B1A12"/>
-<contactref element="J21" pad="A1B12"/>
-<contactref element="J22" pad="B1A12"/>
-<contactref element="J22" pad="A1B12"/>
-<contactref element="J23" pad="B1A12"/>
-<contactref element="J23" pad="A1B12"/>
-<contactref element="J24" pad="B1A12"/>
-<contactref element="J24" pad="A1B12"/>
-<contactref element="J25" pad="B1A12"/>
-<contactref element="J25" pad="A1B12"/>
 <contactref element="E1" pad="2"/>
 <contactref element="J1" pad="S2"/>
 <contactref element="J1" pad="S1"/>
@@ -2233,17 +2591,241 @@ design rules under a new name.</description>
 <contactref element="R4" pad="2"/>
 <contactref element="X1" pad="4"/>
 <contactref element="X26" pad="4"/>
-<wire x1="86.75" y1="71.155" x2="93.25" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="73.25" y1="71.155" x2="86.75" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="66.75" y1="71.155" x2="73.25" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="53.25" y1="71.155" x2="66.75" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="46.75" y1="71.155" x2="53.25" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="36.875" y1="86.875" x2="46.75" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="36.875" y1="91.625" x2="36.875" y2="86.875" width="0" layer="19" extent="1-1"/>
+<contactref element="E3" pad="2"/>
+<contactref element="J2" pad="S3"/>
+<contactref element="J2" pad="S2"/>
+<contactref element="J2" pad="S1"/>
+<contactref element="J2" pad="S4"/>
+<contactref element="J2" pad="A1B12"/>
+<contactref element="J2" pad="B1A12"/>
+<contactref element="R5" pad="1"/>
+<contactref element="R6" pad="2"/>
+<contactref element="X2" pad="4"/>
+<contactref element="E4" pad="2"/>
+<contactref element="J3" pad="S3"/>
+<contactref element="J3" pad="S2"/>
+<contactref element="J3" pad="S1"/>
+<contactref element="J3" pad="S4"/>
+<contactref element="J3" pad="A1B12"/>
+<contactref element="J3" pad="B1A12"/>
+<contactref element="R7" pad="1"/>
+<contactref element="R8" pad="2"/>
+<contactref element="X3" pad="4"/>
+<contactref element="E5" pad="2"/>
+<contactref element="J4" pad="S3"/>
+<contactref element="J4" pad="S2"/>
+<contactref element="J4" pad="S1"/>
+<contactref element="J4" pad="S4"/>
+<contactref element="J4" pad="A1B12"/>
+<contactref element="J4" pad="B1A12"/>
+<contactref element="R9" pad="1"/>
+<contactref element="R10" pad="2"/>
+<contactref element="X4" pad="4"/>
+<contactref element="E6" pad="2"/>
+<contactref element="J5" pad="S3"/>
+<contactref element="J5" pad="S2"/>
+<contactref element="J5" pad="S1"/>
+<contactref element="J5" pad="S4"/>
+<contactref element="J5" pad="A1B12"/>
+<contactref element="J5" pad="B1A12"/>
+<contactref element="R11" pad="1"/>
+<contactref element="R12" pad="2"/>
+<contactref element="X5" pad="4"/>
+<contactref element="E7" pad="2"/>
+<contactref element="J6" pad="S3"/>
+<contactref element="J6" pad="S2"/>
+<contactref element="J6" pad="S1"/>
+<contactref element="J6" pad="S4"/>
+<contactref element="J6" pad="A1B12"/>
+<contactref element="J6" pad="B1A12"/>
+<contactref element="R13" pad="1"/>
+<contactref element="R14" pad="2"/>
+<contactref element="X6" pad="4"/>
+<contactref element="E8" pad="2"/>
+<contactref element="J7" pad="S3"/>
+<contactref element="J7" pad="S2"/>
+<contactref element="J7" pad="S1"/>
+<contactref element="J7" pad="S4"/>
+<contactref element="J7" pad="A1B12"/>
+<contactref element="J7" pad="B1A12"/>
+<contactref element="R15" pad="1"/>
+<contactref element="R16" pad="2"/>
+<contactref element="X7" pad="4"/>
+<contactref element="E9" pad="2"/>
+<contactref element="J8" pad="S3"/>
+<contactref element="J8" pad="S2"/>
+<contactref element="J8" pad="S1"/>
+<contactref element="J8" pad="S4"/>
+<contactref element="J8" pad="A1B12"/>
+<contactref element="J8" pad="B1A12"/>
+<contactref element="R17" pad="1"/>
+<contactref element="R18" pad="2"/>
+<contactref element="X8" pad="4"/>
+<contactref element="E10" pad="2"/>
+<contactref element="J9" pad="S3"/>
+<contactref element="J9" pad="S2"/>
+<contactref element="J9" pad="S1"/>
+<contactref element="J9" pad="S4"/>
+<contactref element="J9" pad="A1B12"/>
+<contactref element="J9" pad="B1A12"/>
+<contactref element="R19" pad="1"/>
+<contactref element="R20" pad="2"/>
+<contactref element="X9" pad="4"/>
+<contactref element="E11" pad="2"/>
+<contactref element="J10" pad="S3"/>
+<contactref element="J10" pad="S2"/>
+<contactref element="J10" pad="S1"/>
+<contactref element="J10" pad="S4"/>
+<contactref element="J10" pad="A1B12"/>
+<contactref element="J10" pad="B1A12"/>
+<contactref element="R21" pad="1"/>
+<contactref element="R22" pad="2"/>
+<contactref element="X10" pad="4"/>
+<contactref element="J11" pad="A1B12"/>
+<contactref element="J11" pad="B1A12"/>
+<contactref element="E12" pad="2"/>
+<contactref element="J11" pad="S3"/>
+<contactref element="J11" pad="S2"/>
+<contactref element="J11" pad="S1"/>
+<contactref element="J11" pad="S4"/>
+<contactref element="R23" pad="1"/>
+<contactref element="R24" pad="2"/>
+<contactref element="X11" pad="4"/>
+<contactref element="J12" pad="A1B12"/>
+<contactref element="J12" pad="B1A12"/>
+<contactref element="E13" pad="2"/>
+<contactref element="J12" pad="S3"/>
+<contactref element="J12" pad="S2"/>
+<contactref element="J12" pad="S1"/>
+<contactref element="J12" pad="S4"/>
+<contactref element="R25" pad="1"/>
+<contactref element="R26" pad="2"/>
+<contactref element="X12" pad="4"/>
+<contactref element="J13" pad="A1B12"/>
+<contactref element="J13" pad="B1A12"/>
+<contactref element="E14" pad="2"/>
+<contactref element="J13" pad="S3"/>
+<contactref element="J13" pad="S2"/>
+<contactref element="J13" pad="S1"/>
+<contactref element="J13" pad="S4"/>
+<contactref element="R27" pad="1"/>
+<contactref element="R28" pad="2"/>
+<contactref element="X13" pad="4"/>
+<contactref element="J14" pad="A1B12"/>
+<contactref element="J14" pad="B1A12"/>
+<contactref element="E15" pad="2"/>
+<contactref element="J14" pad="S3"/>
+<contactref element="J14" pad="S2"/>
+<contactref element="J14" pad="S1"/>
+<contactref element="J14" pad="S4"/>
+<contactref element="R29" pad="1"/>
+<contactref element="R30" pad="2"/>
+<contactref element="X14" pad="4"/>
+<contactref element="J15" pad="A1B12"/>
+<contactref element="J15" pad="B1A12"/>
+<contactref element="E16" pad="2"/>
+<contactref element="J15" pad="S3"/>
+<contactref element="J15" pad="S2"/>
+<contactref element="J15" pad="S1"/>
+<contactref element="J15" pad="S4"/>
+<contactref element="R31" pad="1"/>
+<contactref element="R32" pad="2"/>
+<contactref element="X15" pad="4"/>
+<contactref element="J16" pad="A1B12"/>
+<contactref element="J16" pad="B1A12"/>
+<contactref element="E17" pad="2"/>
+<contactref element="J16" pad="S3"/>
+<contactref element="J16" pad="S2"/>
+<contactref element="J16" pad="S1"/>
+<contactref element="J16" pad="S4"/>
+<contactref element="R33" pad="1"/>
+<contactref element="R34" pad="2"/>
+<contactref element="X16" pad="4"/>
+<contactref element="J17" pad="A1B12"/>
+<contactref element="J17" pad="B1A12"/>
+<contactref element="E18" pad="2"/>
+<contactref element="J17" pad="S3"/>
+<contactref element="J17" pad="S2"/>
+<contactref element="J17" pad="S1"/>
+<contactref element="J17" pad="S4"/>
+<contactref element="R35" pad="1"/>
+<contactref element="R36" pad="2"/>
+<contactref element="X17" pad="4"/>
+<contactref element="J18" pad="A1B12"/>
+<contactref element="J18" pad="B1A12"/>
+<contactref element="E19" pad="2"/>
+<contactref element="J18" pad="S3"/>
+<contactref element="J18" pad="S2"/>
+<contactref element="J18" pad="S1"/>
+<contactref element="J18" pad="S4"/>
+<contactref element="R37" pad="1"/>
+<contactref element="R38" pad="2"/>
+<contactref element="X18" pad="4"/>
+<contactref element="J19" pad="A1B12"/>
+<contactref element="J19" pad="B1A12"/>
+<contactref element="E20" pad="2"/>
+<contactref element="J19" pad="S3"/>
+<contactref element="J19" pad="S2"/>
+<contactref element="J19" pad="S1"/>
+<contactref element="J19" pad="S4"/>
+<contactref element="R39" pad="1"/>
+<contactref element="R40" pad="2"/>
+<contactref element="X19" pad="4"/>
+<contactref element="J20" pad="A1B12"/>
+<contactref element="J20" pad="B1A12"/>
+<contactref element="E21" pad="2"/>
+<contactref element="J20" pad="S3"/>
+<contactref element="J20" pad="S2"/>
+<contactref element="J20" pad="S1"/>
+<contactref element="J20" pad="S4"/>
+<contactref element="R41" pad="1"/>
+<contactref element="R42" pad="2"/>
+<contactref element="X20" pad="4"/>
+<contactref element="J21" pad="A1B12"/>
+<contactref element="J21" pad="B1A12"/>
+<contactref element="E22" pad="2"/>
+<contactref element="J21" pad="S3"/>
+<contactref element="J21" pad="S2"/>
+<contactref element="J21" pad="S1"/>
+<contactref element="J21" pad="S4"/>
+<contactref element="R43" pad="1"/>
+<contactref element="R44" pad="2"/>
+<contactref element="X21" pad="4"/>
+<wire x1="94.32" y1="92.07" x2="94.32" y2="96.25" width="0" layer="19" extent="1-1"/>
+<wire x1="93.25" y1="91.155" x2="94.32" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="96.875" y1="91.625" x2="94.32" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="95.625" y1="88.75" x2="96.875" y2="91.625" width="0" layer="19" extent="1-1"/>
+<wire x1="91.5" y1="86.5" x2="95.625" y2="88.75" width="0" layer="19" extent="1-1"/>
+<wire x1="86.75" y1="91.155" x2="93.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="85.68" y1="92.07" x2="86.75" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="83.125" y1="91.625" x2="85.68" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="85.68" y1="96.25" x2="85.68" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="76.875" y1="91.625" x2="83.125" y2="91.625" width="0" layer="19" extent="1-1"/>
+<wire x1="74.32" y1="92.07" x2="76.875" y2="91.625" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="91.155" x2="74.32" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="75.625" y1="88.75" x2="76.875" y2="91.625" width="0" layer="19" extent="1-1"/>
+<wire x1="74.32" y1="96.25" x2="74.32" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="71.5" y1="86.5" x2="75.625" y2="88.75" width="0" layer="19" extent="1-1"/>
+<wire x1="66.75" y1="91.155" x2="73.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="65.68" y1="92.07" x2="66.75" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="63.125" y1="91.625" x2="65.68" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="65.68" y1="96.25" x2="65.68" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="56.875" y1="91.625" x2="63.125" y2="91.625" width="0" layer="19" extent="1-1"/>
+<wire x1="54.32" y1="92.07" x2="56.875" y2="91.625" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="91.155" x2="54.32" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="55.625" y1="88.75" x2="56.875" y2="91.625" width="0" layer="19" extent="1-1"/>
+<wire x1="54.32" y1="96.25" x2="54.32" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="51.5" y1="86.5" x2="55.625" y2="88.75" width="0" layer="19" extent="1-1"/>
+<wire x1="46.75" y1="91.155" x2="53.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="45.68" y1="92.07" x2="46.75" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="43.125" y1="91.625" x2="45.68" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="45.68" y1="96.25" x2="45.68" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="36.875" y1="91.625" x2="43.125" y2="91.625" width="0" layer="19" extent="1-1"/>
 <wire x1="34.32" y1="92.07" x2="36.875" y2="91.625" width="0" layer="19" extent="1-1"/>
 <wire x1="33.25" y1="91.155" x2="34.32" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="35.625" y1="88.75" x2="36.875" y2="91.625" width="0" layer="19" extent="1-1"/>
 <wire x1="34.32" y1="96.25" x2="34.32" y2="92.07" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="86.5" x2="33.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="86.5" x2="35.625" y2="88.75" width="0" layer="19" extent="1-1"/>
 <wire x1="26.75" y1="91.155" x2="33.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="25.68" y1="92.07" x2="26.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="23.125" y1="91.625" x2="25.68" y2="92.07" width="0" layer="19" extent="1-1"/>
@@ -2251,120 +2833,187 @@ design rules under a new name.</description>
 <wire x1="16.875" y1="91.625" x2="23.125" y2="91.625" width="0" layer="19" extent="1-1"/>
 <wire x1="14.32" y1="92.07" x2="16.875" y2="91.625" width="0" layer="19" extent="1-1"/>
 <wire x1="13.25" y1="91.155" x2="14.32" y2="92.07" width="0" layer="19" extent="1-1"/>
+<wire x1="15.625" y1="88.75" x2="16.875" y2="91.625" width="0" layer="19" extent="1-1"/>
 <wire x1="14.32" y1="96.25" x2="14.32" y2="92.07" width="0" layer="19" extent="1-1"/>
 <wire x1="17" y1="96.25" x2="14.32" y2="96.25" width="0" layer="19" extent="1-1"/>
-<wire x1="16.875" y1="86.875" x2="16.875" y2="91.625" width="0" layer="19" extent="1-1"/>
-<wire x1="17" y1="83.75" x2="16.875" y2="86.875" width="0" layer="19" extent="1-1"/>
-<wire x1="11.5" y1="86.5" x2="13.25" y2="91.155" width="0" layer="19" extent="1-1"/>
+<wire x1="11.5" y1="86.5" x2="15.625" y2="88.75" width="0" layer="19" extent="1-1"/>
+<wire x1="17" y1="83.75" x2="15.625" y2="88.75" width="0" layer="19" extent="1-1"/>
 <wire x1="6.75" y1="91.155" x2="13.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="5.68" y1="92.07" x2="6.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="3.125" y1="91.625" x2="5.68" y2="92.07" width="0" layer="19" extent="1-1"/>
 <wire x1="5.68" y1="96.25" x2="5.68" y2="92.07" width="0" layer="19" extent="1-1"/>
 <wire x1="3" y1="96.25" x2="5.68" y2="96.25" width="0" layer="19" extent="1-1"/>
 <wire x1="3" y1="83.75" x2="3.125" y2="91.625" width="0" layer="19" extent="1-1"/>
-<wire x1="93.25" y1="51.155" x2="93.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="14.32" y1="76.25" x2="17" y2="83.75" width="0" layer="19" extent="1-1"/>
+<wire x1="14.32" y1="72.07" x2="14.32" y2="76.25" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="71.155" x2="14.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="16.875" y1="71.625" x2="14.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="15.625" y1="68.75" x2="16.875" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="11.5" y1="66.5" x2="15.625" y2="68.75" width="0" layer="19" extent="1-1"/>
+<wire x1="23.125" y1="71.625" x2="16.875" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="25.68" y1="72.07" x2="23.125" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.75" y1="71.155" x2="25.68" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="25.68" y1="76.25" x2="25.68" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="33.25" y1="71.155" x2="26.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="34.32" y1="72.07" x2="33.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="36.875" y1="71.625" x2="34.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="35.625" y1="68.75" x2="36.875" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="34.32" y1="76.25" x2="34.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="66.5" x2="35.625" y2="68.75" width="0" layer="19" extent="1-1"/>
+<wire x1="43.125" y1="73.375" x2="36.875" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="45.68" y1="72.07" x2="43.125" y2="73.375" width="0" layer="19" extent="1-1"/>
+<wire x1="46.75" y1="71.155" x2="45.68" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="45.68" y1="76.25" x2="43.125" y2="73.375" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="71.155" x2="46.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="54.32" y1="72.07" x2="53.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="56.875" y1="71.625" x2="54.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="55.625" y1="68.75" x2="56.875" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="54.32" y1="76.25" x2="54.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="51.5" y1="66.5" x2="55.625" y2="68.75" width="0" layer="19" extent="1-1"/>
+<wire x1="63.125" y1="71.625" x2="56.875" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="65.68" y1="72.07" x2="63.125" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="66.75" y1="71.155" x2="65.68" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="65.68" y1="76.25" x2="65.68" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="71.155" x2="66.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="74.32" y1="72.07" x2="73.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="76.875" y1="71.625" x2="74.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="75.625" y1="68.75" x2="76.875" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="74.32" y1="76.25" x2="74.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="71.5" y1="66.5" x2="75.625" y2="68.75" width="0" layer="19" extent="1-1"/>
+<wire x1="83.125" y1="71.625" x2="76.875" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="85.68" y1="72.07" x2="83.125" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="86.75" y1="71.155" x2="85.68" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="85.68" y1="76.25" x2="85.68" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="93.25" y1="71.155" x2="86.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="94.32" y1="72.07" x2="93.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="96.875" y1="71.625" x2="94.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="95.625" y1="68.75" x2="96.875" y2="71.625" width="0" layer="19" extent="1-1"/>
+<wire x1="94.32" y1="76.25" x2="94.32" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="91.5" y1="66.5" x2="95.625" y2="68.75" width="0" layer="19" extent="1-1"/>
+<wire x1="6.75" y1="71.155" x2="13.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="5.68" y1="72.07" x2="6.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="3.125" y1="71.625" x2="5.68" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="5.68" y1="76.25" x2="5.68" y2="72.07" width="0" layer="19" extent="1-1"/>
+<wire x1="94.32" y1="56.25" x2="91.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+<wire x1="94.32" y1="52.07" x2="94.32" y2="56.25" width="0" layer="19" extent="1-1"/>
+<wire x1="93.25" y1="51.155" x2="94.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="96.875" y1="51" x2="94.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="95.625" y1="48.75" x2="96.875" y2="51" width="0" layer="19" extent="1-1"/>
+<wire x1="91.5" y1="46.5" x2="95.625" y2="48.75" width="0" layer="19" extent="1-1"/>
 <wire x1="86.75" y1="51.155" x2="93.25" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="73.25" y1="51.155" x2="86.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="85.68" y1="52.07" x2="86.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="83.125" y1="51.625" x2="85.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="85.68" y1="56.25" x2="85.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="76.875" y1="51.625" x2="83.125" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="74.32" y1="52.07" x2="76.875" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="51.155" x2="74.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="75.625" y1="48.75" x2="76.875" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="74.32" y1="56.25" x2="74.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="71.5" y1="46.5" x2="75.625" y2="48.75" width="0" layer="19" extent="1-1"/>
 <wire x1="66.75" y1="51.155" x2="73.25" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="53.25" y1="51.155" x2="66.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="65.68" y1="52.07" x2="66.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="63.125" y1="51.625" x2="65.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="65.68" y1="56.25" x2="65.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="56.875" y1="51.625" x2="63.125" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="54.32" y1="52.07" x2="56.875" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="51.155" x2="54.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="55.625" y1="48.75" x2="56.875" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="54.32" y1="56.25" x2="54.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="51.5" y1="46.5" x2="55.625" y2="48.75" width="0" layer="19" extent="1-1"/>
 <wire x1="46.75" y1="51.155" x2="53.25" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="33.25" y1="51.155" x2="46.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="45.68" y1="52.07" x2="46.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="43.125" y1="51.625" x2="45.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="45.68" y1="56.25" x2="45.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="36.875" y1="51.625" x2="43.125" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="34.32" y1="52.07" x2="36.875" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="33.25" y1="51.155" x2="34.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="36.25" y1="48.75" x2="36.875" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="34.32" y1="56.25" x2="34.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="46.5" x2="33.25" y2="51.155" width="0" layer="19" extent="1-1"/>
 <wire x1="26.75" y1="51.155" x2="33.25" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="13.25" y1="51.155" x2="26.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="25.68" y1="52.07" x2="26.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="23.125" y1="51.625" x2="25.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="25.68" y1="56.25" x2="25.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="16.875" y1="51.625" x2="23.125" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="14.32" y1="52.07" x2="16.875" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="51.155" x2="14.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="15.625" y1="48.75" x2="16.875" y2="51.625" width="0" layer="19" extent="1-1"/>
+<wire x1="14.32" y1="56.25" x2="14.32" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="11.5" y1="46.5" x2="15.625" y2="48.75" width="0" layer="19" extent="1-1"/>
 <wire x1="6.75" y1="51.155" x2="13.25" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="93.25" y1="31.155" x2="93.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="5.68" y1="52.07" x2="6.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="3.125" y1="51.625" x2="5.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="5.68" y1="56.25" x2="5.68" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="94.32" y1="36.25" x2="91.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+<wire x1="94.32" y1="32.07" x2="94.32" y2="36.25" width="0" layer="19" extent="1-1"/>
+<wire x1="93.25" y1="31.155" x2="94.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="96.875" y1="31.625" x2="94.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="95.625" y1="28.75" x2="96.875" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="91.5" y1="26.5" x2="95.625" y2="28.75" width="0" layer="19" extent="1-1"/>
 <wire x1="86.75" y1="31.155" x2="93.25" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="73.25" y1="31.155" x2="86.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="85.68" y1="32.07" x2="86.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="83.125" y1="31.625" x2="85.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="85.68" y1="36.25" x2="85.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="76.875" y1="31.625" x2="83.125" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="74.32" y1="32.07" x2="76.875" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="31.155" x2="74.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="75.625" y1="28.75" x2="76.875" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="74.32" y1="36.25" x2="74.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="71.5" y1="26.5" x2="75.625" y2="28.75" width="0" layer="19" extent="1-1"/>
 <wire x1="66.75" y1="31.155" x2="73.25" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="53.25" y1="31.155" x2="66.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="65.68" y1="32.07" x2="66.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="63.125" y1="31.625" x2="65.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="65.68" y1="36.25" x2="65.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="56.875" y1="31.625" x2="63.125" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="54.32" y1="32.07" x2="56.875" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="31.155" x2="54.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="55.625" y1="28.75" x2="56.875" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="54.32" y1="36.25" x2="54.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="51.5" y1="26.5" x2="55.625" y2="28.75" width="0" layer="19" extent="1-1"/>
 <wire x1="46.75" y1="31.155" x2="53.25" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="33.25" y1="31.155" x2="46.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="45.68" y1="32.07" x2="46.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="43.125" y1="31.625" x2="45.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="45.68" y1="36.25" x2="45.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="36.875" y1="31.625" x2="43.125" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="34.32" y1="32.07" x2="36.875" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="33.25" y1="31.155" x2="34.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="35.625" y1="28.75" x2="36.875" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="34.32" y1="36.25" x2="34.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="26.5" x2="35.625" y2="28.75" width="0" layer="19" extent="1-1"/>
 <wire x1="26.75" y1="31.155" x2="33.25" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="13.25" y1="31.155" x2="26.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="25.68" y1="32.07" x2="26.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="23.125" y1="31.625" x2="25.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="25.68" y1="36.25" x2="25.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="16.875" y1="31.625" x2="23.125" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="14.32" y1="32.07" x2="16.875" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="31.155" x2="14.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="15.625" y1="28.75" x2="16.875" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="14.32" y1="36.25" x2="14.32" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="11.5" y1="26.5" x2="15.625" y2="28.75" width="0" layer="19" extent="1-1"/>
 <wire x1="6.75" y1="31.155" x2="13.25" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="93.25" y1="11.155" x2="93.25" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="86.75" y1="11.155" x2="93.25" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="73.25" y1="11.155" x2="86.75" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="66.75" y1="11.155" x2="73.25" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="53.25" y1="11.155" x2="66.75" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="46.75" y1="11.155" x2="53.25" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="33.25" y1="11.155" x2="46.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="5.68" y1="32.07" x2="6.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="3.125" y1="31.625" x2="5.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="5.68" y1="36.25" x2="5.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="34.32" y1="16.25" x2="31.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+<wire x1="34.32" y1="12.07" x2="34.32" y2="16.25" width="0" layer="19" extent="1-1"/>
+<wire x1="33.25" y1="11.155" x2="34.32" y2="12.07" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="6.5" x2="33.25" y2="11.155" width="0" layer="19" extent="1-1"/>
 <wire x1="26.75" y1="11.155" x2="33.25" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="13.25" y1="11.155" x2="26.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="25.68" y1="12.07" x2="26.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="25.68" y1="16.25" x2="25.68" y2="12.07" width="0" layer="19" extent="1-1"/>
+<wire x1="16.875" y1="11.625" x2="25.68" y2="12.07" width="0" layer="19" extent="1-1"/>
+<wire x1="14.32" y1="12.07" x2="16.875" y2="11.625" width="0" layer="19" extent="1-1"/>
+<wire x1="13.25" y1="11.155" x2="14.32" y2="12.07" width="0" layer="19" extent="1-1"/>
+<wire x1="15.625" y1="8.75" x2="16.875" y2="11.625" width="0" layer="19" extent="1-1"/>
+<wire x1="14.32" y1="16.25" x2="14.32" y2="12.07" width="0" layer="19" extent="1-1"/>
+<wire x1="11.5" y1="6.5" x2="15.625" y2="8.75" width="0" layer="19" extent="1-1"/>
 <wire x1="6.75" y1="11.155" x2="13.25" y2="11.155" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VBUS">
-<contactref element="J8" pad="A4B9"/>
-<contactref element="J8" pad="B4A9"/>
-<contactref element="J9" pad="A4B9"/>
-<contactref element="J9" pad="B4A9"/>
-<contactref element="J10" pad="A4B9"/>
-<contactref element="J10" pad="B4A9"/>
-<contactref element="J11" pad="B4A9"/>
-<contactref element="J11" pad="A4B9"/>
-<contactref element="J12" pad="B4A9"/>
-<contactref element="J12" pad="A4B9"/>
-<contactref element="J13" pad="B4A9"/>
-<contactref element="J13" pad="A4B9"/>
-<contactref element="J14" pad="B4A9"/>
-<contactref element="J14" pad="A4B9"/>
-<contactref element="J15" pad="B4A9"/>
-<contactref element="J15" pad="A4B9"/>
-<contactref element="J16" pad="B4A9"/>
-<contactref element="J16" pad="A4B9"/>
-<contactref element="J17" pad="B4A9"/>
-<contactref element="J17" pad="A4B9"/>
-<contactref element="J18" pad="B4A9"/>
-<contactref element="J18" pad="A4B9"/>
-<contactref element="J19" pad="B4A9"/>
-<contactref element="J19" pad="A4B9"/>
-<contactref element="J20" pad="B4A9"/>
-<contactref element="J20" pad="A4B9"/>
-<contactref element="J21" pad="B4A9"/>
-<contactref element="J21" pad="A4B9"/>
-<contactref element="J22" pad="B4A9"/>
-<contactref element="J22" pad="A4B9"/>
-<contactref element="J23" pad="B4A9"/>
-<contactref element="J23" pad="A4B9"/>
-<contactref element="J24" pad="B4A9"/>
-<contactref element="J24" pad="A4B9"/>
-<contactref element="J25" pad="B4A9"/>
-<contactref element="J25" pad="A4B9"/>
-<wire x1="87.55" y1="71.155" x2="92.45" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="72.45" y1="71.155" x2="87.55" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="67.55" y1="71.155" x2="72.45" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="52.45" y1="71.155" x2="67.55" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="47.55" y1="71.155" x2="52.45" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="92.45" y1="51.155" x2="92.45" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="87.55" y1="51.155" x2="92.45" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="72.45" y1="51.155" x2="87.55" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="67.55" y1="51.155" x2="72.45" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="52.45" y1="51.155" x2="67.55" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="47.55" y1="51.155" x2="52.45" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="32.45" y1="51.155" x2="47.55" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="27.55" y1="51.155" x2="32.45" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="12.45" y1="51.155" x2="27.55" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="7.55" y1="51.155" x2="12.45" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="92.45" y1="31.155" x2="92.45" y2="51.155" width="0" layer="19" extent="1-1"/>
-<wire x1="87.55" y1="31.155" x2="92.45" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="72.45" y1="31.155" x2="87.55" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="67.55" y1="31.155" x2="72.45" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="52.45" y1="31.155" x2="67.55" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="47.55" y1="31.155" x2="52.45" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="32.45" y1="31.155" x2="47.55" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="27.55" y1="31.155" x2="32.45" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="12.45" y1="31.155" x2="27.55" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="7.55" y1="31.155" x2="12.45" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="92.45" y1="11.155" x2="92.45" y2="31.155" width="0" layer="19" extent="1-1"/>
-<wire x1="87.55" y1="11.155" x2="92.45" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="72.45" y1="11.155" x2="87.55" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="67.55" y1="11.155" x2="72.45" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="52.45" y1="11.155" x2="67.55" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="47.55" y1="11.155" x2="52.45" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="32.45" y1="11.155" x2="47.55" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="27.55" y1="11.155" x2="32.45" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="12.45" y1="11.155" x2="27.55" y2="11.155" width="0" layer="19" extent="1-1"/>
-<wire x1="7.55" y1="11.155" x2="12.45" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="5.68" y1="12.07" x2="6.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="3.125" y1="11.625" x2="5.68" y2="12.07" width="0" layer="19" extent="1-1"/>
+<wire x1="5.68" y1="16.25" x2="5.68" y2="12.07" width="0" layer="19" extent="1-1"/>
+<wire x1="36.875" y1="11.625" x2="11.5" y2="6.5" width="0" layer="19" extent="1-1"/>
+<wire x1="35.625" y1="8.75" x2="36.875" y2="11.625" width="0" layer="19" extent="1-1"/>
+<wire x1="23.125" y1="11.625" x2="35.625" y2="8.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <via x="3" y="76.25" extent="1-16" drill="2.2"/>
@@ -2659,7 +3308,7 @@ design rules under a new name.</description>
 <contactref element="J1" pad="B6"/>
 <contactref element="E1" pad="4"/>
 <contactref element="X1" pad="3"/>
-<wire x1="10.5" y1="86.5" x2="17.825" y2="89.375" width="0" layer="19" extent="1-1"/>
+<wire x1="10.5" y1="86.5" x2="14.675" y2="86.25" width="0" layer="19" extent="1-1"/>
 <wire x1="10.25" y1="91.155" x2="10.5" y2="86.5" width="0" layer="19" extent="1-1"/>
 <wire x1="9.25" y1="91.155" x2="10.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2670,14 +3319,14 @@ design rules under a new name.</description>
 <contactref element="X1" pad="2"/>
 <wire x1="9.75" y1="91.155" x2="10.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="9.5" y1="86.5" x2="9.75" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="15.925" y1="86.875" x2="9.5" y2="86.5" width="0" layer="19" extent="1-1"/>
+<wire x1="16.575" y1="88.75" x2="9.5" y2="86.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$101">
 <contactref element="F1" pad="2"/>
 <contactref element="J1" pad="B4A9"/>
 <contactref element="J1" pad="A4B9"/>
 <contactref element="E1" pad="5"/>
-<wire x1="12.45" y1="91.155" x2="16.875" y2="89.375" width="0" layer="19" extent="1-1"/>
+<wire x1="12.45" y1="91.155" x2="15.625" y2="86.25" width="0" layer="19" extent="1-1"/>
 <wire x1="7.55" y1="91.155" x2="12.45" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="2.5" y1="89.63" x2="7.55" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2701,7 +3350,7 @@ design rules under a new name.</description>
 <contactref element="J26" pad="B6"/>
 <contactref element="E2" pad="4"/>
 <contactref element="X26" pad="3"/>
-<wire x1="30.25" y1="91.155" x2="37.825" y2="89.375" width="0" layer="19" extent="1-1"/>
+<wire x1="30.25" y1="91.155" x2="34.675" y2="86.25" width="0" layer="19" extent="1-1"/>
 <wire x1="29.25" y1="91.155" x2="30.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="30.5" y1="86.5" x2="30.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2710,7 +3359,7 @@ design rules under a new name.</description>
 <contactref element="J26" pad="A7"/>
 <contactref element="E2" pad="1"/>
 <contactref element="X26" pad="2"/>
-<wire x1="30.75" y1="91.155" x2="35.925" y2="86.875" width="0" layer="19" extent="1-1"/>
+<wire x1="30.75" y1="91.155" x2="36.575" y2="88.75" width="0" layer="19" extent="1-1"/>
 <wire x1="29.75" y1="91.155" x2="30.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="29.5" y1="86.5" x2="29.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2719,8 +3368,8 @@ design rules under a new name.</description>
 <contactref element="J26" pad="B4A9"/>
 <contactref element="J26" pad="A4B9"/>
 <contactref element="E2" pad="5"/>
-<wire x1="36.875" y1="89.375" x2="22.5" y2="89.63" width="0" layer="19" extent="1-1"/>
-<wire x1="32.45" y1="91.155" x2="36.875" y2="89.375" width="0" layer="19" extent="1-1"/>
+<wire x1="35.625" y1="86.25" x2="22.5" y2="89.63" width="0" layer="19" extent="1-1"/>
+<wire x1="32.45" y1="91.155" x2="35.625" y2="86.25" width="0" layer="19" extent="1-1"/>
 <wire x1="27.55" y1="91.155" x2="32.45" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
@@ -2738,33 +3387,12 @@ design rules under a new name.</description>
 <contactref element="R4" pad="1"/>
 <wire x1="28.25" y1="91.155" x2="23.125" y2="93.375" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GND1">
-<contactref element="E3" pad="2"/>
-<contactref element="J2" pad="S3"/>
-<contactref element="J2" pad="S2"/>
-<contactref element="J2" pad="S1"/>
-<contactref element="J2" pad="S4"/>
-<contactref element="J2" pad="A1B12"/>
-<contactref element="J2" pad="B1A12"/>
-<contactref element="R5" pad="1"/>
-<contactref element="R6" pad="2"/>
-<contactref element="X2" pad="4"/>
-<wire x1="56.875" y1="86.875" x2="56.875" y2="91.625" width="0" layer="19" extent="1-1"/>
-<wire x1="43.125" y1="91.625" x2="56.875" y2="86.875" width="0" layer="19" extent="1-1"/>
-<wire x1="54.32" y1="96.25" x2="56.875" y2="86.875" width="0" layer="19" extent="1-1"/>
-<wire x1="54.32" y1="92.07" x2="54.32" y2="96.25" width="0" layer="19" extent="1-1"/>
-<wire x1="53.25" y1="91.155" x2="54.32" y2="92.07" width="0" layer="19" extent="1-1"/>
-<wire x1="51.5" y1="86.5" x2="53.25" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="46.75" y1="91.155" x2="53.25" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="45.68" y1="92.07" x2="46.75" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="45.68" y1="96.25" x2="45.68" y2="92.07" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="DP3">
 <contactref element="J2" pad="A6"/>
 <contactref element="J2" pad="B6"/>
 <contactref element="E3" pad="4"/>
 <contactref element="X2" pad="3"/>
-<wire x1="50.25" y1="91.155" x2="57.825" y2="89.375" width="0" layer="19" extent="1-1"/>
+<wire x1="50.25" y1="91.155" x2="54.675" y2="86.25" width="0" layer="19" extent="1-1"/>
 <wire x1="49.25" y1="91.155" x2="50.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="50.5" y1="86.5" x2="50.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2773,7 +3401,7 @@ design rules under a new name.</description>
 <contactref element="J2" pad="A7"/>
 <contactref element="E3" pad="1"/>
 <contactref element="X2" pad="2"/>
-<wire x1="50.75" y1="91.155" x2="55.925" y2="86.875" width="0" layer="19" extent="1-1"/>
+<wire x1="50.75" y1="91.155" x2="56.575" y2="88.75" width="0" layer="19" extent="1-1"/>
 <wire x1="49.75" y1="91.155" x2="50.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="49.5" y1="86.5" x2="49.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2782,8 +3410,8 @@ design rules under a new name.</description>
 <contactref element="J2" pad="A4B9"/>
 <contactref element="J2" pad="B4A9"/>
 <contactref element="E3" pad="5"/>
-<wire x1="56.875" y1="89.375" x2="42.5" y2="89.63" width="0" layer="19" extent="1-1"/>
-<wire x1="52.45" y1="91.155" x2="56.875" y2="89.375" width="0" layer="19" extent="1-1"/>
+<wire x1="55.625" y1="86.25" x2="42.5" y2="89.63" width="0" layer="19" extent="1-1"/>
+<wire x1="52.45" y1="91.155" x2="55.625" y2="86.25" width="0" layer="19" extent="1-1"/>
 <wire x1="47.55" y1="91.155" x2="52.45" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$106">
@@ -2801,33 +3429,12 @@ design rules under a new name.</description>
 <contactref element="R6" pad="1"/>
 <wire x1="48.25" y1="91.155" x2="43.125" y2="93.375" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GND2">
-<contactref element="E4" pad="2"/>
-<contactref element="J3" pad="S3"/>
-<contactref element="J3" pad="S2"/>
-<contactref element="J3" pad="S1"/>
-<contactref element="J3" pad="S4"/>
-<contactref element="J3" pad="A1B12"/>
-<contactref element="J3" pad="B1A12"/>
-<contactref element="R7" pad="1"/>
-<contactref element="R8" pad="2"/>
-<contactref element="X3" pad="4"/>
-<wire x1="76.875" y1="86.875" x2="76.875" y2="91.625" width="0" layer="19" extent="1-1"/>
-<wire x1="63.125" y1="91.625" x2="76.875" y2="86.875" width="0" layer="19" extent="1-1"/>
-<wire x1="65.68" y1="96.25" x2="63.125" y2="91.625" width="0" layer="19" extent="1-1"/>
-<wire x1="65.68" y1="92.07" x2="65.68" y2="96.25" width="0" layer="19" extent="1-1"/>
-<wire x1="66.75" y1="91.155" x2="65.68" y2="92.07" width="0" layer="19" extent="1-1"/>
-<wire x1="73.25" y1="91.155" x2="66.75" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="74.32" y1="92.07" x2="73.25" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="74.32" y1="96.25" x2="74.32" y2="92.07" width="0" layer="19" extent="1-1"/>
-<wire x1="71.5" y1="86.5" x2="73.25" y2="91.155" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="DP4">
 <contactref element="J3" pad="A6"/>
 <contactref element="J3" pad="B6"/>
 <contactref element="E4" pad="4"/>
 <contactref element="X3" pad="3"/>
-<wire x1="70.25" y1="91.155" x2="77.825" y2="89.375" width="0" layer="19" extent="1-1"/>
+<wire x1="70.25" y1="91.155" x2="74.675" y2="86.25" width="0" layer="19" extent="1-1"/>
 <wire x1="69.25" y1="91.155" x2="70.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="70.5" y1="86.5" x2="70.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2836,7 +3443,7 @@ design rules under a new name.</description>
 <contactref element="J3" pad="A7"/>
 <contactref element="E4" pad="1"/>
 <contactref element="X3" pad="2"/>
-<wire x1="70.75" y1="91.155" x2="75.925" y2="86.875" width="0" layer="19" extent="1-1"/>
+<wire x1="70.75" y1="91.155" x2="76.575" y2="88.75" width="0" layer="19" extent="1-1"/>
 <wire x1="69.75" y1="91.155" x2="70.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 <wire x1="69.5" y1="86.5" x2="69.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2845,8 +3452,8 @@ design rules under a new name.</description>
 <contactref element="J3" pad="A4B9"/>
 <contactref element="J3" pad="B4A9"/>
 <contactref element="E4" pad="5"/>
-<wire x1="76.875" y1="89.375" x2="62.5" y2="89.63" width="0" layer="19" extent="1-1"/>
-<wire x1="72.45" y1="91.155" x2="76.875" y2="89.375" width="0" layer="19" extent="1-1"/>
+<wire x1="75.625" y1="86.25" x2="62.5" y2="89.63" width="0" layer="19" extent="1-1"/>
+<wire x1="72.45" y1="91.155" x2="75.625" y2="86.25" width="0" layer="19" extent="1-1"/>
 <wire x1="67.55" y1="91.155" x2="72.45" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$110">
@@ -2864,33 +3471,12 @@ design rules under a new name.</description>
 <contactref element="R8" pad="1"/>
 <wire x1="68.25" y1="91.155" x2="63.125" y2="93.375" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GND3">
-<contactref element="E5" pad="2"/>
-<contactref element="J4" pad="S3"/>
-<contactref element="J4" pad="S2"/>
-<contactref element="J4" pad="S1"/>
-<contactref element="J4" pad="S4"/>
-<contactref element="J4" pad="A1B12"/>
-<contactref element="J4" pad="B1A12"/>
-<contactref element="R9" pad="1"/>
-<contactref element="R10" pad="2"/>
-<contactref element="X4" pad="4"/>
-<wire x1="96.875" y1="86.875" x2="96.875" y2="91.625" width="0" layer="19" extent="1-1"/>
-<wire x1="83.125" y1="91.625" x2="96.875" y2="86.875" width="0" layer="19" extent="1-1"/>
-<wire x1="91.5" y1="86.5" x2="83.125" y2="91.625" width="0" layer="19" extent="1-1"/>
-<wire x1="93.25" y1="91.155" x2="91.5" y2="86.5" width="0" layer="19" extent="1-1"/>
-<wire x1="94.32" y1="92.07" x2="93.25" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="94.32" y1="96.25" x2="94.32" y2="92.07" width="0" layer="19" extent="1-1"/>
-<wire x1="86.75" y1="91.155" x2="93.25" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="85.68" y1="92.07" x2="86.75" y2="91.155" width="0" layer="19" extent="1-1"/>
-<wire x1="85.68" y1="96.25" x2="85.68" y2="92.07" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="DP5">
 <contactref element="J4" pad="A6"/>
 <contactref element="J4" pad="B6"/>
 <contactref element="E5" pad="4"/>
 <contactref element="X4" pad="3"/>
-<wire x1="90.5" y1="86.5" x2="97.825" y2="89.375" width="0" layer="19" extent="1-1"/>
+<wire x1="90.5" y1="86.5" x2="94.675" y2="86.25" width="0" layer="19" extent="1-1"/>
 <wire x1="90.25" y1="91.155" x2="90.5" y2="86.5" width="0" layer="19" extent="1-1"/>
 <wire x1="89.25" y1="91.155" x2="90.25" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2899,7 +3485,7 @@ design rules under a new name.</description>
 <contactref element="J4" pad="A7"/>
 <contactref element="E5" pad="1"/>
 <contactref element="X4" pad="2"/>
-<wire x1="89.5" y1="86.5" x2="95.925" y2="86.875" width="0" layer="19" extent="1-1"/>
+<wire x1="89.5" y1="86.5" x2="96.575" y2="88.75" width="0" layer="19" extent="1-1"/>
 <wire x1="89.75" y1="91.155" x2="89.5" y2="86.5" width="0" layer="19" extent="1-1"/>
 <wire x1="90.75" y1="91.155" x2="89.75" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2908,7 +3494,7 @@ design rules under a new name.</description>
 <contactref element="J4" pad="A4B9"/>
 <contactref element="J4" pad="B4A9"/>
 <contactref element="E5" pad="5"/>
-<wire x1="96.875" y1="89.375" x2="82.5" y2="89.63" width="0" layer="19" extent="1-1"/>
+<wire x1="95.625" y1="86.25" x2="82.5" y2="89.63" width="0" layer="19" extent="1-1"/>
 <wire x1="92.45" y1="91.155" x2="82.5" y2="89.63" width="0" layer="19" extent="1-1"/>
 <wire x1="87.55" y1="91.155" x2="92.45" y2="91.155" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2934,7 +3520,7 @@ design rules under a new name.</description>
 <contactref element="X5" pad="3"/>
 <wire x1="9.25" y1="71.155" x2="10.25" y2="71.155" width="0" layer="19" extent="1-1"/>
 <wire x1="10.5" y1="66.5" x2="10.25" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="17.825" y1="69.375" x2="10.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+<wire x1="14.675" y1="66.25" x2="10.5" y2="66.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DN6">
 <contactref element="J5" pad="B7"/>
@@ -2943,7 +3529,7 @@ design rules under a new name.</description>
 <contactref element="X5" pad="2"/>
 <wire x1="9.75" y1="71.155" x2="10.75" y2="71.155" width="0" layer="19" extent="1-1"/>
 <wire x1="9.5" y1="66.5" x2="9.75" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="15.925" y1="66.875" x2="9.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+<wire x1="16.575" y1="68.75" x2="9.5" y2="66.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$117">
 <contactref element="F6" pad="2"/>
@@ -2952,28 +3538,7 @@ design rules under a new name.</description>
 <contactref element="E6" pad="5"/>
 <wire x1="7.55" y1="71.155" x2="12.45" y2="71.155" width="0" layer="19" extent="1-1"/>
 <wire x1="2.5" y1="69.63" x2="7.55" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="16.875" y1="69.375" x2="2.5" y2="69.63" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND4">
-<contactref element="E6" pad="2"/>
-<contactref element="J5" pad="S3"/>
-<contactref element="J5" pad="S2"/>
-<contactref element="J5" pad="S1"/>
-<contactref element="J5" pad="S4"/>
-<contactref element="J5" pad="A1B12"/>
-<contactref element="J5" pad="B1A12"/>
-<contactref element="R11" pad="1"/>
-<contactref element="R12" pad="2"/>
-<contactref element="X5" pad="4"/>
-<wire x1="14.32" y1="72.07" x2="14.32" y2="76.25" width="0" layer="19" extent="1-1"/>
-<wire x1="13.25" y1="71.155" x2="14.32" y2="72.07" width="0" layer="19" extent="1-1"/>
-<wire x1="11.5" y1="66.5" x2="13.25" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="6.75" y1="71.155" x2="13.25" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="5.68" y1="72.07" x2="6.75" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="5.68" y1="76.25" x2="5.68" y2="72.07" width="0" layer="19" extent="1-1"/>
-<wire x1="16.875" y1="71.625" x2="11.5" y2="66.5" width="0" layer="19" extent="1-1"/>
-<wire x1="16.875" y1="66.875" x2="16.875" y2="71.625" width="0" layer="19" extent="1-1"/>
-<wire x1="3.125" y1="71.625" x2="16.875" y2="66.875" width="0" layer="19" extent="1-1"/>
+<wire x1="15.625" y1="66.25" x2="2.5" y2="69.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$118">
 <contactref element="F6" pad="1"/>
@@ -2997,7 +3562,7 @@ design rules under a new name.</description>
 <contactref element="X6" pad="3"/>
 <wire x1="29.25" y1="71.155" x2="30.25" y2="71.155" width="0" layer="19" extent="1-1"/>
 <wire x1="30.5" y1="66.5" x2="30.25" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="37.825" y1="69.375" x2="30.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+<wire x1="34.675" y1="66.25" x2="30.5" y2="66.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DN7">
 <contactref element="J6" pad="B7"/>
@@ -3006,7 +3571,7 @@ design rules under a new name.</description>
 <contactref element="X6" pad="2"/>
 <wire x1="29.75" y1="71.155" x2="30.75" y2="71.155" width="0" layer="19" extent="1-1"/>
 <wire x1="29.5" y1="66.5" x2="29.75" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="35.925" y1="66.875" x2="29.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+<wire x1="36.575" y1="68.75" x2="29.5" y2="66.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$121">
 <contactref element="F7" pad="2"/>
@@ -3014,29 +3579,8 @@ design rules under a new name.</description>
 <contactref element="J6" pad="B4A9"/>
 <contactref element="E7" pad="5"/>
 <wire x1="27.55" y1="71.155" x2="32.45" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="36.875" y1="69.375" x2="27.55" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="22.5" y1="69.63" x2="36.875" y2="69.375" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND5">
-<contactref element="E7" pad="2"/>
-<contactref element="J6" pad="S3"/>
-<contactref element="J6" pad="S2"/>
-<contactref element="J6" pad="S1"/>
-<contactref element="J6" pad="S4"/>
-<contactref element="J6" pad="A1B12"/>
-<contactref element="J6" pad="B1A12"/>
-<contactref element="R13" pad="1"/>
-<contactref element="R14" pad="2"/>
-<contactref element="X6" pad="4"/>
-<wire x1="34.32" y1="72.07" x2="34.32" y2="76.25" width="0" layer="19" extent="1-1"/>
-<wire x1="33.25" y1="71.155" x2="34.32" y2="72.07" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="66.5" x2="33.25" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="26.75" y1="71.155" x2="33.25" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="25.68" y1="72.07" x2="26.75" y2="71.155" width="0" layer="19" extent="1-1"/>
-<wire x1="25.68" y1="76.25" x2="25.68" y2="72.07" width="0" layer="19" extent="1-1"/>
-<wire x1="36.875" y1="71.625" x2="25.68" y2="72.07" width="0" layer="19" extent="1-1"/>
-<wire x1="36.875" y1="66.875" x2="36.875" y2="71.625" width="0" layer="19" extent="1-1"/>
-<wire x1="23.125" y1="71.625" x2="36.875" y2="66.875" width="0" layer="19" extent="1-1"/>
+<wire x1="35.625" y1="66.25" x2="27.55" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="22.5" y1="69.63" x2="35.625" y2="66.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$122">
 <contactref element="F7" pad="1"/>
@@ -3052,6 +3596,636 @@ design rules under a new name.</description>
 <contactref element="J6" pad="B5"/>
 <contactref element="R14" pad="1"/>
 <wire x1="23.125" y1="73.375" x2="28.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP8">
+<contactref element="J7" pad="A6"/>
+<contactref element="J7" pad="B6"/>
+<contactref element="E8" pad="4"/>
+<contactref element="X7" pad="3"/>
+<wire x1="49.25" y1="71.155" x2="50.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5" y1="66.5" x2="50.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="54.675" y1="66.25" x2="50.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN8">
+<contactref element="J7" pad="B7"/>
+<contactref element="J7" pad="A7"/>
+<contactref element="E8" pad="1"/>
+<contactref element="X7" pad="2"/>
+<wire x1="49.75" y1="71.155" x2="50.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="49.5" y1="66.5" x2="49.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="56.575" y1="68.75" x2="49.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$125">
+<contactref element="F8" pad="2"/>
+<contactref element="J7" pad="A4B9"/>
+<contactref element="J7" pad="B4A9"/>
+<contactref element="E8" pad="5"/>
+<wire x1="47.55" y1="71.155" x2="52.45" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="69.63" x2="47.55" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="55.625" y1="66.25" x2="42.5" y2="69.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$126">
+<contactref element="F8" pad="1"/>
+<contactref element="X7" pad="1"/>
+<wire x1="42.5" y1="66.62" x2="48.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$127">
+<contactref element="J7" pad="A5"/>
+<contactref element="R15" pad="2"/>
+<wire x1="56.875" y1="73.375" x2="51.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$128">
+<contactref element="J7" pad="B5"/>
+<contactref element="R16" pad="1"/>
+<wire x1="43.125" y1="71.625" x2="48.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP9">
+<contactref element="J8" pad="A6"/>
+<contactref element="J8" pad="B6"/>
+<contactref element="E9" pad="4"/>
+<contactref element="X8" pad="3"/>
+<wire x1="69.25" y1="71.155" x2="70.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="70.5" y1="66.5" x2="70.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="74.675" y1="66.25" x2="70.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN9">
+<contactref element="J8" pad="B7"/>
+<contactref element="J8" pad="A7"/>
+<contactref element="E9" pad="1"/>
+<contactref element="X8" pad="2"/>
+<wire x1="69.75" y1="71.155" x2="70.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="69.5" y1="66.5" x2="69.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="76.575" y1="68.75" x2="69.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$129">
+<contactref element="F9" pad="2"/>
+<contactref element="J8" pad="A4B9"/>
+<contactref element="J8" pad="B4A9"/>
+<contactref element="E9" pad="5"/>
+<wire x1="67.55" y1="71.155" x2="72.45" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="62.5" y1="69.63" x2="67.55" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="75.625" y1="66.25" x2="62.5" y2="69.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$130">
+<contactref element="F9" pad="1"/>
+<contactref element="X8" pad="1"/>
+<wire x1="62.5" y1="66.62" x2="68.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$131">
+<contactref element="J8" pad="A5"/>
+<contactref element="R17" pad="2"/>
+<wire x1="76.875" y1="73.375" x2="71.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$132">
+<contactref element="J8" pad="B5"/>
+<contactref element="R18" pad="1"/>
+<wire x1="63.125" y1="73.375" x2="68.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP10">
+<contactref element="J9" pad="A6"/>
+<contactref element="J9" pad="B6"/>
+<contactref element="E10" pad="4"/>
+<contactref element="X9" pad="3"/>
+<wire x1="89.25" y1="71.155" x2="90.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="90.5" y1="66.5" x2="90.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="94.675" y1="66.25" x2="90.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN10">
+<contactref element="J9" pad="B7"/>
+<contactref element="J9" pad="A7"/>
+<contactref element="E10" pad="1"/>
+<contactref element="X9" pad="2"/>
+<wire x1="89.75" y1="71.155" x2="90.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="89.5" y1="66.5" x2="89.75" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="96.575" y1="68.75" x2="89.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$133">
+<contactref element="F10" pad="2"/>
+<contactref element="J9" pad="A4B9"/>
+<contactref element="J9" pad="B4A9"/>
+<contactref element="E10" pad="5"/>
+<wire x1="87.55" y1="71.155" x2="92.45" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="82.5" y1="69.63" x2="87.55" y2="71.155" width="0" layer="19" extent="1-1"/>
+<wire x1="95.625" y1="66.25" x2="82.5" y2="69.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$134">
+<contactref element="F10" pad="1"/>
+<contactref element="X9" pad="1"/>
+<wire x1="82.5" y1="66.62" x2="88.5" y2="66.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$135">
+<contactref element="J9" pad="A5"/>
+<contactref element="R19" pad="2"/>
+<wire x1="96.875" y1="73.375" x2="91.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$136">
+<contactref element="J9" pad="B5"/>
+<contactref element="R20" pad="1"/>
+<wire x1="83.125" y1="73.375" x2="88.25" y2="71.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP11">
+<contactref element="J10" pad="A6"/>
+<contactref element="J10" pad="B6"/>
+<contactref element="E11" pad="4"/>
+<contactref element="X10" pad="3"/>
+<wire x1="9.25" y1="51.155" x2="10.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="10.5" y1="46.5" x2="10.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="14.675" y1="46.25" x2="10.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN11">
+<contactref element="J10" pad="B7"/>
+<contactref element="J10" pad="A7"/>
+<contactref element="E11" pad="1"/>
+<contactref element="X10" pad="2"/>
+<wire x1="9.75" y1="51.155" x2="10.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="46.5" x2="9.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="16.575" y1="48.75" x2="9.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$137">
+<contactref element="F11" pad="2"/>
+<contactref element="J10" pad="A4B9"/>
+<contactref element="J10" pad="B4A9"/>
+<contactref element="E11" pad="5"/>
+<wire x1="7.55" y1="51.155" x2="12.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="2.5" y1="49.63" x2="7.55" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="15.625" y1="46.25" x2="2.5" y2="49.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$138">
+<contactref element="F11" pad="1"/>
+<contactref element="X10" pad="1"/>
+<wire x1="2.5" y1="46.62" x2="8.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$139">
+<contactref element="J10" pad="A5"/>
+<contactref element="R21" pad="2"/>
+<wire x1="16.875" y1="53.375" x2="11.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$140">
+<contactref element="J10" pad="B5"/>
+<contactref element="R22" pad="1"/>
+<wire x1="3.125" y1="53.375" x2="8.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP12">
+<contactref element="J11" pad="A6"/>
+<contactref element="J11" pad="B6"/>
+<contactref element="E12" pad="4"/>
+<contactref element="X11" pad="3"/>
+<wire x1="29.25" y1="51.155" x2="30.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="30.5" y1="46.5" x2="30.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="35.3" y1="46.25" x2="30.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN12">
+<contactref element="J11" pad="B7"/>
+<contactref element="J11" pad="A7"/>
+<contactref element="E12" pad="1"/>
+<contactref element="X11" pad="2"/>
+<wire x1="29.75" y1="51.155" x2="30.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="29.5" y1="46.5" x2="29.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="37.2" y1="48.75" x2="29.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$141">
+<contactref element="F12" pad="2"/>
+<contactref element="J11" pad="A4B9"/>
+<contactref element="J11" pad="B4A9"/>
+<contactref element="E12" pad="5"/>
+<wire x1="27.55" y1="51.155" x2="32.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="22.5" y1="49.63" x2="27.55" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="36.25" y1="46.25" x2="22.5" y2="49.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$142">
+<contactref element="F12" pad="1"/>
+<contactref element="X11" pad="1"/>
+<wire x1="22.5" y1="46.62" x2="28.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$143">
+<contactref element="J11" pad="A5"/>
+<contactref element="R23" pad="2"/>
+<wire x1="36.875" y1="53.375" x2="31.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$144">
+<contactref element="J11" pad="B5"/>
+<contactref element="R24" pad="1"/>
+<wire x1="23.125" y1="53.375" x2="28.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP13">
+<contactref element="J12" pad="A6"/>
+<contactref element="J12" pad="B6"/>
+<contactref element="E13" pad="4"/>
+<contactref element="X12" pad="3"/>
+<wire x1="49.25" y1="51.155" x2="50.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5" y1="46.5" x2="50.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="54.675" y1="46.25" x2="50.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN13">
+<contactref element="J12" pad="B7"/>
+<contactref element="J12" pad="A7"/>
+<contactref element="E13" pad="1"/>
+<contactref element="X12" pad="2"/>
+<wire x1="49.75" y1="51.155" x2="50.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="49.5" y1="46.5" x2="49.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="56.575" y1="48.75" x2="49.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$145">
+<contactref element="F13" pad="2"/>
+<contactref element="J12" pad="A4B9"/>
+<contactref element="J12" pad="B4A9"/>
+<contactref element="E13" pad="5"/>
+<wire x1="47.55" y1="51.155" x2="52.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="49.63" x2="47.55" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="55.625" y1="46.25" x2="42.5" y2="49.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$146">
+<contactref element="F13" pad="1"/>
+<contactref element="X12" pad="1"/>
+<wire x1="42.5" y1="46.62" x2="48.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$147">
+<contactref element="J12" pad="A5"/>
+<contactref element="R25" pad="2"/>
+<wire x1="56.875" y1="53.375" x2="51.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$148">
+<contactref element="J12" pad="B5"/>
+<contactref element="R26" pad="1"/>
+<wire x1="43.125" y1="53.375" x2="48.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP14">
+<contactref element="J13" pad="A6"/>
+<contactref element="J13" pad="B6"/>
+<contactref element="E14" pad="4"/>
+<contactref element="X13" pad="3"/>
+<wire x1="69.25" y1="51.155" x2="70.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="70.5" y1="46.5" x2="70.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="74.675" y1="46.25" x2="70.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN14">
+<contactref element="J13" pad="B7"/>
+<contactref element="J13" pad="A7"/>
+<contactref element="E14" pad="1"/>
+<contactref element="X13" pad="2"/>
+<wire x1="69.75" y1="51.155" x2="70.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="69.5" y1="46.5" x2="69.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="76.575" y1="48.75" x2="69.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$149">
+<contactref element="F14" pad="2"/>
+<contactref element="J13" pad="A4B9"/>
+<contactref element="J13" pad="B4A9"/>
+<contactref element="E14" pad="5"/>
+<wire x1="67.55" y1="51.155" x2="72.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="62.5" y1="49.63" x2="67.55" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="75.625" y1="46.25" x2="62.5" y2="49.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$150">
+<contactref element="F14" pad="1"/>
+<contactref element="X13" pad="1"/>
+<wire x1="62.5" y1="46.62" x2="68.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$151">
+<contactref element="J13" pad="A5"/>
+<contactref element="R27" pad="2"/>
+<wire x1="76.875" y1="53.375" x2="71.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$152">
+<contactref element="J13" pad="B5"/>
+<contactref element="R28" pad="1"/>
+<wire x1="63.125" y1="53.375" x2="68.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP15">
+<contactref element="J14" pad="A6"/>
+<contactref element="J14" pad="B6"/>
+<contactref element="E15" pad="4"/>
+<contactref element="X14" pad="3"/>
+<wire x1="89.25" y1="51.155" x2="90.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="90.5" y1="46.5" x2="90.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="94.675" y1="46.25" x2="90.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN15">
+<contactref element="J14" pad="B7"/>
+<contactref element="J14" pad="A7"/>
+<contactref element="E15" pad="1"/>
+<contactref element="X14" pad="2"/>
+<wire x1="89.75" y1="51.155" x2="90.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="89.5" y1="46.5" x2="89.75" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="96.575" y1="48.75" x2="89.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$153">
+<contactref element="F15" pad="2"/>
+<contactref element="J14" pad="A4B9"/>
+<contactref element="J14" pad="B4A9"/>
+<contactref element="E15" pad="5"/>
+<wire x1="87.55" y1="51.155" x2="92.45" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="82.5" y1="49.63" x2="87.55" y2="51.155" width="0" layer="19" extent="1-1"/>
+<wire x1="95.625" y1="46.25" x2="82.5" y2="49.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$154">
+<contactref element="F15" pad="1"/>
+<contactref element="X14" pad="1"/>
+<wire x1="82.5" y1="46.62" x2="88.5" y2="46.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$155">
+<contactref element="J14" pad="A5"/>
+<contactref element="R29" pad="2"/>
+<wire x1="96.875" y1="52.75" x2="91.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$156">
+<contactref element="J14" pad="B5"/>
+<contactref element="R30" pad="1"/>
+<wire x1="83.125" y1="53.375" x2="88.25" y2="51.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP16">
+<contactref element="J15" pad="A6"/>
+<contactref element="J15" pad="B6"/>
+<contactref element="E16" pad="4"/>
+<contactref element="X15" pad="3"/>
+<wire x1="9.25" y1="31.155" x2="10.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="10.5" y1="26.5" x2="10.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="14.675" y1="26.25" x2="10.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN16">
+<contactref element="J15" pad="B7"/>
+<contactref element="J15" pad="A7"/>
+<contactref element="E16" pad="1"/>
+<contactref element="X15" pad="2"/>
+<wire x1="9.75" y1="31.155" x2="10.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="26.5" x2="9.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="16.575" y1="28.75" x2="9.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$157">
+<contactref element="F16" pad="2"/>
+<contactref element="J15" pad="A4B9"/>
+<contactref element="J15" pad="B4A9"/>
+<contactref element="E16" pad="5"/>
+<wire x1="7.55" y1="31.155" x2="12.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="2.5" y1="29.63" x2="7.55" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="15.625" y1="26.25" x2="2.5" y2="29.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$158">
+<contactref element="F16" pad="1"/>
+<contactref element="X15" pad="1"/>
+<wire x1="2.5" y1="26.62" x2="8.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$159">
+<contactref element="J15" pad="A5"/>
+<contactref element="R31" pad="2"/>
+<wire x1="16.875" y1="33.375" x2="11.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$160">
+<contactref element="J15" pad="B5"/>
+<contactref element="R32" pad="1"/>
+<wire x1="3.125" y1="33.375" x2="8.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP17">
+<contactref element="J16" pad="A6"/>
+<contactref element="J16" pad="B6"/>
+<contactref element="E17" pad="4"/>
+<contactref element="X16" pad="3"/>
+<wire x1="29.25" y1="31.155" x2="30.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="30.5" y1="26.5" x2="30.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="34.675" y1="26.25" x2="30.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN17">
+<contactref element="J16" pad="B7"/>
+<contactref element="J16" pad="A7"/>
+<contactref element="E17" pad="1"/>
+<contactref element="X16" pad="2"/>
+<wire x1="29.75" y1="31.155" x2="30.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="29.5" y1="26.5" x2="29.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="36.575" y1="28.75" x2="29.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$161">
+<contactref element="F17" pad="2"/>
+<contactref element="J16" pad="A4B9"/>
+<contactref element="J16" pad="B4A9"/>
+<contactref element="E17" pad="5"/>
+<wire x1="27.55" y1="31.155" x2="32.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="22.5" y1="29.63" x2="27.55" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="35.625" y1="26.25" x2="22.5" y2="29.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$162">
+<contactref element="F17" pad="1"/>
+<contactref element="X16" pad="1"/>
+<wire x1="22.5" y1="26.62" x2="28.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$163">
+<contactref element="J16" pad="A5"/>
+<contactref element="R33" pad="2"/>
+<wire x1="36.875" y1="33.375" x2="31.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$164">
+<contactref element="J16" pad="B5"/>
+<contactref element="R34" pad="1"/>
+<wire x1="23.125" y1="33.375" x2="28.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP18">
+<contactref element="J17" pad="A6"/>
+<contactref element="J17" pad="B6"/>
+<contactref element="E18" pad="4"/>
+<contactref element="X17" pad="3"/>
+<wire x1="49.25" y1="31.155" x2="50.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5" y1="26.5" x2="50.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="54.675" y1="26.25" x2="50.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN18">
+<contactref element="J17" pad="B7"/>
+<contactref element="J17" pad="A7"/>
+<contactref element="E18" pad="1"/>
+<contactref element="X17" pad="2"/>
+<wire x1="49.75" y1="31.155" x2="50.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="49.5" y1="26.5" x2="49.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="56.575" y1="28.75" x2="49.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$165">
+<contactref element="F18" pad="2"/>
+<contactref element="J17" pad="A4B9"/>
+<contactref element="J17" pad="B4A9"/>
+<contactref element="E18" pad="5"/>
+<wire x1="47.55" y1="31.155" x2="52.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="29.63" x2="47.55" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="55.625" y1="26.25" x2="42.5" y2="29.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$166">
+<contactref element="F18" pad="1"/>
+<contactref element="X17" pad="1"/>
+<wire x1="42.5" y1="26.62" x2="48.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$167">
+<contactref element="J17" pad="A5"/>
+<contactref element="R35" pad="2"/>
+<wire x1="56.875" y1="33.375" x2="51.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$168">
+<contactref element="J17" pad="B5"/>
+<contactref element="R36" pad="1"/>
+<wire x1="43.125" y1="33.375" x2="48.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP19">
+<contactref element="J18" pad="A6"/>
+<contactref element="J18" pad="B6"/>
+<contactref element="E19" pad="4"/>
+<contactref element="X18" pad="3"/>
+<wire x1="69.25" y1="31.155" x2="70.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="70.5" y1="26.5" x2="70.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="74.675" y1="26.25" x2="70.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN19">
+<contactref element="J18" pad="B7"/>
+<contactref element="J18" pad="A7"/>
+<contactref element="E19" pad="1"/>
+<contactref element="X18" pad="2"/>
+<wire x1="69.75" y1="31.155" x2="70.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="69.5" y1="26.5" x2="69.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="76.575" y1="28.75" x2="69.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$169">
+<contactref element="F19" pad="2"/>
+<contactref element="J18" pad="A4B9"/>
+<contactref element="J18" pad="B4A9"/>
+<contactref element="E19" pad="5"/>
+<wire x1="67.55" y1="31.155" x2="72.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="62.5" y1="29.63" x2="67.55" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="75.625" y1="26.25" x2="62.5" y2="29.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$170">
+<contactref element="F19" pad="1"/>
+<contactref element="X18" pad="1"/>
+<wire x1="62.5" y1="26.62" x2="68.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$171">
+<contactref element="J18" pad="A5"/>
+<contactref element="R37" pad="2"/>
+<wire x1="76.875" y1="33.375" x2="71.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$172">
+<contactref element="J18" pad="B5"/>
+<contactref element="R38" pad="1"/>
+<wire x1="63.125" y1="33.375" x2="68.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP20">
+<contactref element="J19" pad="A6"/>
+<contactref element="J19" pad="B6"/>
+<contactref element="E20" pad="4"/>
+<contactref element="X19" pad="3"/>
+<wire x1="89.25" y1="31.155" x2="90.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="90.5" y1="26.5" x2="90.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="94.675" y1="26.25" x2="90.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN20">
+<contactref element="J19" pad="B7"/>
+<contactref element="J19" pad="A7"/>
+<contactref element="E20" pad="1"/>
+<contactref element="X19" pad="2"/>
+<wire x1="89.75" y1="31.155" x2="90.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="89.5" y1="26.5" x2="89.75" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="96.575" y1="28.75" x2="89.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$173">
+<contactref element="F20" pad="2"/>
+<contactref element="J19" pad="A4B9"/>
+<contactref element="J19" pad="B4A9"/>
+<contactref element="E20" pad="5"/>
+<wire x1="87.55" y1="31.155" x2="92.45" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="82.5" y1="29.63" x2="87.55" y2="31.155" width="0" layer="19" extent="1-1"/>
+<wire x1="95.625" y1="26.25" x2="82.5" y2="29.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$174">
+<contactref element="F20" pad="1"/>
+<contactref element="X19" pad="1"/>
+<wire x1="82.5" y1="26.62" x2="88.5" y2="26.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$175">
+<contactref element="J19" pad="A5"/>
+<contactref element="R39" pad="2"/>
+<wire x1="96.875" y1="33.375" x2="91.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$176">
+<contactref element="J19" pad="B5"/>
+<contactref element="R40" pad="1"/>
+<wire x1="83.125" y1="33.375" x2="88.25" y2="31.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP21">
+<contactref element="J20" pad="A6"/>
+<contactref element="J20" pad="B6"/>
+<contactref element="E21" pad="4"/>
+<contactref element="X20" pad="3"/>
+<wire x1="9.25" y1="11.155" x2="10.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="10.5" y1="6.5" x2="10.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="14.675" y1="6.25" x2="10.5" y2="6.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN21">
+<contactref element="J20" pad="B7"/>
+<contactref element="J20" pad="A7"/>
+<contactref element="E21" pad="1"/>
+<contactref element="X20" pad="2"/>
+<wire x1="9.75" y1="11.155" x2="10.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="6.5" x2="9.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="16.575" y1="8.75" x2="9.5" y2="6.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$177">
+<contactref element="F21" pad="2"/>
+<contactref element="J20" pad="A4B9"/>
+<contactref element="J20" pad="B4A9"/>
+<contactref element="E21" pad="5"/>
+<wire x1="7.55" y1="11.155" x2="12.45" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="2.5" y1="9.63" x2="7.55" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="15.625" y1="6.25" x2="2.5" y2="9.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$178">
+<contactref element="F21" pad="1"/>
+<contactref element="X20" pad="1"/>
+<wire x1="8.5" y1="6.5" x2="2.5" y2="6.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$179">
+<contactref element="J20" pad="A5"/>
+<contactref element="R41" pad="2"/>
+<wire x1="16.875" y1="13.375" x2="11.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$180">
+<contactref element="J20" pad="B5"/>
+<contactref element="R42" pad="1"/>
+<wire x1="8.25" y1="11.155" x2="3.125" y2="13.375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DP22">
+<contactref element="J21" pad="A6"/>
+<contactref element="J21" pad="B6"/>
+<contactref element="E22" pad="4"/>
+<contactref element="X21" pad="3"/>
+<wire x1="29.25" y1="11.155" x2="30.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="30.5" y1="6.5" x2="30.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="34.675" y1="6.25" x2="30.5" y2="6.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DN22">
+<contactref element="J21" pad="B7"/>
+<contactref element="J21" pad="A7"/>
+<contactref element="E22" pad="1"/>
+<contactref element="X21" pad="2"/>
+<wire x1="29.75" y1="11.155" x2="30.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="29.5" y1="6.5" x2="29.75" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="36.575" y1="8.75" x2="29.5" y2="6.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$181">
+<contactref element="F22" pad="2"/>
+<contactref element="J21" pad="A4B9"/>
+<contactref element="J21" pad="B4A9"/>
+<contactref element="E22" pad="5"/>
+<wire x1="27.55" y1="11.155" x2="32.45" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="22.5" y1="9.63" x2="27.55" y2="11.155" width="0" layer="19" extent="1-1"/>
+<wire x1="35.625" y1="6.25" x2="22.5" y2="9.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$182">
+<contactref element="F22" pad="1"/>
+<contactref element="X21" pad="1"/>
+<wire x1="22.5" y1="6.62" x2="28.5" y2="6.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$183">
+<contactref element="J21" pad="A5"/>
+<contactref element="R43" pad="2"/>
+<wire x1="36.875" y1="13.375" x2="31.25" y2="11.155" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$184">
+<contactref element="J21" pad="B5"/>
+<contactref element="R44" pad="1"/>
+<wire x1="23.125" y1="13.375" x2="28.25" y2="11.155" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
