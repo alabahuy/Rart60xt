@@ -23,6 +23,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_KEYPRESSES
 
+#define VIAL_TAP_DANCE_ENTRIES 4
+#define VIAL_KEY_OVERRIDE_ENTRIES 4
 #define DYNAMIC_KEYMAP_LAYER_COUNT 2
 
 #define VIAL_KEYBOARD_UID {0xF5, 0xA1, 0x92, 0xBF, 0xA3, 0x33, 0x66, 0x9C}
