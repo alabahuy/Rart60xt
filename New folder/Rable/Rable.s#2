@@ -13595,70 +13595,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 </deviceset>
 </devicesets>
 </library>
-<library name="SS14">
-<packages>
-<package name="DO-214AC">
-<wire x1="-2.3" y1="1.2" x2="2.3" y2="1.2" width="0.15" layer="21"/>
-<wire x1="2.3" y1="1.2" x2="2.3" y2="-1.2" width="0.15" layer="51"/>
-<wire x1="2.3" y1="-1.2" x2="-2.3" y2="-1.2" width="0.15" layer="21"/>
-<wire x1="-2.3" y1="-1.2" x2="-2.3" y2="1.2" width="0.15" layer="51"/>
-<wire x1="-0.8" y1="0" x2="0.25" y2="0.75" width="0.15" layer="21"/>
-<wire x1="0.25" y1="0.75" x2="0.25" y2="-0.7" width="0.15" layer="21"/>
-<wire x1="0.25" y1="-0.7" x2="-0.8" y2="0" width="0.15" layer="21"/>
-<text x="0.027" y="2.173" size="1.27" layer="25" ratio="10" align="center">&gt;NAME</text>
-<text x="0.027" y="-2.171" size="1.27" layer="27" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-2.6" y1="-0.7" x2="-2.35" y2="0.65" layer="51"/>
-<rectangle x1="2.35" y1="-0.7" x2="2.6" y2="0.65" layer="51"/>
-<rectangle x1="-1" y1="-1.15" x2="-0.7" y2="1.15" layer="21"/>
-<smd name="K" x="-2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
-<smd name="A" x="2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SCHOTTKY">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="K" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SS14" prefix="D">
-<description>Diodo de barrera Schottky (1N5819 SMD) &lt;b&gt;(VRRM):&lt;/b&gt; 40V, &lt;b&gt;IRMS:&lt;/b&gt; 1A  &lt;a href="https://pricing.snapeda.com/parts/SS14/ON/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO-214AC">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" Diode Schottky 40 V 1A Surface Mount DO-214AC (SMA) "/>
-<attribute name="MF" value="ON"/>
-<attribute name="MP" value="SS14"/>
-<attribute name="PACKAGE" value="SMA-2 ON Semiconductor"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SS14/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13838,7 +13774,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <part name="R11" library="Components" deviceset="RESISTOR" device="-0805" value="75R"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="M"/>
 <part name="PWR" library="adafruit" deviceset="LED" device="3MM"/>
-<part name="CHGR" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="CAPS1" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="RGB1" library="LED" deviceset="WS2812B" device=""/>
 <part name="RGB2" library="LED" deviceset="WS2812B" device=""/>
@@ -13863,12 +13798,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <part name="RGB11" library="LED" deviceset="WS2812B" device=""/>
 <part name="C14" library="Components" deviceset="CAPACITOR" device="-C0805"/>
 <part name="J5" library="Headers" deviceset="I2C-HEADER" device=""/>
-<part name="D98" library="SS14" deviceset="SS14" device=""/>
 <part name="R14" library="Components" deviceset="RESISTOR" device="-0805" value="75R"/>
 <part name="BAT1" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
 <part name="S3" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
 <part name="X4" library="con-JST SH" deviceset="BM06B-SRSS" device="-TB"/>
 <part name="BAT2" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206"/>
 </parts>
 <sheets>
 <sheet>
@@ -14391,7 +14326,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <attribute name="VALUE" x="-179.578" y="52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C1" gate="G$1" x="-177.8" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="-178.308" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="-173.228" y="58.42" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-177.546" y="61.976" size="1.778" layer="96" rot="R90" align="top-left"/>
 </instance>
 <instance part="R6" gate="G$1" x="-208.28" y="76.2" smashed="yes" rot="R90">
@@ -14466,10 +14401,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <instance part="PWR" gate="G$1" x="-116.84" y="53.34" smashed="yes">
 <attribute name="NAME" x="-113.284" y="48.768" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-111.125" y="48.768" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="CHGR" gate="G$1" x="-208.28" y="68.58" smashed="yes">
-<attribute name="NAME" x="-204.724" y="64.008" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-202.565" y="64.008" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="CAPS1" gate="G$1" x="-116.84" y="30.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="-120.396" y="35.052" size="1.778" layer="95" rot="R270"/>
@@ -14553,10 +14484,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <attribute name="VALUE" x="-185.166" y="166.116" size="1.778" layer="96" rot="R90" align="top-left"/>
 </instance>
 <instance part="J5" gate="G$1" x="-203.2" y="2.54" smashed="yes" rot="R180"/>
-<instance part="D98" gate="G$1" x="-281.94" y="58.42" smashed="yes">
-<attribute name="NAME" x="-284.226" y="60.325" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-284.226" y="54.991" size="1.778" layer="96"/>
-</instance>
 <instance part="R14" gate="G$1" x="-111.76" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="-107.95" y="54.3814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-107.95" y="59.182" size="1.778" layer="96" rot="R180"/>
@@ -14576,6 +14503,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <instance part="BAT2" gate="G$1" x="-127" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="-120.65" y="95.885" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-120.65" y="106.68" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED1" gate="G$1" x="-208.28" y="68.58" smashed="yes">
+<attribute name="NAME" x="-204.724" y="66.548" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-202.565" y="64.008" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -15882,9 +15813,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="R5" gate="G$1" pin="2"/>
 <junction x="-287.02" y="60.96"/>
 <label x="-289.56" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="D98" gate="G$1" pin="A"/>
-<wire x1="-284.48" y1="58.42" x2="-287.02" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-287.02" y1="58.42" x2="-287.02" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VBUS"/>
@@ -16067,13 +15995,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <net name="N$7" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="CHRG"/>
-<pinref part="CHGR" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="CHGR" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="BAT_PIN" class="0">
@@ -16139,9 +16067,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <junction x="-274.32" y="60.96"/>
 <pinref part="D99" gate="D$1" pin="C"/>
 <junction x="-276.86" y="60.96"/>
-<pinref part="D98" gate="G$1" pin="K"/>
-<wire x1="-279.4" y1="58.42" x2="-276.86" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-276.86" y1="58.42" x2="-276.86" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POWER_PIN" class="0">
