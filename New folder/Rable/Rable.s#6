@@ -15646,6 +15646,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <wire x1="-335.28" y1="27.94" x2="-332.74" y2="27.94" width="0.1524" layer="91"/>
 <label x="-332.74" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P1.01"/>
+<wire x1="-248.92" y1="0" x2="-246.38" y2="0" width="0.1524" layer="91"/>
+<label x="-246.38" y="0" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$68" class="0">
 <segment>
@@ -16477,13 +16482,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <wire x1="200.66" y1="-33.02" x2="200.66" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-38.1" x2="195.58" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="195.58" y="-38.1"/>
-</segment>
-</net>
-<net name="X16" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P1.01"/>
-<wire x1="-248.92" y1="0" x2="-246.38" y2="0" width="0.1524" layer="91"/>
-<label x="-246.38" y="0" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="X17" class="0">
