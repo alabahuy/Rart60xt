@@ -13980,6 +13980,11 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <part name="U13" library="WS2812-2020" deviceset="WS2812-2020" device=""/>
 <part name="U14" library="WS2812-2020" deviceset="WS2812-2020" device=""/>
 <part name="U15" library="WS2812-2020" deviceset="WS2812-2020" device=""/>
+<part name="U16" library="WS2812-2020" deviceset="WS2812-2020" device=""/>
+<part name="U17" library="WS2812-2020" deviceset="WS2812-2020" device=""/>
+<part name="U18" library="WS2812-2020" deviceset="WS2812-2020" device=""/>
+<part name="U19" library="WS2812-2020" deviceset="WS2812-2020" device=""/>
+<part name="U20" library="WS2812-2020" deviceset="WS2812-2020" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14739,6 +14744,26 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <instance part="U15" gate="G$1" x="-15.24" y="200.66" smashed="yes">
 <attribute name="NAME" x="-25.4178" y="208.293340625" size="1.781109375" layer="95"/>
 <attribute name="VALUE" x="-25.4179" y="190.4821" size="1.78113125" layer="96"/>
+</instance>
+<instance part="U16" gate="G$1" x="15.24" y="200.66" smashed="yes">
+<attribute name="NAME" x="5.0622" y="208.293340625" size="1.781109375" layer="95"/>
+<attribute name="VALUE" x="5.0621" y="190.4821" size="1.78113125" layer="96"/>
+</instance>
+<instance part="U17" gate="G$1" x="45.72" y="200.66" smashed="yes">
+<attribute name="NAME" x="35.5422" y="208.293340625" size="1.781109375" layer="95"/>
+<attribute name="VALUE" x="35.5421" y="190.4821" size="1.78113125" layer="96"/>
+</instance>
+<instance part="U18" gate="G$1" x="76.2" y="200.66" smashed="yes">
+<attribute name="NAME" x="66.0222" y="208.293340625" size="1.781109375" layer="95"/>
+<attribute name="VALUE" x="66.0221" y="190.4821" size="1.78113125" layer="96"/>
+</instance>
+<instance part="U19" gate="G$1" x="106.68" y="200.66" smashed="yes">
+<attribute name="NAME" x="96.5022" y="208.293340625" size="1.781109375" layer="95"/>
+<attribute name="VALUE" x="96.5021" y="190.4821" size="1.78113125" layer="96"/>
+</instance>
+<instance part="U20" gate="G$1" x="137.16" y="200.66" smashed="yes">
+<attribute name="NAME" x="126.9822" y="208.293340625" size="1.781109375" layer="95"/>
+<attribute name="VALUE" x="126.9821" y="190.4821" size="1.78113125" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -16685,6 +16710,36 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <segment>
 <pinref part="U14" gate="G$1" pin="DO"/>
 <pinref part="U15" gate="G$1" pin="DI"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="U16" gate="G$1" pin="DI"/>
+<pinref part="U15" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$81" class="0">
+<segment>
+<pinref part="U16" gate="G$1" pin="DO"/>
+<pinref part="U17" gate="G$1" pin="DI"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="U17" gate="G$1" pin="DO"/>
+<pinref part="U18" gate="G$1" pin="DI"/>
+</segment>
+</net>
+<net name="N$102" class="0">
+<segment>
+<pinref part="U18" gate="G$1" pin="DO"/>
+<pinref part="U19" gate="G$1" pin="DI"/>
+</segment>
+</net>
+<net name="N$105" class="0">
+<segment>
+<pinref part="U20" gate="G$1" pin="DI"/>
+<pinref part="U19" gate="G$1" pin="DO"/>
 </segment>
 </net>
 </nets>

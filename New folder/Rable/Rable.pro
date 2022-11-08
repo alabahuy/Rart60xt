@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : D:/Reza/Rart60xt/New folder/Rable/Rable.brd
 
-Start at      : 18:34:20 (11/3/2022)
-End at        : 18:34:29 (11/3/2022)
+Start at      : 18:30:44 (11/8/2022)
+End at        : 18:30:54 (11/8/2022)
 Elapsed time  : 00:00:03
 
-Signals       :   137   RoutingGrid: 19.685 mil  Layers: 2
-Connections   :   679   predefined:  652 ( 117 Vias )
+Signals       :   133   RoutingGrid: 7 mil  Layers: 2
+Connections   :   679   predefined:  679 ( 143 Vias )
 
-Router memory :   682248
+Router memory :   5243112
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:01  00:00:01  00:00:00
+Time per pass     :  00:00:00  00:00:00  00:00:01  00:00:01  00:00:01  00:00:00
 Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         1         0         0         0         0
+max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
-Routed            :         0        25        25        25        25        25
-Vias              :         0         1         0         0         0         0
-Resolution        :    96.0 %    99.7 %    99.7 %    99.7 %    99.7 %    99.7 %
+Routed            :         0         0         0         0         0         0
+Vias              :         0         0         0         0         0         0
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 98.2% finished. Polygons may have fallen apart.
+Final             : 100.0% finished
