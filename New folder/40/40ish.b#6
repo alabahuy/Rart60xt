@@ -186,12 +186,6 @@
 </layers>
 <board>
 <plain>
-<dimension x1="76.2" y1="19.05" x2="119.0625" y2="19.05" x3="97.63125" y3="0" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="119.0625" y1="19.05" x2="171.45" y2="19.05" x3="145.25625" y3="0" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="171.45" y1="19.05" x2="195.2625" y2="19.05" x3="183.35625" y3="0" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="195.2625" y1="19.05" x2="219.075" y2="19.05" x3="207.16875" y3="0" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="76.2" y1="19.05" x2="52.3875" y2="19.05" x3="64.29375" y3="0" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="52.3875" y1="19.05" x2="28.575" y2="19.05" x3="40.48125" y3="0" textsize="1.778" layer="1" dtype="diameter"/>
 </plain>
 <libraries>
 <library name="Components">
@@ -465,9 +459,6 @@ design rules under a new name.</description>
 <element name="TAB" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="26.19375" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="26.19375" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="STEPED" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="19.05" y="19.05" smashed="yes" rot="MR0">
-<attribute name="NAME" x="23.8125" y="21.0125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
 <element name="F1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38.1" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.1" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
@@ -501,9 +492,6 @@ design rules under a new name.</description>
 <element name="E" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="90.4875" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.4875" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="D" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="78.58125" y="19.05" smashed="yes" rot="MR0">
-<attribute name="NAME" x="78.58125" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
 <element name="F4" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="95.25" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="95.25" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
@@ -524,9 +512,6 @@ design rules under a new name.</description>
 </element>
 <element name="T" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="128.5875" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="128.5875" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="G" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="114.3" y="19.05" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114.3" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="F6" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="133.35" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="133.35" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
@@ -593,10 +578,6 @@ design rules under a new name.</description>
 <element name="D4" library="Components" package="SOD-123" value="" x="33.3375" y="37.5046875" smashed="yes" rot="MR270">
 <attribute name="NAME" x="32.17875" y="36.3140625" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="34.49625" y="37.5046875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
-</element>
-<element name="D5" library="Components" package="SOD-123" value="" x="26.19375" y="18.4546875" smashed="yes" rot="MR270">
-<attribute name="NAME" x="25.035" y="16.66875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="27.3525" y="18.4546875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D8" library="Components" package="SOD-123" value="" x="45.24375" y="75.6046875" smashed="yes" rot="MR270">
 <attribute name="NAME" x="44.085" y="73.81875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
@@ -722,17 +703,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="67.8975" y="16.66875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="70.215" y="18.4546875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D53" library="Components" package="SOD-123" value="" x="83.34375" y="18.4546875" smashed="yes" rot="MR270">
-<attribute name="NAME" x="82.185" y="16.66875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="84.5025" y="18.4546875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
-</element>
 <element name="D54" library="Components" package="SOD-123" value="" x="100.0125" y="18.4546875" smashed="yes" rot="MR270">
 <attribute name="NAME" x="98.85375" y="16.66875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="101.17125" y="18.4546875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
-</element>
-<element name="D55" library="Components" package="SOD-123" value="" x="121.44375" y="18.4546875" smashed="yes" rot="MR270">
-<attribute name="NAME" x="120.285" y="16.66875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="122.6025" y="18.4546875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D56" library="Components" package="SOD-123" value="" x="147.6375" y="18.4546875" smashed="yes" rot="MR270">
 <attribute name="NAME" x="146.47875" y="16.66875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
@@ -787,9 +760,6 @@ design rules under a new name.</description>
 <wire x1="33.3375" y1="39.1396875" x2="32.54375" y2="42.545" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="C1">
-<contactref element="STEPED" pad="P$1"/>
-<contactref element="STEPED" pad="P$2"/>
-<contactref element="STEPED" pad="MX1"/>
 <contactref element="ESC" pad="P$2"/>
 <contactref element="ESC" pad="P$1"/>
 <contactref element="ESC" pad="MX1"/>
@@ -807,9 +777,6 @@ design rules under a new name.</description>
 <wire x1="18.57375" y1="41.275" x2="13.81125" y2="59.055" width="0" layer="19" extent="1-1"/>
 <wire x1="18.83375" y1="40.64" x2="18.57375" y2="41.275" width="0" layer="19" extent="16-16"/>
 <wire x1="18.57375" y1="40.005" x2="18.83375" y2="40.64" width="0" layer="19" extent="16-16"/>
-<wire x1="11.43" y1="22.225" x2="18.57375" y2="40.005" width="0" layer="19" extent="1-1"/>
-<wire x1="11.69" y1="21.59" x2="11.43" y2="22.225" width="0" layer="19" extent="16-16"/>
-<wire x1="11.43" y1="20.955" x2="11.69" y2="21.59" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$8">
 <contactref element="F1" pad="P$4"/>
@@ -1072,15 +1039,6 @@ design rules under a new name.</description>
 <wire x1="70.64375" y1="24.765" x2="70.38375" y2="24.13" width="0" layer="19" extent="16-16"/>
 <wire x1="69.05625" y1="20.0896875" x2="70.64375" y2="23.495" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$64">
-<contactref element="D53" pad="A"/>
-<contactref element="D" pad="P$4"/>
-<contactref element="D" pad="MX2"/>
-<contactref element="D" pad="P$3"/>
-<wire x1="84.67125" y1="24.13" x2="84.93125" y2="23.495" width="0" layer="19" extent="16-16"/>
-<wire x1="84.93125" y1="24.765" x2="84.67125" y2="24.13" width="0" layer="19" extent="16-16"/>
-<wire x1="83.34375" y1="20.0896875" x2="84.93125" y2="23.495" width="0" layer="19" extent="16-16"/>
-</signal>
 <signal name="N$65">
 <contactref element="D54" pad="A"/>
 <contactref element="F" pad="P$4"/>
@@ -1089,15 +1047,6 @@ design rules under a new name.</description>
 <wire x1="103.72125" y1="24.13" x2="103.98125" y2="23.495" width="0" layer="19" extent="16-16"/>
 <wire x1="103.98125" y1="24.765" x2="103.72125" y2="24.13" width="0" layer="19" extent="16-16"/>
 <wire x1="100.0125" y1="20.0896875" x2="103.98125" y2="23.495" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$66">
-<contactref element="D55" pad="A"/>
-<contactref element="G" pad="P$4"/>
-<contactref element="G" pad="MX2"/>
-<contactref element="G" pad="P$3"/>
-<wire x1="120.39" y1="24.13" x2="120.65" y2="23.495" width="0" layer="19" extent="16-16"/>
-<wire x1="120.65" y1="24.765" x2="120.39" y2="24.13" width="0" layer="19" extent="16-16"/>
-<wire x1="121.44375" y1="20.0896875" x2="120.65" y2="23.495" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$69">
 <contactref element="D56" pad="A"/>
@@ -1239,9 +1188,6 @@ design rules under a new name.</description>
 <contactref element="E" pad="P$2"/>
 <contactref element="E" pad="P$1"/>
 <contactref element="E" pad="MX1"/>
-<contactref element="D" pad="P$2"/>
-<contactref element="D" pad="P$1"/>
-<contactref element="D" pad="MX1"/>
 <wire x1="68.84" y1="78.74" x2="68.58" y2="79.375" width="0" layer="19" extent="16-16"/>
 <wire x1="68.58" y1="78.105" x2="68.84" y2="78.74" width="0" layer="19" extent="16-16"/>
 <wire x1="73.3425" y1="60.325" x2="68.58" y2="78.105" width="0" layer="19" extent="1-1"/>
@@ -1250,9 +1196,6 @@ design rules under a new name.</description>
 <wire x1="82.8675" y1="41.275" x2="73.3425" y2="59.055" width="0" layer="19" extent="1-1"/>
 <wire x1="83.1275" y1="40.64" x2="82.8675" y2="41.275" width="0" layer="19" extent="16-16"/>
 <wire x1="82.8675" y1="40.005" x2="83.1275" y2="40.64" width="0" layer="19" extent="16-16"/>
-<wire x1="70.96125" y1="22.225" x2="82.8675" y2="40.005" width="0" layer="19" extent="1-1"/>
-<wire x1="71.22125" y1="21.59" x2="70.96125" y2="22.225" width="0" layer="19" extent="16-16"/>
-<wire x1="70.96125" y1="20.955" x2="71.22125" y2="21.59" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="C5">
 <contactref element="F4" pad="P$2"/>
@@ -1289,9 +1232,6 @@ design rules under a new name.</description>
 <contactref element="T" pad="P$2"/>
 <contactref element="T" pad="P$1"/>
 <contactref element="T" pad="MX1"/>
-<contactref element="G" pad="P$2"/>
-<contactref element="G" pad="P$1"/>
-<contactref element="G" pad="MX1"/>
 <wire x1="106.94" y1="78.74" x2="106.68" y2="79.375" width="0" layer="19" extent="16-16"/>
 <wire x1="106.68" y1="78.105" x2="106.94" y2="78.74" width="0" layer="19" extent="16-16"/>
 <wire x1="111.4425" y1="60.325" x2="106.68" y2="78.105" width="0" layer="19" extent="1-1"/>
@@ -1300,9 +1240,6 @@ design rules under a new name.</description>
 <wire x1="120.9675" y1="41.275" x2="111.4425" y2="59.055" width="0" layer="19" extent="1-1"/>
 <wire x1="121.2275" y1="40.64" x2="120.9675" y2="41.275" width="0" layer="19" extent="16-16"/>
 <wire x1="120.9675" y1="40.005" x2="121.2275" y2="40.64" width="0" layer="19" extent="16-16"/>
-<wire x1="106.68" y1="22.225" x2="120.9675" y2="40.005" width="0" layer="19" extent="1-1"/>
-<wire x1="106.94" y1="21.59" x2="106.68" y2="22.225" width="0" layer="19" extent="16-16"/>
-<wire x1="106.68" y1="20.955" x2="106.94" y2="21.59" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="C7">
 <contactref element="F6" pad="P$2"/>
@@ -1437,12 +1374,9 @@ design rules under a new name.</description>
 <wire x1="33.3375" y1="35.8696875" x2="59.53125" y2="35.8696875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="R4">
-<contactref element="D5" pad="C"/>
 <contactref element="D49" pad="C"/>
 <contactref element="D52" pad="C"/>
-<contactref element="D53" pad="C"/>
 <contactref element="D54" pad="C"/>
-<contactref element="D55" pad="C"/>
 <contactref element="D56" pad="C"/>
 <contactref element="D58" pad="C"/>
 <contactref element="D59" pad="C"/>
@@ -1450,21 +1384,9 @@ design rules under a new name.</description>
 <wire x1="190.5" y1="14.4384375" x2="209.55" y2="16.8196875" width="0" layer="19" extent="16-16"/>
 <wire x1="233.3625" y1="35.8696875" x2="209.55" y2="16.8196875" width="0" layer="19" extent="16-16"/>
 <wire x1="147.6375" y1="16.8196875" x2="190.5" y2="14.4384375" width="0" layer="19" extent="16-16"/>
-<wire x1="121.44375" y1="16.8196875" x2="147.6375" y2="16.8196875" width="0" layer="19" extent="16-16"/>
-<wire x1="100.0125" y1="16.8196875" x2="121.44375" y2="16.8196875" width="0" layer="19" extent="16-16"/>
-<wire x1="83.34375" y1="16.8196875" x2="100.0125" y2="16.8196875" width="0" layer="19" extent="16-16"/>
-<wire x1="69.05625" y1="16.8196875" x2="83.34375" y2="16.8196875" width="0" layer="19" extent="16-16"/>
+<wire x1="100.0125" y1="16.8196875" x2="147.6375" y2="16.8196875" width="0" layer="19" extent="16-16"/>
+<wire x1="69.05625" y1="16.8196875" x2="100.0125" y2="16.8196875" width="0" layer="19" extent="16-16"/>
 <wire x1="45.24375" y1="16.8196875" x2="69.05625" y2="16.8196875" width="0" layer="19" extent="16-16"/>
-<wire x1="26.19375" y1="16.8196875" x2="45.24375" y2="16.8196875" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$6">
-<contactref element="STEPED" pad="MX2"/>
-<contactref element="STEPED" pad="P$4"/>
-<contactref element="STEPED" pad="P$3"/>
-<contactref element="D5" pad="A"/>
-<wire x1="25.14" y1="24.13" x2="25.4" y2="23.495" width="0" layer="19" extent="16-16"/>
-<wire x1="25.4" y1="24.765" x2="25.14" y2="24.13" width="0" layer="19" extent="16-16"/>
-<wire x1="26.19375" y1="20.0896875" x2="25.4" y2="23.495" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="F14" pad="P$3"/>
@@ -1492,6 +1414,12 @@ design rules under a new name.</description>
 <wire x1="163.83" y1="79.375" x2="164.09" y2="78.74" width="0" layer="19" extent="16-16"/>
 <wire x1="163.83" y1="78.105" x2="164.09" y2="78.74" width="0" layer="19" extent="16-16"/>
 <wire x1="182.165625" y1="74.8584375" x2="164.09" y2="78.74" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$5">
+<wire x1="9.525" y1="85.725" x2="238.125" y2="85.725" width="0.0762" layer="1"/>
+<wire x1="238.125" y1="85.725" x2="238.125" y2="9.525" width="0.0762" layer="1"/>
+<wire x1="238.125" y1="9.525" x2="9.525" y2="9.525" width="0.0762" layer="1"/>
+<wire x1="9.525" y1="9.525" x2="9.525" y2="85.725" width="0.0762" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
