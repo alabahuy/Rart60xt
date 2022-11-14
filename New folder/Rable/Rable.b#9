@@ -3,10 +3,10 @@
 <eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.38125" unitdist="mm" unit="mm" style="lines" multiple="8" display="yes" altdistance="2.38125" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5953125" unitdist="mm" unit="mm" style="lines" multiple="8" display="yes" altdistance="2.38125" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1582,23 +1582,17 @@ design rules under a new name.</description>
 <element name="TAB" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="23.8125" y="190.5" smashed="yes" rot="MR0"/>
 <element name="STEPED" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="26.19375" y="171.45" smashed="yes" rot="MR180"/>
 <element name="LSHIFT" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="21.43125" y="152.4" smashed="yes" rot="MR180"/>
-<element name="LCTRL" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="23.8125" y="133.35" smashed="yes" rot="MR0">
-<attribute name="NAME" x="23.8125" y="130.55" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
+<element name="LCTRL" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="23.8125" y="133.35" smashed="yes" rot="MR0"/>
 <element name="1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38.1" y="209.55" smashed="yes" rot="MR180"/>
 <element name="Q" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="47.625" y="190.5" smashed="yes" rot="MR0"/>
 <element name="A" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="52.3875" y="171.45" smashed="yes" rot="MR0"/>
 <element name="\/" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="42.8625" y="152.4" smashed="yes" rot="MR180"/>
-<element name="LWIN" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="47.625" y="133.35" smashed="yes" rot="MR0">
-<attribute name="NAME" x="47.625" y="130.55" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
+<element name="LWIN" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="47.625" y="133.35" smashed="yes" rot="MR0"/>
 <element name="2" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="57.15" y="209.55" smashed="yes" rot="MR0"/>
 <element name="W" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="66.675" y="190.5" smashed="yes" rot="MR0"/>
 <element name="S" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="71.4375" y="171.45" smashed="yes" rot="MR0"/>
 <element name="Z" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="61.9125" y="152.4" smashed="yes" rot="MR0"/>
-<element name="LALT" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="71.4375" y="133.35" smashed="yes" rot="MR0">
-<attribute name="NAME" x="71.4375" y="130.55" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
+<element name="LALT" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="71.4375" y="133.35" smashed="yes" rot="MR0"/>
 <element name="3" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="76.2" y="209.55" smashed="yes" rot="MR0"/>
 <element name="E" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="85.725" y="190.5" smashed="yes" rot="MR0"/>
 <element name="D" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="90.4875" y="171.45" smashed="yes" rot="MR0"/>
@@ -1626,23 +1620,17 @@ design rules under a new name.</description>
 <element name="I" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="180.975" y="190.5" smashed="yes" rot="MR0"/>
 <element name="K" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="185.7375" y="171.45" smashed="yes" rot="MR0"/>
 <element name="M" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="176.2125" y="152.4" smashed="yes" rot="MR0"/>
-<element name="RALT" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="233.3625" y="133.35" smashed="yes" rot="MR0">
-<attribute name="NAME" x="237.5296875" y="135.3125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
+<element name="RALT" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="233.3625" y="133.35" smashed="yes" rot="MR0"/>
 <element name="9" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="190.5" y="209.55" smashed="yes" rot="MR0"/>
 <element name="O" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="200.025" y="190.5" smashed="yes" rot="MR0"/>
 <element name="L" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="204.7875" y="171.45" smashed="yes" rot="MR0"/>
 <element name="," library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="195.2625" y="152.4" smashed="yes" rot="MR0"/>
-<element name="RWIN" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="257.175" y="133.35" smashed="yes" rot="MR0">
-<attribute name="NAME" x="257.175" y="130.55" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
+<element name="RWIN" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="257.175" y="133.35" smashed="yes" rot="MR0"/>
 <element name="0" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="209.55" y="209.55" smashed="yes" rot="MR0"/>
 <element name="P" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="219.075" y="190.5" smashed="yes" rot="MR0"/>
 <element name=".." library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="223.8375" y="171.45" smashed="yes" rot="MR0"/>
 <element name="." library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="214.3125" y="152.4" smashed="yes" rot="MR0"/>
-<element name="RCTRL" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="280.9875" y="133.35" smashed="yes" rot="MR0">
-<attribute name="NAME" x="276.8203125" y="131.1453125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
+<element name="RCTRL" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="280.9875" y="133.35" smashed="yes" rot="MR0"/>
 <element name="-" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="228.6" y="209.55" smashed="yes" rot="MR0"/>
 <element name="[" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="238.125" y="190.5" smashed="yes" rot="MR0"/>
 <element name="'" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="242.8875" y="171.45" smashed="yes" rot="MR0"/>
@@ -1783,7 +1771,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="251.19" y="171.45" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D61" library="Components" package="SOD-123" value="" x="281.5828125" y="171.45" smashed="yes" rot="MR270">
-<attribute name="NAME" x="283.9959375" y="171.45" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="282.7415625" y="171.45" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D50" library="Components" package="SOD-123" value="" x="211.93125" y="171.45" smashed="yes" rot="MR270">
@@ -1849,39 +1836,24 @@ design rules under a new name.</description>
 </element>
 <element name="LSHIFT1" library="Keyboard" package="MXHSPCB-2U" value="KEYSWITCH-PLAIN-MXHSPCB-2U" x="30.95625" y="152.4" smashed="yes" rot="MR0"/>
 <element name="RSHIFT1" library="Keyboard" package="MXHSPCB-2U" value="KEYSWITCH-PLAIN-MXHSPCB-2U" x="269.08125" y="152.4" smashed="yes" rot="MR0"/>
-<element name="LCTRL1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="21.43125" y="133.35" smashed="yes" rot="MR180">
-<attribute name="NAME" x="21.43125" y="136.15" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
-</element>
-<element name="LWIN1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="45.24375" y="133.35" smashed="yes" rot="MR180">
-<attribute name="NAME" x="45.24375" y="136.15" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
-</element>
-<element name="LALT1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="69.05625" y="133.35" smashed="yes" rot="MR180">
-<attribute name="NAME" x="69.05625" y="136.15" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
-</element>
+<element name="LCTRL1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="21.43125" y="133.35" smashed="yes" rot="MR180"/>
+<element name="LWIN1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="45.24375" y="133.35" smashed="yes" rot="MR180"/>
+<element name="LALT1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="69.05625" y="133.35" smashed="yes" rot="MR180"/>
 <element name="6.25U" library="Keyboard" package="MXHSPCB-6.25U-FLIPPED" value="KEYSWITCH-PLAIN-MXHSPCB-6.25U-FLIPPED" x="140.49375" y="133.35" smashed="yes" rot="MR0">
 <attribute name="NAME" x="140.49375" y="130.55" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RALT1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="223.8375" y="133.35" smashed="yes" rot="MR180">
-<attribute name="NAME" x="223.8375" y="136.15" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
-</element>
-<element name="RWIN1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="247.65" y="133.35" smashed="yes" rot="MR180">
-<attribute name="NAME" x="247.65" y="136.15" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
-</element>
-<element name="RCTRL1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="285.75" y="133.35" smashed="yes" rot="MR180">
-<attribute name="NAME" x="285.75" y="136.15" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
-</element>
+<element name="RALT1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="223.8375" y="133.35" smashed="yes" rot="MR180"/>
+<element name="RWIN1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="247.65" y="133.35" smashed="yes" rot="MR180"/>
+<element name="RCTRL1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="285.75" y="133.35" smashed="yes" rot="MR180"/>
 <element name="X2" library="con-JST SH" package="BM06B-SRSS-TB" value="BM06B-SRSS-TB" x="29.765625" y="183.9515625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="28.0615625" y="183.93875" size="1.016" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="NAME" x="27.9925" y="184.62875" size="1.016" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="31.035625" y="186.4515625" size="1.016" layer="28" rot="MR90" align="bottom-right"/>
 </element>
 <element name="X3" library="con-JST SH" package="BM06B-SRSS-TB" value="BM06B-SRSS-TB" x="275.034375" y="183.9515625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="276.939375" y="178.9115625" size="1.016" layer="26" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="279.9159375" y="184.269375" size="1.016" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="273.764375" y="181.4515625" size="1.016" layer="28" rot="MR270" align="bottom-right"/>
 </element>
-<element name="RWIN2" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="266.7" y="133.35" smashed="yes" rot="MR180">
-<attribute name="NAME" x="266.7" y="136.15" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
-<attribute name="NAME" x="266.7" y="136.15" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
-</element>
+<element name="RWIN2" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="266.7" y="133.35" smashed="yes" rot="MR180"/>
 <element name="J4" library="Headers" package="HEADER-4X1-2.54" value="I2C-HEADER" x="28.575" y="200.025" smashed="yes"/>
 <element name="J1" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="28.115" y="217.884375" smashed="yes" rot="MR180">
 <attribute name="AVAILABILITY" value="Unavailable" x="-12.36625" y="205.978125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1898,7 +1870,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" 1206 SMT PPTC | 0.75 Ih | 16V " x="1.7859375" y="180.975" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Bel Fuse" x="1.7859375" y="180.975" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="0ZCJ0075AF2E" x="1.7859375" y="180.975" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="34.3673875" y="198.02353125" size="1.27093125" layer="26" rot="MR180"/>
+<attribute name="NAME" x="40.3205125" y="201.00009375" size="1.27093125" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="1206 Bel Fuse" x="1.7859375" y="180.975" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="1.7859375" y="180.975" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="1.7859375" y="180.975" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1909,7 +1881,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="37.3140625" y="213.603125" size="1" layer="28" ratio="13" rot="MR0"/>
 </element>
 <element name="R1" library="Components" package="R0805" value="5.1k" x="19.05" y="213.7171875" smashed="yes" rot="MR180">
-<attribute name="NAME" x="18.05" y="212.8421875" size="1" layer="26" ratio="13" rot="MR180"/>
+<attribute name="NAME" x="18.05" y="215.81875" size="1" layer="26" ratio="13" rot="MR180"/>
 <attribute name="VALUE" x="18.05" y="215.6171875" size="1" layer="28" ratio="13" rot="MR180"/>
 </element>
 <element name="R4" library="Components" package="R0805" value="22R" x="121.44375" y="200.6203125" smashed="yes" rot="MR180">
@@ -1921,26 +1893,26 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="120.44375" y="204.9015625" size="1" layer="28" ratio="13" rot="MR180"/>
 </element>
 <element name="U3" library="LTC4054" package="LTC4054" value="LTC4054" x="61.3171875" y="182.7609375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="62.9046875" y="181.1734375" size="1.016" layer="26" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="62.309375" y="184.94375" size="1.016" layer="26" ratio="10" rot="MR0"/>
 </element>
 <element name="R7" library="Components" package="R0805" value="10k/2k" x="67.865625" y="182.7609375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="66.990625" y="183.7609375" size="1" layer="26" ratio="13" rot="MR270"/>
+<attribute name="NAME" x="66.865625" y="186.053125" size="1" layer="26" ratio="13" rot="MR180"/>
 <attribute name="VALUE" x="69.765625" y="183.7609375" size="1" layer="28" ratio="13" rot="MR270"/>
 </element>
 <element name="C1" library="Components" package="C0805" value="4.7uf" x="64.8890625" y="182.7609375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="64.0140625" y="183.7609375" size="1.016" layer="26" rot="MR270"/>
+<attribute name="NAME" x="63.8890625" y="186.053125" size="1.016" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="66.7890625" y="183.7609375" size="1.016" layer="28" rot="MR270"/>
 </element>
 <element name="R6" library="Components" package="R0805" value="1k" x="57.7453125" y="182.7609375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="58.6203125" y="181.7609375" size="1" layer="26" ratio="13" rot="MR90"/>
+<attribute name="NAME" x="58.7453125" y="184.8265625" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="55.8453125" y="181.7609375" size="1" layer="28" ratio="13" rot="MR90"/>
 </element>
 <element name="R9" library="Components" package="R0805" value="806k" x="117.2765625" y="183.35625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="116.4015625" y="184.35625" size="1" layer="26" ratio="13" rot="MR270"/>
+<attribute name="NAME" x="118.2765625" y="185.421875" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="119.1765625" y="184.35625" size="1" layer="28" ratio="13" rot="MR270"/>
 </element>
 <element name="R10" library="Components" package="R0805" value="2M" x="114.3" y="183.35625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="115.175" y="182.35625" size="1" layer="26" ratio="13" rot="MR90"/>
+<attribute name="NAME" x="115.3" y="185.421875" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="112.4" y="182.35625" size="1" layer="28" ratio="13" rot="MR90"/>
 </element>
 <element name="U2" library="AP2112K-3.3TRG1" package="SOT95P285X140-5N" value="AP2112K-3.3TRG1" x="107.15625" y="183.35625" smashed="yes" rot="MR180">
@@ -1948,14 +1920,14 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC Positive Fixed 1 Output 600mA SOT-25 " x="73.81875" y="183.35625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Diodes Inc." x="73.81875" y="183.35625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="AP2112K-3.3TRG1" x="73.81875" y="183.35625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="105.27231875" y="181.33563125" size="1.019340625" layer="26" rot="MR180"/>
+<attribute name="NAME" x="106.46294375" y="186.69344375" size="1.019340625" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="SOT-753 Diodes Inc." x="73.81875" y="183.35625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="73.81875" y="183.35625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/AP2112K-3.3TRG1/?ref=eda" x="73.81875" y="183.35625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="104.974809375" y="186.31875" size="1.0179" layer="28" rot="MR180"/>
 </element>
 <element name="C2" library="Components" package="C0805" value="1uf" x="111.3234375" y="183.35625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="110.4484375" y="184.35625" size="1.016" layer="26" rot="MR270"/>
+<attribute name="NAME" x="110.3234375" y="186.6484375" size="1.016" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="113.2234375" y="184.35625" size="1.016" layer="28" rot="MR270"/>
 </element>
 <element name="U5" library="AO3401" package="SOT23-3" value="AO3401" x="99.4171875" y="183.35625" smashed="yes" rot="MR90">
@@ -1963,21 +1935,20 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" P-Channel 30 V 4A (Ta) 1.4W (Ta) Surface Mount SOT-23-3 " x="104.1796875" y="100.0125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Alpha &amp; Omega Semiconductor" x="104.1796875" y="100.0125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MP" value="AO3401" x="104.1796875" y="100.0125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="99.4171875" y="181.70525" size="0.6096" layer="26" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="99.4171875" y="186.46775" size="1.016" layer="26" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="PACKAGE" value="SOT-23-3 Alpha &amp;amp; Omega Semiconductor" x="104.1796875" y="100.0125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PRICE" value="None" x="104.1796875" y="100.0125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="99.4171875" y="185.00725" size="0.6096" layer="28" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="C3" library="Components" package="C0805" value="1uf" x="102.9890625" y="183.35625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="103.8640625" y="182.35625" size="1.016" layer="26" rot="MR90"/>
+<attribute name="NAME" x="103.9890625" y="185.421875" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="101.0890625" y="182.35625" size="1.016" layer="28" rot="MR90"/>
 </element>
 <element name="D99" library="Components" package="SOD-123" value="1N5819" x="95.8453125" y="183.35625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="97.0040625" y="183.35625" size="1" layer="22" font="vector" ratio="13" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="94.6865625" y="183.35625" size="1" layer="22" font="vector" ratio="13" rot="MR90" align="top-center"/>
+<attribute name="NAME" x="95.8453125" y="186.3009375" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="bottom-center"/>
 </element>
 <element name="R5" library="Components" package="R0805" value="10k" x="92.2734375" y="183.35625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="91.3984375" y="184.35625" size="1" layer="26" ratio="13" rot="MR270"/>
+<attribute name="NAME" x="91.2734375" y="186.6484375" size="1" layer="26" ratio="13" rot="MR180"/>
 <attribute name="VALUE" x="94.1734375" y="184.35625" size="1" layer="28" ratio="13" rot="MR270"/>
 </element>
 <element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT" x="174.4265625" y="133.35" smashed="yes" rot="MR0">
@@ -1996,7 +1967,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="127.6765625" y="144.5671875" size="1.27" layer="28" rot="MR270" align="top-left"/>
 </element>
 <element name="X1" library="con-JST SH" package="SM04B-SRSS-TB" value="SM04B-SRSS-TB" x="50.00625" y="202.40625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="51.91125" y="206.44625" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="53.101875" y="202.2790625" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="51.91125" y="203.90625" size="1.016" layer="28" rot="MR90" align="bottom-right"/>
 </element>
 <element name="E1" library="SRV05-4.TCT" package="SOT95P280X145-6N" value="SRV05-4.TCT" x="116.68125" y="201.8109375" smashed="yes" rot="MR90">
@@ -2028,8 +1999,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="111.3" y="124.6109375" size="1.016" layer="25" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="118.3" y="124.6109375" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="BAT1" library="adafruit" package="JST-PH-2-THM-RA" value="" x="76.7953125" y="182.7609375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="72.9953125" y="180.0609375" size="1.27" layer="26" font="vector" rot="MR90"/>
+<element name="BAT" library="adafruit" package="JST-PH-2-THM-RA" value="" x="76.7953125" y="182.7609375" smashed="yes" rot="MR90">
+<attribute name="NAME" x="86.6390625" y="181.9375" size="1.27" layer="26" font="vector" rot="MR0"/>
 </element>
 <element name="S3" library="SparkFun-Switches" package="SWITCH_DPDT_SMD_AYZ0202" value="" x="41.671875" y="169.06875" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.671875" y="165.25875" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -2038,14 +2009,14 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="41.671875" y="172.87875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="X4" library="con-JST SH" package="BM06B-SRSS-TB" value="BM06B-SRSS-TB" x="69.05625" y="203.0015625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="70.96125" y="197.9615625" size="1.016" layer="26" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="70.96125" y="203.319375" size="1.016" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="67.78625" y="200.5015625" size="1.016" layer="28" rot="MR270" align="bottom-right"/>
 </element>
-<element name="BAT2" library="adafruit" package="JST-PH-2-THM-RA" value="" x="138.1125" y="182.7609375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="134.3125" y="180.0609375" size="1.27" layer="26" font="vector" rot="MR90"/>
+<element name="CHG" library="adafruit" package="JST-PH-2-THM-RA" value="" x="138.1125" y="182.7609375" smashed="yes" rot="MR90">
+<attribute name="NAME" x="147.95625" y="181.9375" size="1.27" layer="26" font="vector" rot="MR0"/>
 </element>
 <element name="LED1" library="adafruit" package="CHIPLED_1206" value="" x="53.578125" y="181.5703125" smashed="yes" rot="MR270">
-<attribute name="NAME" x="54.848125" y="182.8403125" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="55.4434375" y="182.8403125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="54.848125" y="179.0303125" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="Q1" library="2N7002" package="SOT95P240X111-3N" value="2N7002" x="104.775" y="136.921875" smashed="yes" rot="MR0">
@@ -2067,8 +2038,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="105.775" y="144.940625" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="105.775" y="142.165625" size="1" layer="28" ratio="13" rot="MR0"/>
 </element>
-<element name="R12" library="Components" package="R0402" value="" x="51.1125" y="184.5625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="51.7475" y="183.9275" size="1" layer="26" font="vector" rot="MR90"/>
+<element name="HERE" library="Components" package="R0402" value="" x="51.1125" y="184.5625" smashed="yes" rot="MR90">
+<attribute name="NAME" x="50.0303125" y="183.906875" size="1" layer="26" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="49.2075" y="183.9275" size="1" layer="28" font="vector" rot="MR90"/>
 </element>
 <element name="U6" library="WS2812-2020" package="LED_WS2812-2020" value="WS2812-2020" x="80.3671875" y="125.6109375" smashed="yes" rot="MR180">
@@ -2106,7 +2077,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Intelligent control LED light source, SMD-4 " x="11.90625" y="190.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="Worldsemi" x="11.90625" y="190.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="WS2812-2020" x="11.90625" y="190.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="10.45003125" y="192.498490625" size="1.270140625" layer="26" rot="MR270"/>
+<attribute name="NAME" x="11.098384375" y="193.80628125" size="1.270140625" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="Package " x="11.90625" y="190.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="11.90625" y="190.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="14.384340625" y="192.67548125" size="1.27075" layer="28" rot="MR270"/>
@@ -2116,7 +2087,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Intelligent control LED light source, SMD-4 " x="14.2875" y="216.0984375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Worldsemi" x="14.2875" y="216.0984375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="WS2812-2020" x="14.2875" y="216.0984375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="16.285990625" y="217.55465625" size="1.270140625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="15.690678125" y="217.55465625" size="1.016" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="Package " x="14.2875" y="216.0984375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="14.2875" y="216.0984375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="16.46298125" y="213.620346875" size="1.27075" layer="28" rot="MR0"/>
@@ -2126,7 +2097,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Intelligent control LED light source, SMD-4 " x="86.915625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Worldsemi" x="86.915625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="WS2812-2020" x="86.915625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="88.914115625" y="218.74528125" size="1.270140625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="92.485990625" y="216.95934375" size="1.270140625" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="Package " x="86.915625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="86.915625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="89.09110625" y="214.810971875" size="1.27075" layer="28" rot="MR0"/>
@@ -2136,7 +2107,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Intelligent control LED light source, SMD-4 " x="125.015625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Worldsemi" x="125.015625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="WS2812-2020" x="125.015625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="127.014115625" y="218.74528125" size="1.270140625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="129.990678125" y="216.95934375" size="1.270140625" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="Package " x="125.015625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="125.015625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="127.19110625" y="214.810971875" size="1.27075" layer="28" rot="MR0"/>
@@ -2146,7 +2117,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Intelligent control LED light source, SMD-4 " x="220.265625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Worldsemi" x="220.265625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="WS2812-2020" x="220.265625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="222.264115625" y="218.74528125" size="1.270140625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="225.835990625" y="216.95934375" size="1.270140625" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="Package " x="220.265625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="220.265625" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="222.44110625" y="214.810971875" size="1.27075" layer="28" rot="MR0"/>
@@ -2156,7 +2127,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Intelligent control LED light source, SMD-4 " x="269.08125" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Worldsemi" x="269.08125" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="WS2812-2020" x="269.08125" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="271.079740625" y="218.74528125" size="1.270140625" layer="26" rot="MR0"/>
+<attribute name="NAME" x="274.651615625" y="216.95934375" size="1.270140625" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="Package " x="269.08125" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="269.08125" y="217.2890625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="271.25673125" y="214.810971875" size="1.27075" layer="28" rot="MR0"/>
@@ -2166,7 +2137,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Intelligent control LED light source, SMD-4 " x="292.89375" y="190.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Worldsemi" x="292.89375" y="190.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MP" value="WS2812-2020" x="292.89375" y="190.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="294.34996875" y="188.501509375" size="1.270140625" layer="26" rot="MR90"/>
+<attribute name="NAME" x="293.701615625" y="193.74215625" size="1.270140625" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="Package " x="292.89375" y="190.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PRICE" value="None" x="292.89375" y="190.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="290.415659375" y="188.32451875" size="1.27075" layer="28" rot="MR90"/>
@@ -2234,31 +2205,31 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="15.9375" y="153.2" size="1" layer="28" ratio="13" rot="MR270"/>
 </element>
 <element name="C18" library="Components" package="C0603" value="" x="14.8828125" y="189.309375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="14.2328125" y="190.109375" size="1" layer="26" ratio="13" rot="MR270"/>
+<attribute name="NAME" x="14.678125" y="187.46875" size="1" layer="26" ratio="13" rot="MR180"/>
 <attribute name="VALUE" x="16.5328125" y="190.109375" size="1" layer="28" ratio="13" rot="MR270"/>
 </element>
 <element name="C19" library="Components" package="C0603" value="" x="14.2875" y="213.7171875" smashed="yes" rot="MR0">
-<attribute name="NAME" x="15.0875" y="214.3671875" size="1" layer="26" ratio="13" rot="MR0"/>
+<attribute name="NAME" x="15.6828125" y="211.9859375" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="15.0875" y="212.0671875" size="1" layer="28" ratio="13" rot="MR0"/>
 </element>
 <element name="C20" library="Components" package="C0603" value="" x="86.915625" y="214.9078125" smashed="yes" rot="MR0">
-<attribute name="NAME" x="87.715625" y="215.5578125" size="1" layer="26" ratio="13" rot="MR0"/>
+<attribute name="NAME" x="84.14375" y="216.7484375" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="87.715625" y="213.2578125" size="1" layer="28" ratio="13" rot="MR0"/>
 </element>
 <element name="C21" library="Components" package="C0603" value="" x="125.015625" y="214.9078125" smashed="yes" rot="MR0">
-<attribute name="NAME" x="125.815625" y="215.5578125" size="1" layer="26" ratio="13" rot="MR0"/>
+<attribute name="NAME" x="122.24375" y="216.7484375" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="125.815625" y="213.2578125" size="1" layer="28" ratio="13" rot="MR0"/>
 </element>
 <element name="C22" library="Components" package="C0603" value="" x="220.265625" y="214.9078125" smashed="yes" rot="MR0">
-<attribute name="NAME" x="221.065625" y="215.5578125" size="1" layer="26" ratio="13" rot="MR0"/>
+<attribute name="NAME" x="218.0890625" y="216.7484375" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="221.065625" y="213.2578125" size="1" layer="28" ratio="13" rot="MR0"/>
 </element>
 <element name="C23" library="Components" package="C0603" value="" x="269.08125" y="214.9078125" smashed="yes" rot="MR0">
-<attribute name="NAME" x="269.88125" y="215.5578125" size="1" layer="26" ratio="13" rot="MR0"/>
+<attribute name="NAME" x="265.7140625" y="213.1765625" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="269.88125" y="213.2578125" size="1" layer="28" ratio="13" rot="MR0"/>
 </element>
 <element name="C24" library="Components" package="C0603" value="" x="290.5125" y="190.5" smashed="yes" rot="MR90">
-<attribute name="NAME" x="291.1625" y="189.7" size="1" layer="26" ratio="13" rot="MR90"/>
+<attribute name="NAME" x="291.9078125" y="187.578125" size="1" layer="26" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="288.8625" y="189.7" size="1" layer="28" ratio="13" rot="MR90"/>
 </element>
 <element name="C25" library="Components" package="C0603" value="" x="289.9171875" y="158.9484375" smashed="yes" rot="MR90">
@@ -4684,9 +4655,9 @@ design rules under a new name.</description>
 <contactref element="S1" pad="4"/>
 <contactref element="S1" pad="3"/>
 <contactref element="J3" pad="1"/>
-<contactref element="BAT1" pad="2"/>
+<contactref element="BAT" pad="2"/>
 <contactref element="X4" pad="3"/>
-<contactref element="BAT2" pad="2"/>
+<contactref element="CHG" pad="2"/>
 <contactref element="R8" pad="1"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="X1" pad="4"/>
@@ -4911,7 +4882,7 @@ design rules under a new name.</description>
 <wire x1="50.293175" y1="185.7154" x2="50.5406625" y2="185.7154" width="0.4064" layer="16"/>
 <wire x1="50.5406625" y1="185.7154" x2="50.7156625" y2="185.8904" width="0.4064" layer="16"/>
 <wire x1="50.7156625" y1="185.8904" x2="73.70374375" y2="185.8904" width="0.4064" layer="16"/>
-<contactref element="R12" pad="2"/>
+<contactref element="HERE" pad="2"/>
 <wire x1="50.293175" y1="185.7154" x2="50.4596" y2="185.7154" width="0.4064" layer="16"/>
 <wire x1="50.4596" y1="185.7154" x2="51.1125" y2="185.0625" width="0.4064" layer="16"/>
 <wire x1="125.9765625" y1="134.2171875" x2="126.4828125" y2="134.2171875" width="0.4064" layer="16"/>
@@ -5076,7 +5047,7 @@ design rules under a new name.</description>
 <contactref element="F1" pad="1"/>
 <contactref element="J4" pad="4"/>
 <contactref element="E1" pad="5"/>
-<contactref element="BAT2" pad="1"/>
+<contactref element="CHG" pad="1"/>
 <wire x1="30.565" y1="212.789375" x2="30.565" y2="210.935" width="0.4064" layer="16"/>
 <wire x1="30.565" y1="210.935" x2="30.7" y2="210.8" width="0.4064" layer="16"/>
 <via x="30.7" y="210.8" extent="1-16" drill="0.35"/>
@@ -5230,7 +5201,7 @@ design rules under a new name.</description>
 <wire x1="115.159" y1="147.4826" x2="123.2826" y2="147.4826" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$82">
-<contactref element="BAT1" pad="1"/>
+<contactref element="BAT" pad="1"/>
 <contactref element="S3" pad="3"/>
 <wire x1="76.7953125" y1="183.6609375" x2="73.95625" y2="186.5" width="0.4064" layer="16"/>
 <wire x1="73.95625" y1="186.5" x2="40.1712" y2="186.5" width="0.4064" layer="16"/>
@@ -5805,7 +5776,7 @@ design rules under a new name.</description>
 <contactref element="R6" pad="2"/>
 <wire x1="57.7453125" y1="183.7609375" x2="58.0453125" y2="184.0609375" width="0.4064" layer="16"/>
 <wire x1="58.0453125" y1="184.0609375" x2="60.3671875" y2="184.0609375" width="0.4064" layer="16"/>
-<contactref element="R12" pad="1"/>
+<contactref element="HERE" pad="1"/>
 <wire x1="51.1125" y1="184.0625" x2="57.44375" y2="184.0625" width="0.4064" layer="16"/>
 <wire x1="57.44375" y1="184.0625" x2="57.7453125" y2="183.7609375" width="0.4064" layer="16"/>
 </signal>
@@ -5907,9 +5878,7 @@ design rules under a new name.</description>
 <wire x1="16.6009" y1="215.77665" x2="20.01475" y2="212.3628" width="0.254" layer="1"/>
 <wire x1="20.01475" y1="212.3628" x2="20.2151" y2="212.3628" width="0.254" layer="1"/>
 <wire x1="20.2151" y1="212.3628" x2="20.6779" y2="211.9" width="0.254" layer="1"/>
-<wire x1="20.6779" y1="211.9" x2="22.6" y2="211.9" width="0.254" layer="1"/>
-<wire x1="22.6" y1="211.9" x2="24.6" y2="211.9" width="0.254" layer="1"/>
-<wire x1="24.6" y1="211.9" x2="27.4422" y2="211.9" width="0.254" layer="1"/>
+<wire x1="20.6779" y1="211.9" x2="27.4422" y2="211.9" width="0.254" layer="1"/>
 <wire x1="27.4422" y1="211.9" x2="29.8422" y2="214.3" width="0.254" layer="1"/>
 <wire x1="29.8422" y1="214.3" x2="29.8422" y2="214.716025" width="0.254" layer="1"/>
 <wire x1="29.8422" y1="214.716025" x2="30.52335" y2="215.397175" width="0.254" layer="1"/>
