@@ -13697,7 +13697,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <part name="R" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U"/>
 <part name="F" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U"/>
 <part name="C" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U"/>
-<part name="7U" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-7U-FLIPPED" value="KEYSWITCH-PLAIN-MXHSPCB-7U-FLIPPED"/>
+<part name="7U" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-7U" value="KEYSWITCH-PLAIN-MXHSPCB-7U"/>
 <part name="5" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U"/>
 <part name="T" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U"/>
 <part name="G" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U"/>
@@ -13844,7 +13844,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <part name="BAT" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
 <part name="S3" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
 <part name="X4" library="con-JST SH" deviceset="BM06B-SRSS" device="-TB"/>
-<part name="BAT2" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
+<part name="CHG" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206"/>
 <part name="Q1" library="2N7002" deviceset="2N7002" device=""/>
 <part name="R15" library="Components" deviceset="RESISTOR" device="-0805" value="100"/>
@@ -14482,7 +14482,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <attribute name="VALUE" x="-97.79" y="106.68" size="1.778" layer="96"/>
 <attribute name="NAME" x="-97.79" y="127.762" size="1.778" layer="95"/>
 </instance>
-<instance part="BAT2" gate="G$1" x="-127" y="101.6" smashed="yes" rot="R180">
+<instance part="CHG" gate="G$1" x="-127" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="-120.65" y="95.885" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-120.65" y="106.68" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -15777,7 +15777,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 </segment>
 <segment>
 <label x="-119.38" y="99.06" size="1.016" layer="95" xref="yes"/>
-<pinref part="BAT2" gate="G$1" pin="1"/>
+<pinref part="CHG" gate="G$1" pin="1"/>
 <wire x1="-124.46" y1="99.06" x2="-119.38" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -16011,7 +16011,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 </segment>
 <segment>
 <label x="-119.38" y="101.6" size="1.016" layer="95" xref="yes"/>
-<pinref part="BAT2" gate="G$1" pin="2"/>
+<pinref part="CHG" gate="G$1" pin="2"/>
 <wire x1="-124.46" y1="101.6" x2="-119.38" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
