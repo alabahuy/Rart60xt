@@ -10231,6 +10231,49 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <vertex x="1.8" y="4.575"/>
 </polygon>
 </package>
+<package name="BM02B-SRSS-TB">
+<description>
+
+&lt;b&gt;JST SH series header&lt;/b&gt; 1.00mm pitch disconnectable crimp style connectors, SMT vertical (top entry type), 2 pins&lt;p&gt;
+
+</description>
+<smd name="1" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="M1" x="1.8" y="-2.525" dx="1.2" dy="1.8" layer="1"/>
+<smd name="M2" x="-1.8" y="-2.525" dx="1.2" dy="1.8" layer="1"/>
+<text x="3.04" y="-1.905" size="1.016" layer="25" rot="R270" align="bottom-center">&gt;NAME</text>
+<text x="0.5" y="1.27" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
+<wire x1="-2" y1="-0.325" x2="-1" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="1" y1="-0.325" x2="2" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="2" y1="-0.325" x2="2" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="1" y1="-3.225" x2="-1" y2="-3.225" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-1.45" x2="-2" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-0.325" x2="2" y2="-0.325" width="0.1524" layer="51"/>
+<wire x1="2" y1="-0.325" x2="2" y2="-3.225" width="0.1524" layer="51"/>
+<wire x1="2" y1="-3.225" x2="-2" y2="-3.225" width="0.1524" layer="51"/>
+<wire x1="-2" y1="-3.225" x2="-2" y2="-0.325" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="-0.725" x2="1.2" y2="-0.725" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="-0.725" x2="-1.2" y2="-1.725" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="-1.725" x2="-1.56" y2="-1.725" width="0.1524" layer="51"/>
+<wire x1="-1.56" y1="-1.725" x2="-1.56" y2="-2.325" width="0.1524" layer="51"/>
+<wire x1="-1.56" y1="-2.325" x2="-1.2" y2="-2.325" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="-2.325" x2="-1.2" y2="-2.825" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="-2.825" x2="1.2" y2="-2.825" width="0.1524" layer="51"/>
+<wire x1="1.2" y1="-0.725" x2="1.2" y2="-1.725" width="0.1524" layer="51"/>
+<wire x1="1.2" y1="-1.725" x2="1.56" y2="-1.725" width="0.1524" layer="51"/>
+<wire x1="1.56" y1="-1.725" x2="1.56" y2="-2.325" width="0.1524" layer="51"/>
+<wire x1="1.56" y1="-2.325" x2="1.2" y2="-2.325" width="0.1524" layer="51"/>
+<wire x1="1.2" y1="-2.325" x2="1.2" y2="-2.825" width="0.1524" layer="51"/>
+<rectangle x1="0.4" y1="-2.405" x2="0.6" y2="-2.055" layer="51"/>
+<rectangle x1="0.4" y1="-0.325" x2="0.6" y2="0.375" layer="51"/>
+<rectangle x1="-0.6" y1="-2.405" x2="-0.4" y2="-2.055" layer="51"/>
+<rectangle x1="-0.6" y1="-0.325" x2="-0.4" y2="0.375" layer="51"/>
+<polygon width="0.1524" layer="51">
+<vertex x="0.5" y="-3.2"/>
+<vertex x="0.3" y="-2.85"/>
+<vertex x="0.7" y="-2.85"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="M_1R06">
@@ -10268,6 +10311,18 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="M_1R02">
+<wire x1="3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<text x="-1.27" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10308,6 +10363,25 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BM02B-SRSS" prefix="X">
+<description>
+&lt;b&gt;JST SH series header&lt;/b&gt; 1.00mm pitch disconnectable crimp style connectors, vertical (side entry type), 2 pins&lt;p&gt;
+</description>
+<gates>
+<gate name="G$1" symbol="M_1R02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-TB" package="BM02B-SRSS-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13793,6 +13867,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <part name="=3" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U"/>
 <part name="=4" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U"/>
 <part name="=5" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U"/>
+<part name="D65" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="D66" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="D67" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="D68" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="D69" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="D70" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="D71" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="D72" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="D73" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="D74" library="Components" deviceset="DIODE" device="-SOD-123"/>
+<part name="X5" library="con-JST SH" deviceset="BM02B-SRSS" device="-TB"/>
+<part name="X6" library="con-JST SH" deviceset="BM02B-SRSS" device="-TB"/>
 </parts>
 <sheets>
 <sheet>
@@ -14453,6 +14539,54 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <instance part="=5" gate="G$1" x="444.5" y="-43.18" smashed="yes">
 <attribute name="NAME" x="437.69" y="-37.862" size="1" layer="95"/>
 </instance>
+<instance part="D65" gate="D$1" x="-12.7" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="-15.3416" y="111.9886" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-8.2042" y="111.7346" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D66" gate="D$1" x="-12.7" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="-15.3416" y="76.4286" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-8.2042" y="76.1746" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D67" gate="D$1" x="-12.7" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-15.3416" y="40.8686" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-8.2042" y="40.6146" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D68" gate="D$1" x="-12.7" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="-15.3416" y="5.3086" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-8.2042" y="5.0546" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D69" gate="D$1" x="-12.7" y="-27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="-15.3416" y="-30.2514" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-8.2042" y="-30.5054" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D70" gate="D$1" x="447.04" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="444.3984" y="111.9886" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="451.5358" y="111.7346" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D71" gate="D$1" x="447.04" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="444.3984" y="76.4286" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="451.5358" y="76.1746" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D72" gate="D$1" x="447.04" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="444.3984" y="40.8686" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="451.5358" y="40.6146" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D73" gate="D$1" x="447.04" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="444.3984" y="5.3086" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="451.5358" y="5.0546" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D74" gate="D$1" x="447.04" y="-27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="444.3984" y="-30.2514" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="451.5358" y="-30.5054" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="X5" gate="G$1" x="-132.08" y="101.6" smashed="yes">
+<attribute name="VALUE" x="-133.35" y="93.98" size="1.778" layer="96"/>
+<attribute name="NAME" x="-133.35" y="104.902" size="1.778" layer="95"/>
+</instance>
+<instance part="X6" gate="G$1" x="-160.02" y="119.38" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-158.75" y="127" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="-158.75" y="116.078" size="1.778" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15085,9 +15219,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <junction x="383.54" y="119.38"/>
 <pinref part="D33" gate="D$1" pin="C"/>
 <wire x1="414.02" y1="119.38" x2="383.54" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="119.38" x2="-12.7" y2="119.38" width="0.1524" layer="91"/>
 <junction x="17.78" y="119.38"/>
 <label x="-30.48" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D65" gate="D$1" pin="C"/>
+<wire x1="-12.7" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-12.7" y="119.38"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="6"/>
@@ -15141,9 +15278,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <wire x1="383.54" y1="83.82" x2="414.02" y2="83.82" width="0.1524" layer="91"/>
 <junction x="383.54" y="83.82"/>
 <pinref part="D34" gate="D$1" pin="C"/>
-<wire x1="-27.94" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="83.82" x2="-12.7" y2="83.82" width="0.1524" layer="91"/>
 <junction x="17.78" y="83.82"/>
 <label x="-27.94" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D66" gate="D$1" pin="C"/>
+<wire x1="-12.7" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-12.7" y="83.82"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="5"/>
@@ -15197,9 +15337,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="D48" gate="D$1" pin="C"/>
 <wire x1="383.54" y1="48.26" x2="414.02" y2="48.26" width="0.1524" layer="91"/>
 <junction x="383.54" y="48.26"/>
-<wire x1="-27.94" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="48.26" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
 <junction x="17.78" y="48.26"/>
 <label x="-27.94" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D67" gate="D$1" pin="C"/>
+<wire x1="-12.7" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-12.7" y="48.26"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="4"/>
@@ -15253,9 +15396,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="D14" gate="D$1" pin="C"/>
 <junction x="383.54" y="12.7"/>
 <pinref part="D13" gate="D$1" pin="C"/>
-<wire x1="-27.94" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
 <junction x="17.78" y="12.7"/>
 <label x="-27.94" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D68" gate="D$1" pin="C"/>
+<wire x1="-12.7" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
+<junction x="-12.7" y="12.7"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="3"/>
@@ -15335,11 +15481,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="D7" gate="D$1" pin="C"/>
 <junction x="353.06" y="-22.86"/>
 <wire x1="383.54" y1="-22.86" x2="414.02" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-22.86" x2="17.78" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-22.86" x2="-12.7" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="17.78" y="-22.86"/>
 <label x="-27.94" y="-22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="D64" gate="D$1" pin="C"/>
 <junction x="383.54" y="-22.86"/>
+<pinref part="D69" gate="D$1" pin="C"/>
+<wire x1="-12.7" y1="-22.86" x2="17.78" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-12.7" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="2"/>
@@ -15448,6 +15597,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <wire x1="-152.4" y1="121.92" x2="-152.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="109.22" x2="-157.48" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="BAT" gate="G$1" pin="1"/>
+<pinref part="X6" gate="G$1" pin="1"/>
+<junction x="-167.64" y="121.92"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -15471,6 +15622,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <label x="-119.38" y="99.06" size="1.016" layer="95" xref="yes"/>
 <pinref part="CHG" gate="G$1" pin="1"/>
 <wire x1="-124.46" y1="99.06" x2="-119.38" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="X5" gate="G$1" pin="1"/>
+<junction x="-124.46" y="99.06"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -15505,6 +15658,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="X1" gate="G$1" pin="4"/>
 <wire x1="-121.92" y1="116.84" x2="-124.46" y2="116.84" width="0.1524" layer="91"/>
 <label x="-124.46" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="-101.6" y1="111.76" x2="-88.9" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="X4" gate="G$1" pin="1"/>
+<label x="-101.6" y="111.76" size="1.27" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -15642,6 +15800,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <label x="-119.38" y="101.6" size="1.016" layer="95" xref="yes"/>
 <pinref part="CHG" gate="G$1" pin="2"/>
 <wire x1="-124.46" y1="101.6" x2="-119.38" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="X5" gate="G$1" pin="2"/>
+<junction x="-124.46" y="101.6"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="1"/>
@@ -15723,6 +15883,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="BAT" gate="G$1" pin="2"/>
 <pinref part="S3" gate="1" pin="S"/>
 <wire x1="-185.42" y1="119.38" x2="-167.64" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="X6" gate="G$1" pin="2"/>
+<junction x="-167.64" y="119.38"/>
 </segment>
 </net>
 <net name="VCCNRF" class="0">
@@ -15918,6 +16080,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="-116.84" y1="83.82" x2="-121.92" y2="83.82" width="0.1524" layer="91"/>
 <label x="-121.92" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="-119.38" y1="83.82" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X20" class="0">
@@ -16159,6 +16322,66 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRV05-4.TCT.p
 <segment>
 <pinref part="D13" gate="D$1" pin="A"/>
 <pinref part="FN" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="D65" gate="D$1" pin="A"/>
+<pinref part="~1" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="D66" gate="D$1" pin="A"/>
+<pinref part="TAB1" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="D67" gate="D$1" pin="A"/>
+<pinref part="TAB2" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="D68" gate="D$1" pin="A"/>
+<pinref part="TAB3" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="D69" gate="D$1" pin="A"/>
+<pinref part="TAB4" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="D70" gate="D$1" pin="A"/>
+<pinref part="=1" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="D71" gate="D$1" pin="A"/>
+<pinref part="=2" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="D72" gate="D$1" pin="A"/>
+<pinref part="=3" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="D73" gate="D$1" pin="A"/>
+<pinref part="=4" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="D74" gate="D$1" pin="A"/>
+<pinref part="=5" gate="G$1" pin="P1"/>
 </segment>
 </net>
 </nets>
