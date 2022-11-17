@@ -13967,6 +13967,8 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <part name="U23" library="WS2812-2020" deviceset="WS2812-2020" device=""/>
 <part name="R17" library="Components" deviceset="RESISTOR" device="-0805" value="22R"/>
 <part name="X7" library="con-JST SH" deviceset="BM06B-SRSS" device="-TB"/>
+<part name="X8" library="con-JST SH" deviceset="BM06B-SRSS" device="-TB"/>
+<part name="HERE1" library="Components" deviceset="RESISTOR" device="-0405"/>
 </parts>
 <sheets>
 <sheet>
@@ -14755,6 +14757,14 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <attribute name="VALUE" x="-344.17" y="68.58" size="1.778" layer="96"/>
 <attribute name="NAME" x="-344.17" y="89.662" size="1.778" layer="95"/>
 </instance>
+<instance part="X8" gate="G$1" x="-342.9" y="10.16" smashed="yes">
+<attribute name="VALUE" x="-344.17" y="-2.54" size="1.778" layer="96"/>
+<attribute name="NAME" x="-344.17" y="18.542" size="1.778" layer="95"/>
+</instance>
+<instance part="HERE1" gate="G$1" x="-190.5" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="-191.9986" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-187.198" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15463,6 +15473,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D65" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
 <junction x="-12.7" y="119.38"/>
+<pinref part="D70" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="119.38" x2="447.04" y2="119.38" width="0.1524" layer="91"/>
+<junction x="414.02" y="119.38"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="6"/>
@@ -15483,6 +15496,11 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="X7" gate="G$1" pin="6"/>
 <wire x1="-335.28" y1="86.36" x2="-332.74" y2="86.36" width="0.1524" layer="91"/>
 <label x="-332.74" y="86.36" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X8" gate="G$1" pin="6"/>
+<wire x1="-335.28" y1="15.24" x2="-332.74" y2="15.24" width="0.1524" layer="91"/>
+<label x="-332.74" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R2" class="0">
@@ -15532,6 +15550,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D66" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-12.7" y="83.82"/>
+<pinref part="D71" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="83.82" x2="447.04" y2="83.82" width="0.1524" layer="91"/>
+<junction x="414.02" y="83.82"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="5"/>
@@ -15552,6 +15573,11 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="X7" gate="G$1" pin="5"/>
 <wire x1="-335.28" y1="83.82" x2="-332.74" y2="83.82" width="0.1524" layer="91"/>
 <label x="-332.74" y="83.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X8" gate="G$1" pin="5"/>
+<wire x1="-335.28" y1="12.7" x2="-332.74" y2="12.7" width="0.1524" layer="91"/>
+<label x="-332.74" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R3" class="0">
@@ -15601,6 +15627,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D67" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-12.7" y="48.26"/>
+<pinref part="D72" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="48.26" x2="447.04" y2="48.26" width="0.1524" layer="91"/>
+<junction x="414.02" y="48.26"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="4"/>
@@ -15621,6 +15650,11 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="X7" gate="G$1" pin="4"/>
 <wire x1="-335.28" y1="81.28" x2="-332.74" y2="81.28" width="0.1524" layer="91"/>
 <label x="-332.74" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X8" gate="G$1" pin="4"/>
+<wire x1="-335.28" y1="10.16" x2="-332.74" y2="10.16" width="0.1524" layer="91"/>
+<label x="-332.74" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R4" class="0">
@@ -15670,6 +15704,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D68" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-12.7" y="12.7"/>
+<pinref part="D73" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="12.7" x2="447.04" y2="12.7" width="0.1524" layer="91"/>
+<junction x="414.02" y="12.7"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="3"/>
@@ -15690,6 +15727,11 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="X7" gate="G$1" pin="3"/>
 <wire x1="-335.28" y1="78.74" x2="-332.74" y2="78.74" width="0.1524" layer="91"/>
 <label x="-332.74" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X8" gate="G$1" pin="3"/>
+<wire x1="-335.28" y1="7.62" x2="-332.74" y2="7.62" width="0.1524" layer="91"/>
+<label x="-332.74" y="7.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -15767,6 +15809,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D69" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="-22.86" x2="17.78" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-12.7" y="-22.86"/>
+<pinref part="D74" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="-22.86" x2="447.04" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="414.02" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="2"/>
@@ -15787,6 +15832,11 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="X7" gate="G$1" pin="2"/>
 <wire x1="-335.28" y1="76.2" x2="-332.74" y2="76.2" width="0.1524" layer="91"/>
 <label x="-332.74" y="76.2" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X8" gate="G$1" pin="2"/>
+<wire x1="-335.28" y1="5.08" x2="-332.74" y2="5.08" width="0.1524" layer="91"/>
+<label x="-332.74" y="5.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="C15" class="0">
@@ -15816,6 +15866,11 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="U1" gate="G$1" pin="P0.07"/>
 <wire x1="-294.64" y1="10.16" x2="-297.18" y2="10.16" width="0.1524" layer="91"/>
 <label x="-297.18" y="10.16" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X8" gate="G$1" pin="1"/>
+<wire x1="-335.28" y1="2.54" x2="-332.74" y2="2.54" width="0.1524" layer="91"/>
+<label x="-332.74" y="2.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="C16" class="0">
@@ -16203,6 +16258,10 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <junction x="-177.8" y="109.22"/>
 <wire x1="-177.8" y1="116.84" x2="-177.8" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="S3" gate="1" pin="P"/>
+<pinref part="HERE1" gate="G$1" pin="2"/>
+<wire x1="-190.5" y1="121.92" x2="-190.5" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="116.84" x2="-177.8" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-177.8" y="116.84"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="D"/>
@@ -16479,6 +16538,10 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="S3" gate="1" pin="O"/>
 <wire x1="-185.42" y1="114.3" x2="-175.26" y2="114.3" width="0.1524" layer="91"/>
 <label x="-175.26" y="114.3" size="1.778" layer="95" xref="yes"/>
+<pinref part="HERE1" gate="G$1" pin="1"/>
+<wire x1="-190.5" y1="111.76" x2="-190.5" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="114.3" x2="-185.42" y2="114.3" width="0.1524" layer="91"/>
+<junction x="-185.42" y="114.3"/>
 </segment>
 </net>
 <net name="N$1" class="0">
