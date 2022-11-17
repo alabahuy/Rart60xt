@@ -16563,21 +16563,6 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <label x="-246.38" y="-2.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="X19" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="-116.84" y1="83.82" x2="-121.92" y2="83.82" width="0.1524" layer="91"/>
-<label x="-121.92" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-<wire x1="-119.38" y1="83.82" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="X20" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="86.36" x2="-121.92" y2="86.36" width="0.1524" layer="91"/>
-<label x="-121.92" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="VSS" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC"/>
@@ -16594,12 +16579,23 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <wire x1="-248.92" y1="-7.62" x2="-246.38" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-246.38" y="-7.62" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="-116.84" y1="83.82" x2="-121.92" y2="83.82" width="0.1524" layer="91"/>
+<label x="-121.92" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="-119.38" y1="83.82" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="20" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P1.06"/>
 <wire x1="-248.92" y1="-12.7" x2="-246.38" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-246.38" y="-12.7" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="-116.84" y1="86.36" x2="-121.92" y2="86.36" width="0.1524" layer="91"/>
+<label x="-121.92" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">

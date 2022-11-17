@@ -15468,6 +15468,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D65" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
 <junction x="-12.7" y="119.38"/>
+<pinref part="D70" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="119.38" x2="447.04" y2="119.38" width="0.1524" layer="91"/>
+<junction x="414.02" y="119.38"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="6"/>
@@ -15542,6 +15545,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D66" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-12.7" y="83.82"/>
+<pinref part="D71" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="83.82" x2="447.04" y2="83.82" width="0.1524" layer="91"/>
+<junction x="414.02" y="83.82"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="5"/>
@@ -15616,6 +15622,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D67" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-12.7" y="48.26"/>
+<pinref part="D72" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="48.26" x2="447.04" y2="48.26" width="0.1524" layer="91"/>
+<junction x="414.02" y="48.26"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="4"/>
@@ -15690,6 +15699,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D68" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-12.7" y="12.7"/>
+<pinref part="D73" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="12.7" x2="447.04" y2="12.7" width="0.1524" layer="91"/>
+<junction x="414.02" y="12.7"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="3"/>
@@ -15792,6 +15804,9 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="D69" gate="D$1" pin="C"/>
 <wire x1="-12.7" y1="-22.86" x2="17.78" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-12.7" y="-22.86"/>
+<pinref part="D74" gate="D$1" pin="C"/>
+<wire x1="414.02" y1="-22.86" x2="447.04" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="414.02" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="2"/>

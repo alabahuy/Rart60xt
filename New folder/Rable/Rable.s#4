@@ -13968,6 +13968,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <part name="R17" library="Components" deviceset="RESISTOR" device="-0805" value="22R"/>
 <part name="X7" library="con-JST SH" deviceset="BM06B-SRSS" device="-TB"/>
 <part name="X8" library="con-JST SH" deviceset="BM06B-SRSS" device="-TB"/>
+<part name="HERE1" library="Components" deviceset="RESISTOR" device="-0405"/>
 </parts>
 <sheets>
 <sheet>
@@ -14759,6 +14760,10 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <instance part="X8" gate="G$1" x="-342.9" y="10.16" smashed="yes">
 <attribute name="VALUE" x="-344.17" y="-2.54" size="1.778" layer="96"/>
 <attribute name="NAME" x="-344.17" y="18.542" size="1.778" layer="95"/>
+</instance>
+<instance part="HERE1" gate="G$1" x="-190.5" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="-191.9986" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-187.198" y="113.03" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -16253,6 +16258,10 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <junction x="-177.8" y="109.22"/>
 <wire x1="-177.8" y1="116.84" x2="-177.8" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="S3" gate="1" pin="P"/>
+<pinref part="HERE1" gate="G$1" pin="2"/>
+<wire x1="-190.5" y1="121.92" x2="-190.5" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="116.84" x2="-177.8" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-177.8" y="116.84"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="D"/>
@@ -16529,6 +16538,10 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="S3" gate="1" pin="O"/>
 <wire x1="-185.42" y1="114.3" x2="-175.26" y2="114.3" width="0.1524" layer="91"/>
 <label x="-175.26" y="114.3" size="1.778" layer="95" xref="yes"/>
+<pinref part="HERE1" gate="G$1" pin="1"/>
+<wire x1="-190.5" y1="111.76" x2="-190.5" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="114.3" x2="-185.42" y2="114.3" width="0.1524" layer="91"/>
+<junction x="-185.42" y="114.3"/>
 </segment>
 </net>
 <net name="N$1" class="0">
