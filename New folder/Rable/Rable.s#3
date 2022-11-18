@@ -13968,7 +13968,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <part name="R17" library="Components" deviceset="RESISTOR" device="-0805" value="22R"/>
 <part name="X7" library="con-JST SH" deviceset="BM06B-SRSS" device="-TB"/>
 <part name="X8" library="con-JST SH" deviceset="BM06B-SRSS" device="-TB"/>
-<part name="HERE1" library="Components" deviceset="RESISTOR" device="-0405"/>
+<part name="USB_EXT" library="Components" deviceset="RESISTOR" device="-0405"/>
 </parts>
 <sheets>
 <sheet>
@@ -14761,7 +14761,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <attribute name="VALUE" x="-344.17" y="-2.54" size="1.778" layer="96"/>
 <attribute name="NAME" x="-344.17" y="18.542" size="1.778" layer="95"/>
 </instance>
-<instance part="HERE1" gate="G$1" x="-190.5" y="116.84" smashed="yes" rot="R90">
+<instance part="USB_EXT" gate="G$1" x="-190.5" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-191.9986" y="113.03" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-187.198" y="113.03" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -16258,7 +16258,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <junction x="-177.8" y="109.22"/>
 <wire x1="-177.8" y1="116.84" x2="-177.8" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="S3" gate="1" pin="P"/>
-<pinref part="HERE1" gate="G$1" pin="2"/>
+<pinref part="USB_EXT" gate="G$1" pin="2"/>
 <wire x1="-190.5" y1="121.92" x2="-190.5" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="-190.5" y1="116.84" x2="-177.8" y2="116.84" width="0.1524" layer="91"/>
 <junction x="-177.8" y="116.84"/>
@@ -16538,7 +16538,7 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <pinref part="S3" gate="1" pin="O"/>
 <wire x1="-185.42" y1="114.3" x2="-175.26" y2="114.3" width="0.1524" layer="91"/>
 <label x="-175.26" y="114.3" size="1.778" layer="95" xref="yes"/>
-<pinref part="HERE1" gate="G$1" pin="1"/>
+<pinref part="USB_EXT" gate="G$1" pin="1"/>
 <wire x1="-190.5" y1="111.76" x2="-190.5" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-190.5" y1="114.3" x2="-185.42" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-185.42" y="114.3"/>
@@ -16563,21 +16563,6 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <label x="-246.38" y="-2.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="X19" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="-116.84" y1="83.82" x2="-121.92" y2="83.82" width="0.1524" layer="91"/>
-<label x="-121.92" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-<wire x1="-119.38" y1="83.82" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="X20" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="86.36" x2="-121.92" y2="86.36" width="0.1524" layer="91"/>
-<label x="-121.92" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="VSS" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC"/>
@@ -16594,12 +16579,23 @@ integrated light source &lt;a href="https://pricing.snapeda.com/parts/WS2812-202
 <wire x1="-248.92" y1="-7.62" x2="-246.38" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-246.38" y="-7.62" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="-116.84" y1="83.82" x2="-121.92" y2="83.82" width="0.1524" layer="91"/>
+<label x="-121.92" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="-119.38" y1="83.82" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="20" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P1.06"/>
 <wire x1="-248.92" y1="-12.7" x2="-246.38" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-246.38" y="-12.7" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="-116.84" y1="86.36" x2="-121.92" y2="86.36" width="0.1524" layer="91"/>
+<label x="-121.92" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
