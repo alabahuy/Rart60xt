@@ -3,10 +3,10 @@
 <eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5953125" unitdist="mm" unit="mm" style="lines" multiple="8" display="yes" altdistance="2.38125" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="8" display="yes" altdistance="2.38125" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -203,54 +203,6 @@
 <wire x1="88.10625" y1="9.525" x2="85.725" y2="7.14375" width="0.0762" layer="20" curve="-90"/>
 <wire x1="85.725" y1="7.14375" x2="9.525" y2="7.14375" width="0.0762" layer="20"/>
 <wire x1="9.525" y1="7.14375" x2="7.14375" y2="9.525" width="0.0762" layer="20" curve="-90"/>
-<wire x1="17.2640625" y1="53.578125" x2="20.8359375" y2="53.578125" width="0.0762" layer="20"/>
-<wire x1="20.8359375" y1="53.578125" x2="20.8359375" y2="50.00625" width="0.0762" layer="20"/>
-<wire x1="20.8359375" y1="50.00625" x2="17.2640625" y2="50.00625" width="0.0762" layer="20"/>
-<wire x1="17.2640625" y1="50.00625" x2="17.2640625" y2="53.578125" width="0.0762" layer="20"/>
-<wire x1="36.3140625" y1="53.578125" x2="39.8859375" y2="53.578125" width="0.0762" layer="20"/>
-<wire x1="39.8859375" y1="53.578125" x2="39.8859375" y2="50.00625" width="0.0762" layer="20"/>
-<wire x1="39.8859375" y1="50.00625" x2="36.3140625" y2="50.00625" width="0.0762" layer="20"/>
-<wire x1="36.3140625" y1="50.00625" x2="36.3140625" y2="53.578125" width="0.0762" layer="20"/>
-<wire x1="55.3640625" y1="53.578125" x2="58.9359375" y2="53.578125" width="0.0762" layer="20"/>
-<wire x1="58.9359375" y1="53.578125" x2="58.9359375" y2="50.00625" width="0.0762" layer="20"/>
-<wire x1="58.9359375" y1="50.00625" x2="55.3640625" y2="50.00625" width="0.0762" layer="20"/>
-<wire x1="55.3640625" y1="50.00625" x2="55.3640625" y2="53.578125" width="0.0762" layer="20"/>
-<wire x1="74.4140625" y1="53.578125" x2="77.9859375" y2="53.578125" width="0.0762" layer="20"/>
-<wire x1="77.9859375" y1="53.578125" x2="77.9859375" y2="50.00625" width="0.0762" layer="20"/>
-<wire x1="77.9859375" y1="50.00625" x2="74.4140625" y2="50.00625" width="0.0762" layer="20"/>
-<wire x1="74.4140625" y1="50.00625" x2="74.4140625" y2="53.578125" width="0.0762" layer="20"/>
-<wire x1="17.2640625" y1="34.528125" x2="20.8359375" y2="34.528125" width="0.0762" layer="20"/>
-<wire x1="20.8359375" y1="34.528125" x2="20.8359375" y2="30.95625" width="0.0762" layer="20"/>
-<wire x1="20.8359375" y1="30.95625" x2="17.2640625" y2="30.95625" width="0.0762" layer="20"/>
-<wire x1="17.2640625" y1="30.95625" x2="17.2640625" y2="34.528125" width="0.0762" layer="20"/>
-<wire x1="36.3140625" y1="34.528125" x2="39.8859375" y2="34.528125" width="0.0762" layer="20"/>
-<wire x1="39.8859375" y1="34.528125" x2="39.8859375" y2="30.95625" width="0.0762" layer="20"/>
-<wire x1="39.8859375" y1="30.95625" x2="36.3140625" y2="30.95625" width="0.0762" layer="20"/>
-<wire x1="36.3140625" y1="30.95625" x2="36.3140625" y2="34.528125" width="0.0762" layer="20"/>
-<wire x1="55.3640625" y1="34.528125" x2="58.9359375" y2="34.528125" width="0.0762" layer="20"/>
-<wire x1="58.9359375" y1="34.528125" x2="58.9359375" y2="30.95625" width="0.0762" layer="20"/>
-<wire x1="58.9359375" y1="30.95625" x2="55.3640625" y2="30.95625" width="0.0762" layer="20"/>
-<wire x1="55.3640625" y1="30.95625" x2="55.3640625" y2="34.528125" width="0.0762" layer="20"/>
-<wire x1="74.4140625" y1="34.528125" x2="77.9859375" y2="34.528125" width="0.0762" layer="20"/>
-<wire x1="77.9859375" y1="34.528125" x2="77.9859375" y2="30.95625" width="0.0762" layer="20"/>
-<wire x1="77.9859375" y1="30.95625" x2="74.4140625" y2="30.95625" width="0.0762" layer="20"/>
-<wire x1="74.4140625" y1="30.95625" x2="74.4140625" y2="34.528125" width="0.0762" layer="20"/>
-<wire x1="17.2640625" y1="15.478125" x2="20.8359375" y2="15.478125" width="0.0762" layer="20"/>
-<wire x1="20.8359375" y1="15.478125" x2="20.8359375" y2="11.90625" width="0.0762" layer="20"/>
-<wire x1="20.8359375" y1="11.90625" x2="17.2640625" y2="11.90625" width="0.0762" layer="20"/>
-<wire x1="17.2640625" y1="11.90625" x2="17.2640625" y2="15.478125" width="0.0762" layer="20"/>
-<wire x1="36.3140625" y1="15.478125" x2="39.8859375" y2="15.478125" width="0.0762" layer="20"/>
-<wire x1="39.8859375" y1="15.478125" x2="39.8859375" y2="11.90625" width="0.0762" layer="20"/>
-<wire x1="39.8859375" y1="11.90625" x2="36.3140625" y2="11.90625" width="0.0762" layer="20"/>
-<wire x1="36.3140625" y1="11.90625" x2="36.3140625" y2="15.478125" width="0.0762" layer="20"/>
-<wire x1="55.3640625" y1="15.478125" x2="58.9359375" y2="15.478125" width="0.0762" layer="20"/>
-<wire x1="58.9359375" y1="15.478125" x2="58.9359375" y2="11.90625" width="0.0762" layer="20"/>
-<wire x1="58.9359375" y1="11.90625" x2="55.3640625" y2="11.90625" width="0.0762" layer="20"/>
-<wire x1="55.3640625" y1="11.90625" x2="55.3640625" y2="15.478125" width="0.0762" layer="20"/>
-<wire x1="74.4140625" y1="15.478125" x2="77.9859375" y2="15.478125" width="0.0762" layer="20"/>
-<wire x1="77.9859375" y1="15.478125" x2="77.9859375" y2="11.90625" width="0.0762" layer="20"/>
-<wire x1="77.9859375" y1="11.90625" x2="74.4140625" y2="11.90625" width="0.0762" layer="20"/>
-<wire x1="74.4140625" y1="11.90625" x2="74.4140625" y2="15.478125" width="0.0762" layer="20"/>
 </plain>
 <libraries>
 <library name="Keyboard">
@@ -817,23 +769,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </package>
 </packages>
 </library>
-<library name="SK6812MINI">
-<packages>
-<package name="LED-3535">
-<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="21"/>
-<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.414209375" width="0.127" layer="21"/>
-<circle x="-3.27" y="-1.81" radius="0.08" width="0.18" layer="21"/>
-<wire x1="-1.7272" y1="-1.2954" x2="-1.27" y2="-1.7526" width="0.127" layer="21"/>
-<smd name="2" x="-2.133" y="-0.875" dx="2.216" dy="0.8" layer="1"/>
-<smd name="1" x="-2.133" y="0.875" dx="2.216" dy="0.8" layer="1"/>
-<smd name="4" x="2.133" y="0.875" dx="2.216" dy="0.8" layer="1"/>
-<smd name="3" x="2.133" y="-0.875" dx="2.216" dy="0.8" layer="1"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1139,17 +1074,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.0359375" y="94.6" size="1" layer="26" ratio="13" rot="MR180"/>
 <attribute name="VALUE" x="20.0359375" y="96.9" size="1" layer="28" ratio="13" rot="MR180"/>
 </element>
-<element name="RESET" library="adafruit" package="1X01" value="" x="27.384375" y="103.584375" smashed="yes">
-<attribute name="NAME" x="26.038175" y="105.413175" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="26.114375" y="100.409375" size="1.27" layer="27"/>
+<element name="RESET" library="adafruit" package="1X01" value="" x="11.90625" y="-19.6453125" smashed="yes">
+<attribute name="NAME" x="10.56005" y="-17.8165125" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="10.63625" y="-22.8203125" size="1.27" layer="27"/>
 </element>
 <element name="BOOT" library="adafruit" package="1X01" value="" x="19.05" y="-19.6453125" smashed="yes">
 <attribute name="NAME" x="17.7038" y="-17.8165125" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.78" y="-22.8203125" size="1.27" layer="27"/>
 </element>
-<element name="JP3" library="adafruit" package="1X01-CLEANBIG" value="" x="29.765625" y="103.584375" smashed="yes">
-<attribute name="NAME" x="28.419425" y="105.413175" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="28.495625" y="100.409375" size="1.27" layer="27"/>
+<element name="JP3" library="adafruit" package="1X01-CLEANBIG" value="" x="25.5984375" y="-19.6453125" smashed="yes">
+<attribute name="NAME" x="24.2522375" y="-17.8165125" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="24.3284375" y="-22.8203125" size="1.27" layer="27"/>
 </element>
 <element name="JP4" library="adafruit" package="1X01-CLEANBIG" value="" x="29.765625" y="-19.6453125" smashed="yes">
 <attribute name="NAME" x="28.419425" y="-17.8165125" size="1.27" layer="25" ratio="10"/>
@@ -1342,102 +1277,6 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/0ZCJ0075AF2E/?ref=eda" x="29.765625" y="45.8390625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="53.36258125" y="95.68455625" size="1.270940625" layer="28" rot="MR90" align="top-left"/>
 </element>
-<element name="U$17" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="19.05" y="51.7921875" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="Not in stock" x="19.05" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="19.05" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="19.05" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="19.05" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE" value="Package " x="19.05" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="19.05" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="U$18" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="38.1" y="51.7921875" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="Not in stock" x="38.1" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="38.1" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="38.1" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="38.1" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE" value="Package " x="38.1" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="38.1" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="U$19" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="57.15" y="51.7921875" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="Not in stock" x="57.15" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="57.15" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="57.15" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="57.15" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE" value="Package " x="57.15" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="57.15" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="U$13" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="76.2" y="51.7921875" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="Not in stock" x="76.2" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="76.2" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="76.2" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="76.2" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE" value="Package " x="76.2" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="76.2" y="51.7921875" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="U$14" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="76.2" y="32.7421875" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Not in stock" x="76.2" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="76.2" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="76.2" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="76.2" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="Package " x="76.2" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="76.2" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="U$15" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="57.15" y="32.7421875" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Not in stock" x="57.15" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="57.15" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="57.15" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="57.15" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="Package " x="57.15" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="57.15" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="U$16" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="38.1" y="32.7421875" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Not in stock" x="38.1" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="38.1" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="38.1" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="38.1" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="Package " x="38.1" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="38.1" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="U$20" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="19.05" y="32.7421875" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Not in stock" x="19.05" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="19.05" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="19.05" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="19.05" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="Package " x="19.05" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="19.05" y="32.7421875" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="U$21" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="19.05" y="13.6921875" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="Not in stock" x="19.05" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="19.05" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="19.05" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="19.05" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE" value="Package " x="19.05" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="19.05" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="U$22" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="38.1" y="13.6921875" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="Not in stock" x="38.1" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="38.1" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="38.1" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="38.1" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE" value="Package " x="38.1" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="38.1" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="U$23" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="57.15" y="13.6921875" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="Not in stock" x="57.15" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="57.15" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="57.15" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="57.15" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE" value="Package " x="57.15" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="57.15" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="U$24" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="76.2" y="13.6921875" smashed="yes" rot="MR180">
-<attribute name="AVAILABILITY" value="Not in stock" x="76.2" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="76.2" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="76.2" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="SK6812MINI" x="76.2" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PACKAGE" value="Package " x="76.2" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PRICE" value="None" x="76.2" y="13.6921875" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1487,18 +1326,6 @@ design rules under a new name.</description>
 <via x="24.7234375" y="98.2265625" extent="1-16" drill="0.35"/>
 <wire x1="29.9025" y1="94.25" x2="32.3375" y2="94.25" width="0.1524" layer="16"/>
 <wire x1="32.3375" y1="94.25" x2="33.3375" y2="95.25" width="0.1524" layer="16"/>
-<contactref element="U$17" pad="2"/>
-<contactref element="U$18" pad="2"/>
-<contactref element="U$19" pad="2"/>
-<contactref element="U$13" pad="2"/>
-<contactref element="U$14" pad="2"/>
-<contactref element="U$15" pad="2"/>
-<contactref element="U$16" pad="2"/>
-<contactref element="U$20" pad="2"/>
-<contactref element="U$21" pad="2"/>
-<contactref element="U$22" pad="2"/>
-<contactref element="U$23" pad="2"/>
-<contactref element="U$24" pad="2"/>
 <wire x1="55.1234375" y1="88.236875" x2="57.15" y2="88.421875" width="0" layer="19" extent="16-16"/>
 <wire x1="51.196875" y1="90.171875" x2="55.1234375" y2="88.236875" width="0" layer="19" extent="16-16"/>
 <wire x1="47.0628125" y1="87.9871875" x2="51.196875" y2="90.171875" width="0" layer="19" extent="16-16"/>
@@ -1515,20 +1342,8 @@ design rules under a new name.</description>
 <wire x1="26.509375" y1="98.2265625" x2="29.9025" y2="94.25" width="0" layer="19" extent="1-16"/>
 <wire x1="32.146875" y1="87.8265625" x2="29.9025" y2="94.25" width="0" layer="19" extent="1-16"/>
 <wire x1="36.3140625" y1="87.8265625" x2="32.146875" y2="87.8265625" width="0" layer="19" extent="1-1"/>
-<wire x1="35.967" y1="52.6671875" x2="36.3140625" y2="87.8265625" width="0" layer="19" extent="1-16"/>
-<wire x1="55.017" y1="52.6671875" x2="35.967" y2="52.6671875" width="0" layer="19" extent="16-16"/>
-<wire x1="74.067" y1="52.6671875" x2="55.017" y2="52.6671875" width="0" layer="19" extent="16-16"/>
-<wire x1="16.917" y1="52.6671875" x2="35.967" y2="52.6671875" width="0" layer="19" extent="16-16"/>
-<wire x1="78.333" y1="31.8671875" x2="74.067" y2="52.6671875" width="0" layer="19" extent="16-16"/>
-<wire x1="74.067" y1="14.5671875" x2="78.333" y2="31.8671875" width="0" layer="19" extent="16-16"/>
-<wire x1="59.283" y1="31.8671875" x2="78.333" y2="31.8671875" width="0" layer="19" extent="16-16"/>
-<wire x1="55.017" y1="14.5671875" x2="59.283" y2="31.8671875" width="0" layer="19" extent="16-16"/>
-<wire x1="40.233" y1="31.8671875" x2="59.283" y2="31.8671875" width="0" layer="19" extent="16-16"/>
-<wire x1="35.967" y1="14.5671875" x2="40.233" y2="31.8671875" width="0" layer="19" extent="16-16"/>
-<wire x1="21.183" y1="31.8671875" x2="40.233" y2="31.8671875" width="0" layer="19" extent="16-16"/>
-<wire x1="16.917" y1="14.5671875" x2="21.183" y2="31.8671875" width="0" layer="19" extent="16-16"/>
-<wire x1="29.765625" y1="-19.6453125" x2="35.967" y2="14.5671875" width="0" layer="19" extent="16-16"/>
-<wire x1="29.765625" y1="103.584375" x2="29.765625" y2="-19.6453125" width="0" layer="19" extent="1-1"/>
+<wire x1="29.765625" y1="-19.6453125" x2="32.146875" y2="87.8265625" width="0" layer="19" extent="1-1"/>
+<wire x1="25.5984375" y1="-19.6453125" x2="29.765625" y2="-19.6453125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <via x="85.725" y="9.525" extent="1-16" drill="2.1"/>
@@ -1567,20 +1382,14 @@ design rules under a new name.</description>
 <wire x1="55.056875" y1="90.356875" x2="54.1734375" y2="90.356875" width="0.3048" layer="16"/>
 <wire x1="55.2" y1="90.5" x2="56.821875" y2="90.5" width="0.3048" layer="16"/>
 <wire x1="56.821875" y1="90.5" x2="57.15" y2="90.171875" width="0.3048" layer="16"/>
-<contactref element="U$17" pad="4"/>
-<contactref element="U$18" pad="4"/>
-<contactref element="U$19" pad="4"/>
-<wire x1="55.4" y1="97.4" x2="64.9859" y2="99.53625" width="0" layer="19" extent="16-16"/>
-<wire x1="59.283" y1="50.9171875" x2="57.15" y2="90.171875" width="0" layer="19" extent="16-16"/>
-<wire x1="40.233" y1="50.9171875" x2="59.283" y2="50.9171875" width="0" layer="19" extent="16-16"/>
-<wire x1="21.183" y1="50.9171875" x2="40.233" y2="50.9171875" width="0" layer="19" extent="16-16"/>
+<wire x1="55.3640625" y1="97.3640625" x2="64.9859" y2="99.53625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RST">
 <contactref element="R5" pad="1"/>
 <contactref element="RESET" pad="1"/>
 <contactref element="U3" pad="26"/>
-<wire x1="27.384375" y1="103.584375" x2="29.9025" y2="97.05" width="0" layer="19" extent="16-16"/>
-<wire x1="6.26875" y1="-38.1" x2="27.384375" y2="103.584375" width="0" layer="19" extent="1-1"/>
+<wire x1="11.90625" y1="-19.6453125" x2="29.9025" y2="97.05" width="0" layer="19" extent="16-16"/>
+<wire x1="6.26875" y1="-38.1" x2="11.90625" y2="-19.6453125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XTAL2">
 <contactref element="Y1" pad="3"/>
@@ -2233,83 +2042,6 @@ design rules under a new name.</description>
 <wire x1="51.6" y1="95.8" x2="53.8" y2="95.8" width="0.3048" layer="16"/>
 <wire x1="54.1734375" y1="95.4265625" x2="54.1734375" y2="94.7140625" width="0.3048" layer="16"/>
 <wire x1="53.8" y1="95.8" x2="54.1734375" y2="95.4265625" width="0.3048" layer="16"/>
-</signal>
-<signal name="N$107">
-<contactref element="U$18" pad="1"/>
-<contactref element="U$17" pad="3"/>
-<wire x1="21.183" y1="52.6671875" x2="35.967" y2="50.9171875" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$108">
-<contactref element="U$19" pad="1"/>
-<contactref element="U$18" pad="3"/>
-<wire x1="40.233" y1="52.6671875" x2="55.017" y2="50.9171875" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="RGB">
-<contactref element="U$17" pad="1"/>
-</signal>
-<signal name="VDD">
-<contactref element="U$13" pad="4"/>
-<contactref element="U$14" pad="4"/>
-<contactref element="U$15" pad="4"/>
-<contactref element="U$16" pad="4"/>
-<contactref element="U$20" pad="4"/>
-<contactref element="U$21" pad="4"/>
-<contactref element="U$22" pad="4"/>
-<contactref element="U$23" pad="4"/>
-<contactref element="U$24" pad="4"/>
-<wire x1="74.067" y1="33.6171875" x2="78.333" y2="50.9171875" width="0" layer="19" extent="16-16"/>
-<wire x1="55.017" y1="33.6171875" x2="74.067" y2="33.6171875" width="0" layer="19" extent="16-16"/>
-<wire x1="35.967" y1="33.6171875" x2="55.017" y2="33.6171875" width="0" layer="19" extent="16-16"/>
-<wire x1="16.917" y1="33.6171875" x2="35.967" y2="33.6171875" width="0" layer="19" extent="16-16"/>
-<wire x1="78.333" y1="12.8171875" x2="74.067" y2="33.6171875" width="0" layer="19" extent="16-16"/>
-<wire x1="59.283" y1="12.8171875" x2="78.333" y2="12.8171875" width="0" layer="19" extent="16-16"/>
-<wire x1="40.233" y1="12.8171875" x2="59.283" y2="12.8171875" width="0" layer="19" extent="16-16"/>
-<wire x1="21.183" y1="12.8171875" x2="40.233" y2="12.8171875" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$8">
-<contactref element="U$13" pad="1"/>
-<contactref element="U$19" pad="3"/>
-<wire x1="74.067" y1="50.9171875" x2="59.283" y2="52.6671875" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$9">
-<contactref element="U$14" pad="1"/>
-<contactref element="U$13" pad="3"/>
-<wire x1="78.333" y1="52.6671875" x2="78.333" y2="33.6171875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$10">
-<contactref element="U$15" pad="1"/>
-<contactref element="U$14" pad="3"/>
-<wire x1="74.067" y1="31.8671875" x2="59.283" y2="33.6171875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="U$16" pad="1"/>
-<contactref element="U$15" pad="3"/>
-<wire x1="55.017" y1="31.8671875" x2="40.233" y2="33.6171875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="U$20" pad="1"/>
-<contactref element="U$16" pad="3"/>
-<wire x1="35.967" y1="31.8671875" x2="21.183" y2="33.6171875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$25">
-<contactref element="U$21" pad="1"/>
-<contactref element="U$20" pad="3"/>
-<wire x1="16.917" y1="31.8671875" x2="16.917" y2="12.8171875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$26">
-<contactref element="U$22" pad="1"/>
-<contactref element="U$21" pad="3"/>
-<wire x1="21.183" y1="14.5671875" x2="35.967" y2="12.8171875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$29">
-<contactref element="U$23" pad="1"/>
-<contactref element="U$22" pad="3"/>
-<wire x1="40.233" y1="14.5671875" x2="55.017" y2="12.8171875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$30">
-<contactref element="U$24" pad="1"/>
-<contactref element="U$23" pad="3"/>
-<wire x1="59.283" y1="14.5671875" x2="74.067" y2="12.8171875" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
