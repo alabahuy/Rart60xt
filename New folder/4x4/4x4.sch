@@ -11732,8 +11732,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="D15" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="D16" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="D17" library="Components" deviceset="DIODE" device="-SOD-123"/>
-<part name="R10" library="Components" deviceset="RESISTOR" device="-0603"/>
-<part name="C21" library="Components" deviceset="CAPACITOR" device="-0603"/>
+<part name="R10" library="Components" deviceset="RESISTOR" device="-0603" value="330"/>
+<part name="C21" library="Components" deviceset="CAPACITOR" device="-0603" value="100nf"/>
 </parts>
 <sheets>
 <sheet>

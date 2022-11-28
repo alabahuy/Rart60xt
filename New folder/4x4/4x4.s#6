@@ -12558,6 +12558,11 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="20.32" y="68.58"/>
 <label x="2.54" y="68.58" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GPIO16"/>
+<wire x1="-154.94" y1="-25.4" x2="-152.4" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-152.4" y="-25.4" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="R4" class="0">
 <segment>
@@ -12574,8 +12579,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="20.32" y="38.1"/>
 <label x="2.54" y="38.1" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="17" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="GPIO17"/>
 <wire x1="-154.94" y1="-27.94" x2="-152.4" y2="-27.94" width="0.1524" layer="91"/>
@@ -13281,13 +13284,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="U3" gate="G$1" pin="GPIO15"/>
 <wire x1="-154.94" y1="-22.86" x2="-152.4" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-152.4" y="-22.86" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="16" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="GPIO16"/>
-<wire x1="-154.94" y1="-25.4" x2="-152.4" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-152.4" y="-25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

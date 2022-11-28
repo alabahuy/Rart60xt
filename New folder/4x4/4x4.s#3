@@ -12898,11 +12898,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="-200.66" y1="-40.64" x2="-203.2" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-203.2" y="-40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GPIO8"/>
-<wire x1="-200.66" y1="-43.18" x2="-203.2" y2="-43.18" width="0.1524" layer="91"/>
-<label x="-203.2" y="-43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="DN-" class="0">
 <segment>
@@ -13356,6 +13351,13 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="U3" gate="G$1" pin="GPIO13"/>
 <wire x1="-200.66" y1="-55.88" x2="-203.2" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-203.2" y="-55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="13" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="GPIO8"/>
+<wire x1="-200.66" y1="-43.18" x2="-203.2" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-203.2" y="-43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
