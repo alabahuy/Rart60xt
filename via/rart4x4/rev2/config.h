@@ -14,8 +14,8 @@
 #ifdef RGB_MATRIX_ENABLE
 
 #define WS2812_PIO_USE_PIO1
-#define RGBLED_NUM 12
-#define RGB_MATRIX_LED_COUNT RGBLED_NUM
+#define RGB_DI_PIN GP13
+#define RGB_MATRIX_LED_COUNT 12
 //#    define SPLIT_TRANSPORT_MIRROR
 #   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
 // #   define RGB_MATRIX_KEYRELEASES // reacts to keyreleases (instead of keypresses)
@@ -91,3 +91,9 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
+
+/* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
+#define LOCKING_SUPPORT_ENABLE
+/* Locking resynchronize hack */
+#define LOCKING_RESYNC_ENABLE
+

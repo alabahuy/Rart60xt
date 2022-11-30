@@ -39,9 +39,6 @@
         }
         ]
     },
-    "rgblight": {
-        "pin": "GP13"
-     },
     "matrix_pins": {
         "cols": ["GP14", "GP24", "GP28", "GP29"],
         "rows": ["GP25", "GP15", "GP16", "GP17"]
