@@ -2,7 +2,8 @@
   "name": "RART4X4 rev.2",
   "vendorId": "0x414C",
   "productId": "0x4444",
-  "lighting": "qmk_rgblight",
+  "menus": ["qmk_rgb_matrix" ],
+  "keycodes": ["qmk_lighting"],  
   "matrix": {"rows": 4, "cols": 4},
     "layouts": {
       "keymap": [

@@ -1,6 +1,6 @@
 {
-    "manufacturer": "Reza Alif Dio",
-    "keyboard_name": "rart4x4_v3",
+    "manufacturer": "Alabahuy",
+    "keyboard_name": "rart4x4_v2",
     "maintainer": "Alabahuy",
     "bootloader": "rp2040",
     "debounce": 5,
