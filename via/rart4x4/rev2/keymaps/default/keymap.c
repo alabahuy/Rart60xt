@@ -49,7 +49,7 @@ bool encoder_update_kb(uint8_t index, bool clockwise) {
         } else {
             tap_code(KC_RIGHT);
         }
-    }  else if (2 == index) {
+    }  else if (3 == index) {
         if (clockwise) {
             tap_code(KC_LEFT);
         } else {

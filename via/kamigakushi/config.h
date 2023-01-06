@@ -1,4 +1,4 @@
-// Copyright 2022 Alabahuy (@Alabahuy)
+// Copyright 2023 Alabahuy (@Alabahuy)
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once

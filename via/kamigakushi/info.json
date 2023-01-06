@@ -11,8 +11,7 @@
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
-        "rgblight": true,
-        "oled": true
+        "rgblight": true
     },
     "indicators": {
         "caps_lock": "GP17",
@@ -50,7 +49,7 @@
         "vid": "0x414C"
     },
     "layouts": {
-        "LAYOUT_65_ansi": {
+        "LAYOUT_all": {
             "layout": [
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [0, 1], "x": 1, "y": 0 },

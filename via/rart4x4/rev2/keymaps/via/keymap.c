@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-    [0] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD), ENCODER_CCW_CW(KC_PGUP, KC_PGDN), ENCODER_CCW_CW(KC_MPRV, KC_MNXT), ENCODER_CCW_CW(RGB_MOD, RGB_RMOD) },
+    [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU), ENCODER_CCW_CW(KC_PGDN, KC_PGUP), ENCODER_CCW_CW(KC_MNXT, KC_MPRV), ENCODER_CCW_CW(RGB_RMOD, RGB_MOD) },
     [1] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
     [2] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
     [3] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
@@ -92,13 +92,13 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
 bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     // caps lock white
     if (host_keyboard_led_state().caps_lock) {
-        RGB_MATRIX_INDICATOR_SET_COLOR(0, 200, 200, 200);
+        RGB_MATRIX_INDICATOR_SET_COLOR(4, 200, 200, 200);
     }
     if (host_keyboard_led_state().num_lock) {
-        RGB_MATRIX_INDICATOR_SET_COLOR(1, 200, 200, 200);
+        RGB_MATRIX_INDICATOR_SET_COLOR(3, 200, 200, 200);
     }
     if (host_keyboard_led_state().scroll_lock) {
-        RGB_MATRIX_INDICATOR_SET_COLOR(2, 200, 200, 200);
+        RGB_MATRIX_INDICATOR_SET_COLOR(11, 200, 200, 200);
     }
 
     // layer state
@@ -106,18 +106,36 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
         case 0:
             // RGB_MATRIX_INDICATOR_SET_COLOR(59, 0, 0, 0);
             break;
-        case 1:
-            RGB_MATRIX_INDICATOR_SET_COLOR(7, 128, 0, 0);
-            break;
         case 2:
-            RGB_MATRIX_INDICATOR_SET_COLOR(7, 0, 128, 0);
+            RGB_MATRIX_INDICATOR_SET_COLOR(8, 128, 0, 0);
             break;
         case 3:
-            RGB_MATRIX_INDICATOR_SET_COLOR(7, 0, 0, 128);
+            RGB_MATRIX_INDICATOR_SET_COLOR(9, 0, 128, 0);
+            break;
+        case 4:
+            RGB_MATRIX_INDICATOR_SET_COLOR(10, 0, 0, 128);
+            break;
+        case 5:
+            RGB_MATRIX_INDICATOR_SET_COLOR(7, 128, 0, 0);
+            break;
+        case 6:
+            RGB_MATRIX_INDICATOR_SET_COLOR(6, 0, 128, 0);
+            break;
+        case 7:
+            RGB_MATRIX_INDICATOR_SET_COLOR(5, 0, 0, 128);
+            break;
+        case 8:
+            RGB_MATRIX_INDICATOR_SET_COLOR(0, 128, 0, 0);
+            break;
+        case 9:
+            RGB_MATRIX_INDICATOR_SET_COLOR(1, 0, 128, 0);
+            break;
+        case 10:
+            RGB_MATRIX_INDICATOR_SET_COLOR(2, 0, 0, 128);
             break;
         default:
             // white
-            RGB_MATRIX_INDICATOR_SET_COLOR(7, 128, 128, 128);
+            // RGB_MATRIX_INDICATOR_SET_COLOR(7, 128, 128, 128);
             break;
     }
     return false;
