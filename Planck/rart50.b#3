@@ -3,10 +3,10 @@
 <eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.07421875" unitdist="mm" unit="mm" style="lines" multiple="8" display="yes" altdistance="2.375" altunitdist="mm" altunit="mm"/>
+<grid distance="0.296875" unitdist="mm" unit="mm" style="lines" multiple="8" display="yes" altdistance="2.375" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -112,13 +112,36 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="no"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="no"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="no"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="no"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -211,6 +234,46 @@
 <wire x1="223.25" y1="28.5" x2="220.875" y2="26.125" width="0.0762" layer="20" curve="-90"/>
 <wire x1="220.875" y1="26.125" x2="216.125" y2="26.125" width="0.0762" layer="20"/>
 <wire x1="216.125" y1="26.125" x2="213.75" y2="28.5" width="0.0762" layer="20" curve="-90"/>
+<wire x1="17.21875" y1="72.4375" x2="20.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="20.78125" y1="72.4375" x2="20.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="20.78125" y1="69.46875" x2="17.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="17.21875" y1="69.46875" x2="17.21875" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="74.21875" y1="72.4375" x2="77.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="77.78125" y1="72.4375" x2="77.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="77.78125" y1="69.46875" x2="74.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="74.21875" y1="69.46875" x2="74.21875" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="93.21875" y1="72.4375" x2="96.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="96.78125" y1="72.4375" x2="96.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="96.78125" y1="69.46875" x2="93.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="93.21875" y1="69.46875" x2="93.21875" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="112.21875" y1="72.4375" x2="115.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="115.78125" y1="72.4375" x2="115.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="115.78125" y1="69.46875" x2="112.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="112.21875" y1="69.46875" x2="112.21875" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="131.21875" y1="72.4375" x2="134.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="134.78125" y1="72.4375" x2="134.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="134.78125" y1="69.46875" x2="131.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="131.21875" y1="69.46875" x2="131.21875" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="150.21875" y1="72.4375" x2="153.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="153.78125" y1="72.4375" x2="153.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="153.78125" y1="69.46875" x2="150.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="150.21875" y1="69.46875" x2="150.21875" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="169.21875" y1="72.4375" x2="172.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="172.78125" y1="72.4375" x2="172.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="172.78125" y1="69.46875" x2="169.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="169.21875" y1="69.46875" x2="169.21875" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="188.21875" y1="72.4375" x2="191.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="191.78125" y1="72.4375" x2="191.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="191.78125" y1="69.46875" x2="188.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="188.21875" y1="69.46875" x2="188.21875" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="207.21875" y1="72.4375" x2="210.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="210.78125" y1="72.4375" x2="210.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="210.78125" y1="69.46875" x2="207.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="207.21875" y1="69.46875" x2="207.21875" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="226.21875" y1="72.4375" x2="229.78125" y2="72.4375" width="0.0762" layer="20"/>
+<wire x1="229.78125" y1="72.4375" x2="229.78125" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="229.78125" y1="69.46875" x2="226.21875" y2="69.46875" width="0.0762" layer="20"/>
+<wire x1="226.21875" y1="69.46875" x2="226.21875" y2="72.4375" width="0.0762" layer="20"/>
 </plain>
 <libraries>
 <library name="Keyboard">
@@ -313,6 +376,23 @@
 <text x="0" y="1.15875" size="1" layer="21" font="vector" ratio="13" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.15875" size="1" layer="21" font="vector" ratio="13" align="top-center">&gt;VALUE</text>
 <text x="2.5" y="0" size="0.75" layer="21" align="center-left">K</text>
+</package>
+</packages>
+</library>
+<library name="SK6812MINI">
+<packages>
+<package name="LED-3535">
+<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.414209375" width="0.127" layer="21"/>
+<circle x="-3.27" y="-1.81" radius="0.08" width="0.18" layer="21"/>
+<wire x1="-1.7272" y1="-1.2954" x2="-1.27" y2="-1.7526" width="0.127" layer="21"/>
+<smd name="2" x="-2.133" y="-0.875" dx="2.216" dy="0.8" layer="1"/>
+<smd name="1" x="-2.133" y="0.875" dx="2.216" dy="0.8" layer="1"/>
+<smd name="4" x="2.133" y="0.875" dx="2.216" dy="0.8" layer="1"/>
+<smd name="3" x="2.133" y="-0.875" dx="2.216" dy="0.8" layer="1"/>
 </package>
 </packages>
 </library>
@@ -509,381 +589,385 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="19" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="19" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="19" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$2" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="40.8" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="center"/>
-<attribute name="NAME" x="40.8" y="76" size="1" layer="21" font="vector" ratio="13" rot="R90" align="center"/>
-</element>
-<element name="U$3" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="57" y="76" smashed="yes" rot="MR90">
-<attribute name="NAME" x="54.2" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR90" align="center"/>
-<attribute name="NAME" x="54.2" y="76" size="1" layer="21" font="vector" ratio="13" rot="R270" align="center"/>
-</element>
-<element name="U$4" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="76" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="76" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="76" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$5" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="95" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="95" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="95" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$6" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="114" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="114" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$7" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="133" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="133" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="133" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$8" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="152" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="152" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="152" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$9" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="171" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="171" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="171" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$10" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="190" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="190" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="190" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$11" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="209" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="209" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="209" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$12" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="228" y="76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="228" y="73.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="228" y="73.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$13" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="19" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="19" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="19" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$14" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="38" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="38" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$15" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="57" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="57" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="57" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$16" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="76" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="76" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="76" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$17" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="95" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="95" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="95" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$18" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="114" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="114" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$19" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="133" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="133" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="133" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$20" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="152" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="152" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="152" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$21" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="171" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="171" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="171" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$22" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="190" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="190" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="190" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$23" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="209" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="209" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="209" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$24" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="228" y="57" smashed="yes" rot="MR0">
-<attribute name="NAME" x="228" y="54.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="228" y="54.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$25" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="19" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="19" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="19" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$26" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="38" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="38" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$27" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="57" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="57" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="57" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$28" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="76" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="76" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="76" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$29" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="95" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="95" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="95" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$30" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="114" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="114" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$31" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="133" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="133" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="133" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$32" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="152" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="152" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="152" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$33" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="171" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="171" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="171" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$34" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="190" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="190" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="190" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$35" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="209" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="209" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="209" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$36" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="228" y="38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="228" y="35.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="228" y="35.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$37" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="19" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="19" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="19" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$38" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="38" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="38" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$39" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="57" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="57" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="57" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$40" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="76" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="76" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="76" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$41" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="95" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="95" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="95" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$42" library="Keyboard" package="MXHSPCB-2U-FLIPPED" value="KEYSWITCH-PLAIN-MXHSPCB-2U-FLIPPED" x="123.5" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="123.5" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="123.5" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$44" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="152" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="152" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="152" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$45" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="171" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="171" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="171" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$46" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="190" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="190" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="190" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$47" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="209" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="209" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="209" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$48" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="228" y="19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="228" y="16.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="228" y="16.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
+<element name="U$1" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="19" y="76" smashed="yes" rot="MR0"/>
+<element name="U$2" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38" y="76" smashed="yes" rot="MR270"/>
+<element name="U$3" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="57" y="76" smashed="yes" rot="MR90"/>
+<element name="U$4" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="76" y="76" smashed="yes" rot="MR0"/>
+<element name="U$5" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="95" y="76" smashed="yes" rot="MR0"/>
+<element name="U$6" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="114" y="76" smashed="yes" rot="MR0"/>
+<element name="U$7" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="133" y="76" smashed="yes" rot="MR0"/>
+<element name="U$8" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="152" y="76" smashed="yes" rot="MR0"/>
+<element name="U$9" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="171" y="76" smashed="yes" rot="MR0"/>
+<element name="U$10" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="190" y="76" smashed="yes" rot="MR0"/>
+<element name="U$11" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="209" y="76" smashed="yes" rot="MR0"/>
+<element name="U$12" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="228" y="76" smashed="yes" rot="MR0"/>
+<element name="U$13" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="19" y="57" smashed="yes" rot="MR0"/>
+<element name="U$14" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38" y="57" smashed="yes" rot="MR0"/>
+<element name="U$15" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="57" y="57" smashed="yes" rot="MR0"/>
+<element name="U$16" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="76" y="57" smashed="yes" rot="MR0"/>
+<element name="U$17" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="95" y="57" smashed="yes" rot="MR0"/>
+<element name="U$18" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="114" y="57" smashed="yes" rot="MR0"/>
+<element name="U$19" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="133" y="57" smashed="yes" rot="MR0"/>
+<element name="U$20" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="152" y="57" smashed="yes" rot="MR0"/>
+<element name="U$21" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="171" y="57" smashed="yes" rot="MR0"/>
+<element name="U$22" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="190" y="57" smashed="yes" rot="MR0"/>
+<element name="U$23" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="209" y="57" smashed="yes" rot="MR0"/>
+<element name="U$24" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="228" y="57" smashed="yes" rot="MR0"/>
+<element name="U$25" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="19" y="38" smashed="yes" rot="MR0"/>
+<element name="U$26" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38" y="38" smashed="yes" rot="MR0"/>
+<element name="U$27" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="57" y="38" smashed="yes" rot="MR0"/>
+<element name="U$28" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="76" y="38" smashed="yes" rot="MR0"/>
+<element name="U$29" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="95" y="38" smashed="yes" rot="MR0"/>
+<element name="U$30" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="114" y="38" smashed="yes" rot="MR0"/>
+<element name="U$31" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="133" y="38" smashed="yes" rot="MR0"/>
+<element name="U$32" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="152" y="38" smashed="yes" rot="MR0"/>
+<element name="U$33" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="171" y="38" smashed="yes" rot="MR0"/>
+<element name="U$34" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="190" y="38" smashed="yes" rot="MR0"/>
+<element name="U$35" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="209" y="38" smashed="yes" rot="MR0"/>
+<element name="U$36" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="228" y="38" smashed="yes" rot="MR0"/>
+<element name="U$37" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="19" y="19" smashed="yes" rot="MR0"/>
+<element name="U$38" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="38" y="19" smashed="yes" rot="MR0"/>
+<element name="U$39" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="57" y="19" smashed="yes" rot="MR0"/>
+<element name="U$40" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="76" y="19" smashed="yes" rot="MR0"/>
+<element name="U$41" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="95" y="19" smashed="yes" rot="MR0"/>
+<element name="U$42" library="Keyboard" package="MXHSPCB-2U-FLIPPED" value="KEYSWITCH-PLAIN-MXHSPCB-2U-FLIPPED" x="123.5" y="19" smashed="yes" rot="MR0"/>
+<element name="U$44" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="152" y="19" smashed="yes" rot="MR0"/>
+<element name="U$45" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="171" y="19" smashed="yes" rot="MR0"/>
+<element name="U$46" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="190" y="19" smashed="yes" rot="MR0"/>
+<element name="U$47" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="209" y="19" smashed="yes" rot="MR0"/>
+<element name="U$48" library="Keyboard" package="MXHSPCB-1U" value="KEYSWITCH-PLAIN-MXHSPCB-1U" x="228" y="19" smashed="yes" rot="MR0"/>
 <element name="D1" library="Components" package="SOD-123" value="" x="22.1171875" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="20.9584375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="23.2759375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D2" library="Components" package="SOD-123" value="" x="41.5625" y="76.296875" smashed="yes" rot="MR270">
-<attribute name="NAME" x="40.40375" y="76.296875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="42.72125" y="76.296875" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D2" library="Components" package="SOD-123" value="" x="29.390625" y="75.703125" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="30.549375" y="75.703125" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D3" library="Components" package="SOD-123" value="" x="65.3125" y="74.515625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="64.15375" y="74.515625" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="66.47125" y="74.515625" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D3" library="Components" package="SOD-123" value="" x="65.609375" y="76" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="66.768125" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D4" library="Components" package="SOD-123" value="" x="79.1171875" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.9584375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="80.2759375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D5" library="Components" package="SOD-123" value="" x="98.1171875" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="96.9584375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="99.2759375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D6" library="Components" package="SOD-123" value="" x="117.1171875" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="115.9584375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="118.2759375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D7" library="Components" package="SOD-123" value="" x="136.1171875" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="134.9584375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="137.2759375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D8" library="Components" package="SOD-123" value="" x="155.19140625" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="154.03265625" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="156.35015625" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D9" library="Components" package="SOD-123" value="" x="174.1171875" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="172.9584375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="175.2759375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D10" library="Components" package="SOD-123" value="" x="193.1171875" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="191.9584375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="194.2759375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D11" library="Components" package="SOD-123" value="" x="212.1171875" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="210.9584375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="213.2759375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D12" library="Components" package="SOD-123" value="" x="231.1171875" y="76" smashed="yes" rot="MR270">
-<attribute name="NAME" x="229.9584375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="232.2759375" y="76" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D13" library="Components" package="SOD-123" value="" x="22.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="20.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="23.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D14" library="Components" package="SOD-123" value="" x="41.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="39.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="42.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D15" library="Components" package="SOD-123" value="" x="60.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="58.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="61.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D16" library="Components" package="SOD-123" value="" x="79.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="80.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D17" library="Components" package="SOD-123" value="" x="98.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="96.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="99.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D18" library="Components" package="SOD-123" value="" x="117.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="115.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="118.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D19" library="Components" package="SOD-123" value="" x="136.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="134.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="137.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D20" library="Components" package="SOD-123" value="" x="155.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="153.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="156.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D21" library="Components" package="SOD-123" value="" x="174.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="172.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="175.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D22" library="Components" package="SOD-123" value="" x="193.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="191.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="194.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D23" library="Components" package="SOD-123" value="" x="212.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="210.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="213.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D24" library="Components" package="SOD-123" value="" x="231.1171875" y="57" smashed="yes" rot="MR270">
-<attribute name="NAME" x="229.9584375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="232.2759375" y="57" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D25" library="Components" package="SOD-123" value="" x="22.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="20.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="23.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D26" library="Components" package="SOD-123" value="" x="41.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="39.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="42.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D27" library="Components" package="SOD-123" value="" x="60.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="58.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="61.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D28" library="Components" package="SOD-123" value="" x="79.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="80.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D29" library="Components" package="SOD-123" value="" x="98.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="96.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="99.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D30" library="Components" package="SOD-123" value="" x="117.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="115.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="118.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D31" library="Components" package="SOD-123" value="" x="136.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="134.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="137.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D32" library="Components" package="SOD-123" value="" x="155.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="153.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="156.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D33" library="Components" package="SOD-123" value="" x="174.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="172.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="175.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D34" library="Components" package="SOD-123" value="" x="193.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="191.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="194.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D35" library="Components" package="SOD-123" value="" x="212.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="210.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="213.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D36" library="Components" package="SOD-123" value="" x="231.1171875" y="38" smashed="yes" rot="MR270">
-<attribute name="NAME" x="229.9584375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="232.2759375" y="38" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
 <element name="D37" library="Components" package="SOD-123" value="" x="22.1171875" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="20.9584375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="23.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D38" library="Components" package="SOD-123" value="" x="41.265625" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="40.106875" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="42.424375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D38" library="Components" package="SOD-123" value="" x="41.1171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="42.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D39" library="Components" package="SOD-123" value="" x="59.96875" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="58.81" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="61.1275" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D39" library="Components" package="SOD-123" value="" x="60.1171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="61.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D40" library="Components" package="SOD-123" value="" x="79.265625" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="78.106875" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="80.424375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D40" library="Components" package="SOD-123" value="" x="79.1171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="80.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D41" library="Components" package="SOD-123" value="" x="98.265625" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="97.106875" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="99.424375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D41" library="Components" package="SOD-123" value="" x="98.1171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="99.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D42" library="Components" package="SOD-123" value="" x="126.765625" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="125.606875" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="127.924375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D42" library="Components" package="SOD-123" value="" x="126.6171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="127.7759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D44" library="Components" package="SOD-123" value="" x="155.265625" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="154.106875" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="156.424375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D44" library="Components" package="SOD-123" value="" x="155.1171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="156.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D45" library="Components" package="SOD-123" value="" x="173.96875" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="172.81" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="175.1275" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D45" library="Components" package="SOD-123" value="" x="174.1171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="175.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D46" library="Components" package="SOD-123" value="" x="193.265625" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="192.106875" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="194.424375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D46" library="Components" package="SOD-123" value="" x="193.1171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="194.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D47" library="Components" package="SOD-123" value="" x="212.265625" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="211.106875" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="213.424375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D47" library="Components" package="SOD-123" value="" x="212.1171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="213.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
 </element>
-<element name="D48" library="Components" package="SOD-123" value="" x="231.265625" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="230.106875" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="232.424375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+<element name="D48" library="Components" package="SOD-123" value="" x="231.1171875" y="19" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="232.2759375" y="19" size="1" layer="22" font="vector" ratio="13" rot="MR270" align="top-center"/>
+</element>
+<element name="U$43" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="19" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="19" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="19" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="19" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="19" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="19" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="19" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$49" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="38" y="70.65625" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="38" y="70.65625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="38" y="70.65625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="38" y="70.65625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="38" y="70.65625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="38" y="70.65625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="38" y="70.65625" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$50" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="57" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="57" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="57" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="57" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="57" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="57" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="57" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$51" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="76" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="76" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="76" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="76" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="76" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="76" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="76" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$52" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="95" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="95" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="95" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="95" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="95" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="95" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="95" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$53" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="114" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="114" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="114" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="114" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="114" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="114" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="114" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$54" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="133" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="133" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="133" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="133" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="133" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="133" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="133" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$55" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="152" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="152" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="152" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="152" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="152" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="152" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="152" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$56" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="171" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="171" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="171" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="171" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="171" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="171" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="171" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$57" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="190" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="190" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="190" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="190" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="190" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="190" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="190" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$58" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="209" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="209" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="209" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="209" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="209" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="209" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="209" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$59" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="228" y="70.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="228" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="228" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="228" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="228" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="228" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="228" y="70.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$60" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="19" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="19" y="51.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="19" y="51.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="19" y="51.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="19" y="51.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="19" y="51.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="19" y="51.953125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$61" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="38" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="31.171875" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="31.171875" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="31.171875" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="31.171875" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="31.171875" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="31.171875" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$62" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="57" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="57" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="57" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="57" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="57" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="57" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="57" y="55.8125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$63" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="76" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="69.171875" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="69.171875" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="69.171875" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="69.171875" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="69.171875" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="69.171875" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$64" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="95" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="95" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="95" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="95" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="95" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="95" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="95" y="59.671875" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$65" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="114" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="107.171875" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="107.171875" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="107.171875" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="107.171875" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="107.171875" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="107.171875" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$66" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="133" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="133" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="133" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="133" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="133" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="133" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="133" y="63.53125" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$67" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="152" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="145.171875" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="145.171875" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="145.171875" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="145.171875" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="145.171875" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="145.171875" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$68" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="171" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="171" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="171" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="171" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="171" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="171" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="171" y="67.390625" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$69" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="190" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="183.171875" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="183.171875" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="183.171875" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="183.171875" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="183.171875" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="183.171875" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$70" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="209" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="209" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="209" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="209" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="209" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="209" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="209" y="71.25" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="U$71" library="SK6812MINI" package="LED-3535" value="SK6812MINI" x="228" y="51.953125" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="Not in stock" x="221.171875" y="75.109375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" INTEGRATED LIGHT SOURCE INTELLIGENT CONTROL OF CHIP-ON-TOP SMD TYPE LED " x="221.171875" y="75.109375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="221.171875" y="75.109375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SK6812MINI" x="221.171875" y="75.109375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="Package " x="221.171875" y="75.109375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="221.171875" y="75.109375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -921,7 +1005,7 @@ design rules under a new name.</description>
 <contactref element="D2" pad="A"/>
 <wire x1="32.92" y1="82.344" x2="33.555" y2="82.35" width="0" layer="19" extent="16-16"/>
 <wire x1="32.285" y1="82.35" x2="32.92" y2="82.344" width="0" layer="19" extent="16-16"/>
-<wire x1="41.5625" y1="77.931875" x2="32.285" y2="82.35" width="0" layer="19" extent="1-1"/>
+<wire x1="29.390625" y1="77.338125" x2="32.285" y2="82.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="U$3" pad="P$3"/>
@@ -930,7 +1014,7 @@ design rules under a new name.</description>
 <contactref element="D3" pad="A"/>
 <wire x1="62.08" y1="69.656" x2="62.715" y2="69.65" width="0" layer="19" extent="16-16"/>
 <wire x1="61.445" y1="69.65" x2="62.08" y2="69.656" width="0" layer="19" extent="16-16"/>
-<wire x1="65.3125" y1="76.150625" x2="61.445" y2="69.65" width="0" layer="19" extent="1-1"/>
+<wire x1="65.609375" y1="77.635" x2="61.445" y2="69.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U$4" pad="P$3"/>
@@ -1245,7 +1329,7 @@ design rules under a new name.</description>
 <contactref element="U$38" pad="P$4"/>
 <wire x1="44.344" y1="24.08" x2="44.35" y2="24.715" width="0" layer="19" extent="16-16"/>
 <wire x1="44.35" y1="23.445" x2="44.344" y2="24.08" width="0" layer="19" extent="16-16"/>
-<wire x1="41.265625" y1="20.635" x2="44.35" y2="23.445" width="0" layer="19" extent="1-1"/>
+<wire x1="41.1171875" y1="20.635" x2="44.35" y2="23.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$45">
 <contactref element="D39" pad="A"/>
@@ -1254,7 +1338,7 @@ design rules under a new name.</description>
 <contactref element="U$39" pad="P$4"/>
 <wire x1="63.344" y1="24.08" x2="63.35" y2="24.715" width="0" layer="19" extent="16-16"/>
 <wire x1="63.35" y1="23.445" x2="63.344" y2="24.08" width="0" layer="19" extent="16-16"/>
-<wire x1="59.96875" y1="20.635" x2="63.35" y2="23.445" width="0" layer="19" extent="1-1"/>
+<wire x1="60.1171875" y1="20.635" x2="63.35" y2="23.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$46">
 <contactref element="D40" pad="A"/>
@@ -1263,7 +1347,7 @@ design rules under a new name.</description>
 <contactref element="U$40" pad="P$4"/>
 <wire x1="82.344" y1="24.08" x2="82.35" y2="24.715" width="0" layer="19" extent="16-16"/>
 <wire x1="82.35" y1="23.445" x2="82.344" y2="24.08" width="0" layer="19" extent="16-16"/>
-<wire x1="79.265625" y1="20.635" x2="82.35" y2="23.445" width="0" layer="19" extent="1-1"/>
+<wire x1="79.1171875" y1="20.635" x2="82.35" y2="23.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="D41" pad="A"/>
@@ -1272,7 +1356,7 @@ design rules under a new name.</description>
 <contactref element="U$41" pad="P$4"/>
 <wire x1="101.344" y1="24.08" x2="101.35" y2="24.715" width="0" layer="19" extent="16-16"/>
 <wire x1="101.35" y1="23.445" x2="101.344" y2="24.08" width="0" layer="19" extent="16-16"/>
-<wire x1="98.265625" y1="20.635" x2="101.35" y2="23.445" width="0" layer="19" extent="1-1"/>
+<wire x1="98.1171875" y1="20.635" x2="101.35" y2="23.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$48">
 <contactref element="D42" pad="A"/>
@@ -1281,7 +1365,7 @@ design rules under a new name.</description>
 <contactref element="U$42" pad="P$3"/>
 <wire x1="129.85" y1="23.445" x2="129.844" y2="24.08" width="0" layer="19" extent="16-16"/>
 <wire x1="129.85" y1="24.715" x2="129.844" y2="24.08" width="0" layer="19" extent="16-16"/>
-<wire x1="126.765625" y1="20.635" x2="129.85" y2="23.445" width="0" layer="19" extent="1-1"/>
+<wire x1="126.6171875" y1="20.635" x2="129.85" y2="23.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$49">
 <contactref element="D44" pad="A"/>
@@ -1290,7 +1374,7 @@ design rules under a new name.</description>
 <contactref element="U$44" pad="P$4"/>
 <wire x1="158.344" y1="24.08" x2="158.35" y2="24.715" width="0" layer="19" extent="16-16"/>
 <wire x1="158.35" y1="23.445" x2="158.344" y2="24.08" width="0" layer="19" extent="16-16"/>
-<wire x1="155.265625" y1="20.635" x2="158.35" y2="23.445" width="0" layer="19" extent="1-1"/>
+<wire x1="155.1171875" y1="20.635" x2="158.35" y2="23.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$50">
 <contactref element="D45" pad="A"/>
@@ -1299,7 +1383,7 @@ design rules under a new name.</description>
 <contactref element="U$45" pad="P$4"/>
 <wire x1="177.344" y1="24.08" x2="177.35" y2="24.715" width="0" layer="19" extent="16-16"/>
 <wire x1="177.35" y1="23.445" x2="177.344" y2="24.08" width="0" layer="19" extent="16-16"/>
-<wire x1="173.96875" y1="20.635" x2="177.35" y2="23.445" width="0" layer="19" extent="1-1"/>
+<wire x1="174.1171875" y1="20.635" x2="177.35" y2="23.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
 <contactref element="D46" pad="A"/>
@@ -1308,7 +1392,7 @@ design rules under a new name.</description>
 <contactref element="U$46" pad="P$4"/>
 <wire x1="196.344" y1="24.08" x2="196.35" y2="24.715" width="0" layer="19" extent="16-16"/>
 <wire x1="196.35" y1="23.445" x2="196.344" y2="24.08" width="0" layer="19" extent="16-16"/>
-<wire x1="193.265625" y1="20.635" x2="196.35" y2="23.445" width="0" layer="19" extent="1-1"/>
+<wire x1="193.1171875" y1="20.635" x2="196.35" y2="23.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$52">
 <contactref element="D47" pad="A"/>
@@ -1317,16 +1401,224 @@ design rules under a new name.</description>
 <contactref element="U$47" pad="P$4"/>
 <wire x1="215.344" y1="24.08" x2="215.35" y2="24.715" width="0" layer="19" extent="16-16"/>
 <wire x1="215.35" y1="23.445" x2="215.344" y2="24.08" width="0" layer="19" extent="16-16"/>
-<wire x1="212.265625" y1="20.635" x2="215.35" y2="23.445" width="0" layer="19" extent="1-1"/>
+<wire x1="212.1171875" y1="20.635" x2="215.35" y2="23.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$53">
 <contactref element="D48" pad="A"/>
 <contactref element="U$48" pad="P$3"/>
 <contactref element="U$48" pad="MX2"/>
 <contactref element="U$48" pad="P$4"/>
-<wire x1="234.35" y1="23.445" x2="231.265625" y2="20.635" width="0" layer="19" extent="1-1"/>
+<wire x1="234.35" y1="23.445" x2="231.1171875" y2="20.635" width="0" layer="19" extent="1-1"/>
 <wire x1="234.344" y1="24.08" x2="234.35" y2="23.445" width="0" layer="19" extent="16-16"/>
 <wire x1="234.35" y1="24.715" x2="234.344" y2="24.08" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="VDD">
+<contactref element="U$43" pad="4"/>
+<contactref element="U$49" pad="4"/>
+<contactref element="U$50" pad="4"/>
+<contactref element="U$51" pad="4"/>
+<contactref element="U$52" pad="4"/>
+<contactref element="U$53" pad="4"/>
+<contactref element="U$54" pad="4"/>
+<contactref element="U$55" pad="4"/>
+<contactref element="U$56" pad="4"/>
+<contactref element="U$57" pad="4"/>
+<contactref element="U$58" pad="4"/>
+<contactref element="U$59" pad="4"/>
+<contactref element="U$60" pad="4"/>
+<contactref element="U$61" pad="4"/>
+<contactref element="U$62" pad="4"/>
+<contactref element="U$63" pad="4"/>
+<contactref element="U$64" pad="4"/>
+<contactref element="U$65" pad="4"/>
+<contactref element="U$66" pad="4"/>
+<contactref element="U$67" pad="4"/>
+<contactref element="U$68" pad="4"/>
+<contactref element="U$69" pad="4"/>
+<contactref element="U$70" pad="4"/>
+<contactref element="U$71" pad="4"/>
+<wire x1="154.133" y1="70.078125" x2="173.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="135.133" y1="70.078125" x2="154.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="116.133" y1="70.078125" x2="135.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="97.133" y1="70.078125" x2="116.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="116.133" y1="51.078125" x2="116.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="97.133" y1="51.078125" x2="97.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="135.133" y1="51.078125" x2="97.133" y2="51.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="173.133" y1="51.078125" x2="135.133" y2="51.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="211.133" y1="51.078125" x2="173.133" y2="51.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="154.133" y1="51.078125" x2="135.133" y2="51.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="192.133" y1="51.078125" x2="154.133" y2="51.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="230.133" y1="51.078125" x2="192.133" y2="51.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="78.133" y1="51.078125" x2="154.133" y2="51.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="78.133" y1="70.078125" x2="97.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="59.133" y1="70.078125" x2="78.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="59.133" y1="51.078125" x2="78.133" y2="51.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="40.133" y1="69.78125" x2="59.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="40.133" y1="51.078125" x2="40.133" y2="69.78125" width="0" layer="19" extent="16-16"/>
+<wire x1="21.133" y1="70.078125" x2="40.133" y2="69.78125" width="0" layer="19" extent="16-16"/>
+<wire x1="21.133" y1="51.078125" x2="40.133" y2="51.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="192.133" y1="70.078125" x2="173.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="211.133" y1="70.078125" x2="192.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+<wire x1="230.133" y1="70.078125" x2="211.133" y2="70.078125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="GND">
+<contactref element="U$43" pad="2"/>
+<contactref element="U$49" pad="2"/>
+<contactref element="U$50" pad="2"/>
+<contactref element="U$51" pad="2"/>
+<contactref element="U$52" pad="2"/>
+<contactref element="U$53" pad="2"/>
+<contactref element="U$54" pad="2"/>
+<contactref element="U$55" pad="2"/>
+<contactref element="U$56" pad="2"/>
+<contactref element="U$57" pad="2"/>
+<contactref element="U$58" pad="2"/>
+<contactref element="U$59" pad="2"/>
+<contactref element="U$60" pad="2"/>
+<contactref element="U$61" pad="2"/>
+<contactref element="U$62" pad="2"/>
+<contactref element="U$63" pad="2"/>
+<contactref element="U$64" pad="2"/>
+<contactref element="U$65" pad="2"/>
+<contactref element="U$66" pad="2"/>
+<contactref element="U$67" pad="2"/>
+<contactref element="U$68" pad="2"/>
+<contactref element="U$69" pad="2"/>
+<contactref element="U$70" pad="2"/>
+<contactref element="U$71" pad="2"/>
+<wire x1="149.867" y1="71.828125" x2="168.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="130.867" y1="71.828125" x2="149.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="111.867" y1="71.828125" x2="130.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="92.867" y1="71.828125" x2="111.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="111.867" y1="52.828125" x2="111.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="73.867" y1="71.828125" x2="92.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="92.867" y1="52.828125" x2="92.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="130.867" y1="52.828125" x2="92.867" y2="52.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="168.867" y1="52.828125" x2="130.867" y2="52.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="206.867" y1="52.828125" x2="168.867" y2="52.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="149.867" y1="52.828125" x2="130.867" y2="52.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="187.867" y1="52.828125" x2="149.867" y2="52.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="225.867" y1="52.828125" x2="187.867" y2="52.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="73.867" y1="52.828125" x2="149.867" y2="52.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="54.867" y1="71.828125" x2="73.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="35.867" y1="71.53125" x2="54.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="35.867" y1="52.828125" x2="35.867" y2="71.53125" width="0" layer="19" extent="16-16"/>
+<wire x1="54.867" y1="52.828125" x2="73.867" y2="52.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="16.867" y1="71.828125" x2="35.867" y2="71.53125" width="0" layer="19" extent="16-16"/>
+<wire x1="16.867" y1="52.828125" x2="35.867" y2="52.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="187.867" y1="71.828125" x2="168.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="206.867" y1="71.828125" x2="187.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+<wire x1="225.867" y1="71.828125" x2="206.867" y2="71.828125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$54">
+<contactref element="U$49" pad="1"/>
+<contactref element="U$43" pad="3"/>
+<wire x1="21.133" y1="71.828125" x2="35.867" y2="69.78125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$55">
+<contactref element="U$50" pad="1"/>
+<contactref element="U$49" pad="3"/>
+<wire x1="54.867" y1="70.078125" x2="40.133" y2="71.53125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$56">
+<contactref element="U$51" pad="1"/>
+<contactref element="U$50" pad="3"/>
+<wire x1="73.867" y1="70.078125" x2="59.133" y2="71.828125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$57">
+<contactref element="U$52" pad="1"/>
+<contactref element="U$51" pad="3"/>
+<wire x1="92.867" y1="70.078125" x2="78.133" y2="71.828125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$58">
+<contactref element="U$53" pad="1"/>
+<contactref element="U$52" pad="3"/>
+<wire x1="111.867" y1="70.078125" x2="97.133" y2="71.828125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$59">
+<contactref element="U$54" pad="1"/>
+<contactref element="U$53" pad="3"/>
+<wire x1="130.867" y1="70.078125" x2="116.133" y2="71.828125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$60">
+<contactref element="U$55" pad="1"/>
+<contactref element="U$54" pad="3"/>
+<wire x1="135.133" y1="71.828125" x2="149.867" y2="70.078125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$61">
+<contactref element="U$56" pad="1"/>
+<contactref element="U$55" pad="3"/>
+<wire x1="154.133" y1="71.828125" x2="168.867" y2="70.078125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$62">
+<contactref element="U$57" pad="1"/>
+<contactref element="U$56" pad="3"/>
+<wire x1="173.133" y1="71.828125" x2="187.867" y2="70.078125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$63">
+<contactref element="U$58" pad="1"/>
+<contactref element="U$57" pad="3"/>
+<wire x1="192.133" y1="71.828125" x2="206.867" y2="70.078125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$64">
+<contactref element="U$59" pad="1"/>
+<contactref element="U$58" pad="3"/>
+<wire x1="211.133" y1="71.828125" x2="225.867" y2="70.078125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$65">
+<contactref element="U$61" pad="1"/>
+<contactref element="U$60" pad="3"/>
+<wire x1="21.133" y1="52.828125" x2="35.867" y2="51.078125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$66">
+<contactref element="U$62" pad="1"/>
+<contactref element="U$61" pad="3"/>
+<wire x1="40.133" y1="52.828125" x2="54.867" y2="51.078125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$67">
+<contactref element="U$63" pad="1"/>
+<contactref element="U$62" pad="3"/>
+<wire x1="59.133" y1="52.828125" x2="73.867" y2="51.078125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$68">
+<contactref element="U$64" pad="1"/>
+<contactref element="U$63" pad="3"/>
+<wire x1="78.133" y1="52.828125" x2="92.867" y2="51.078125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$69">
+<contactref element="U$65" pad="1"/>
+<contactref element="U$64" pad="3"/>
+<wire x1="97.133" y1="52.828125" x2="111.867" y2="51.078125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$70">
+<contactref element="U$66" pad="1"/>
+<contactref element="U$65" pad="3"/>
+<wire x1="130.867" y1="51.078125" x2="116.133" y2="52.828125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$71">
+<contactref element="U$67" pad="1"/>
+<contactref element="U$66" pad="3"/>
+<wire x1="135.133" y1="52.828125" x2="149.867" y2="51.078125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$72">
+<contactref element="U$68" pad="1"/>
+<contactref element="U$67" pad="3"/>
+<wire x1="168.867" y1="51.078125" x2="154.133" y2="52.828125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$73">
+<contactref element="U$69" pad="1"/>
+<contactref element="U$68" pad="3"/>
+<wire x1="173.133" y1="52.828125" x2="187.867" y2="51.078125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$74">
+<contactref element="U$70" pad="1"/>
+<contactref element="U$69" pad="3"/>
+<wire x1="206.867" y1="51.078125" x2="192.133" y2="52.828125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$75">
+<contactref element="U$71" pad="1"/>
+<contactref element="U$70" pad="3"/>
+<wire x1="211.133" y1="52.828125" x2="225.867" y2="51.078125" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

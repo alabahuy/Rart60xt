@@ -10047,6 +10047,41 @@
 <part name="U$57" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
 <part name="U$58" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
 <part name="U$59" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$60" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$61" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$62" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$63" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$64" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$65" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$66" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$67" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$68" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$69" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$70" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$71" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$72" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$73" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$74" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$75" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$76" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$77" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$78" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$79" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$80" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$81" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$82" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$83" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$84" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$85" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$86" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$87" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$88" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$89" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$90" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$91" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$92" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$93" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
+<part name="U$94" library="SK6812MINI" deviceset="SK6812MINI" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10394,6 +10429,41 @@
 <instance part="U$57" gate="G$1" x="139.7" y="-25.4" smashed="yes"/>
 <instance part="U$58" gate="G$1" x="152.4" y="-25.4" smashed="yes"/>
 <instance part="U$59" gate="G$1" x="165.1" y="-25.4" smashed="yes"/>
+<instance part="U$60" gate="G$1" x="180.34" y="-25.4" smashed="yes"/>
+<instance part="U$61" gate="G$1" x="193.04" y="-25.4" smashed="yes"/>
+<instance part="U$62" gate="G$1" x="205.74" y="-25.4" smashed="yes"/>
+<instance part="U$63" gate="G$1" x="218.44" y="-25.4" smashed="yes"/>
+<instance part="U$64" gate="G$1" x="231.14" y="-25.4" smashed="yes"/>
+<instance part="U$65" gate="G$1" x="243.84" y="-25.4" smashed="yes"/>
+<instance part="U$66" gate="G$1" x="256.54" y="-25.4" smashed="yes"/>
+<instance part="U$67" gate="G$1" x="269.24" y="-25.4" smashed="yes"/>
+<instance part="U$68" gate="G$1" x="281.94" y="-25.4" smashed="yes"/>
+<instance part="U$69" gate="G$1" x="294.64" y="-25.4" smashed="yes"/>
+<instance part="U$70" gate="G$1" x="307.34" y="-25.4" smashed="yes"/>
+<instance part="U$71" gate="G$1" x="320.04" y="-25.4" smashed="yes"/>
+<instance part="U$72" gate="G$1" x="335.28" y="-25.4" smashed="yes"/>
+<instance part="U$73" gate="G$1" x="347.98" y="-25.4" smashed="yes"/>
+<instance part="U$74" gate="G$1" x="360.68" y="-25.4" smashed="yes"/>
+<instance part="U$75" gate="G$1" x="373.38" y="-25.4" smashed="yes"/>
+<instance part="U$76" gate="G$1" x="386.08" y="-25.4" smashed="yes"/>
+<instance part="U$77" gate="G$1" x="398.78" y="-25.4" smashed="yes"/>
+<instance part="U$78" gate="G$1" x="411.48" y="-25.4" smashed="yes"/>
+<instance part="U$79" gate="G$1" x="424.18" y="-25.4" smashed="yes"/>
+<instance part="U$80" gate="G$1" x="436.88" y="-25.4" smashed="yes"/>
+<instance part="U$81" gate="G$1" x="449.58" y="-25.4" smashed="yes"/>
+<instance part="U$82" gate="G$1" x="462.28" y="-25.4" smashed="yes"/>
+<instance part="U$83" gate="G$1" x="474.98" y="-25.4" smashed="yes"/>
+<instance part="U$84" gate="G$1" x="490.22" y="-25.4" smashed="yes"/>
+<instance part="U$85" gate="G$1" x="502.92" y="-25.4" smashed="yes"/>
+<instance part="U$86" gate="G$1" x="515.62" y="-25.4" smashed="yes"/>
+<instance part="U$87" gate="G$1" x="528.32" y="-25.4" smashed="yes"/>
+<instance part="U$88" gate="G$1" x="541.02" y="-25.4" smashed="yes"/>
+<instance part="U$89" gate="G$1" x="553.72" y="-25.4" smashed="yes"/>
+<instance part="U$90" gate="G$1" x="566.42" y="-25.4" smashed="yes"/>
+<instance part="U$91" gate="G$1" x="579.12" y="-25.4" smashed="yes"/>
+<instance part="U$92" gate="G$1" x="591.82" y="-25.4" smashed="yes"/>
+<instance part="U$93" gate="G$1" x="604.52" y="-25.4" smashed="yes"/>
+<instance part="U$94" gate="G$1" x="617.22" y="-25.4" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -10744,6 +10814,198 @@
 <segment>
 <pinref part="U$59" gate="G$1" pin="DI"/>
 <pinref part="U$58" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="U$61" gate="G$1" pin="DI"/>
+<pinref part="U$60" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="U$62" gate="G$1" pin="DI"/>
+<pinref part="U$61" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$67" class="0">
+<segment>
+<pinref part="U$63" gate="G$1" pin="DI"/>
+<pinref part="U$62" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="U$64" gate="G$1" pin="DI"/>
+<pinref part="U$63" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="U$65" gate="G$1" pin="DI"/>
+<pinref part="U$64" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="U$66" gate="G$1" pin="DI"/>
+<pinref part="U$65" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$71" class="0">
+<segment>
+<pinref part="U$67" gate="G$1" pin="DI"/>
+<pinref part="U$66" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="U$68" gate="G$1" pin="DI"/>
+<pinref part="U$67" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$73" class="0">
+<segment>
+<pinref part="U$69" gate="G$1" pin="DI"/>
+<pinref part="U$68" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$74" class="0">
+<segment>
+<pinref part="U$70" gate="G$1" pin="DI"/>
+<pinref part="U$69" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$75" class="0">
+<segment>
+<pinref part="U$71" gate="G$1" pin="DI"/>
+<pinref part="U$70" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<pinref part="U$73" gate="G$1" pin="DI"/>
+<pinref part="U$72" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$77" class="0">
+<segment>
+<pinref part="U$74" gate="G$1" pin="DI"/>
+<pinref part="U$73" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$78" class="0">
+<segment>
+<pinref part="U$75" gate="G$1" pin="DI"/>
+<pinref part="U$74" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$79" class="0">
+<segment>
+<pinref part="U$76" gate="G$1" pin="DI"/>
+<pinref part="U$75" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="U$77" gate="G$1" pin="DI"/>
+<pinref part="U$76" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$81" class="0">
+<segment>
+<pinref part="U$78" gate="G$1" pin="DI"/>
+<pinref part="U$77" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$82" class="0">
+<segment>
+<pinref part="U$79" gate="G$1" pin="DI"/>
+<pinref part="U$78" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<pinref part="U$80" gate="G$1" pin="DI"/>
+<pinref part="U$79" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="U$81" gate="G$1" pin="DI"/>
+<pinref part="U$80" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$85" class="0">
+<segment>
+<pinref part="U$82" gate="G$1" pin="DI"/>
+<pinref part="U$81" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$86" class="0">
+<segment>
+<pinref part="U$83" gate="G$1" pin="DI"/>
+<pinref part="U$82" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$87" class="0">
+<segment>
+<pinref part="U$85" gate="G$1" pin="DI"/>
+<pinref part="U$84" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$88" class="0">
+<segment>
+<pinref part="U$86" gate="G$1" pin="DI"/>
+<pinref part="U$85" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$89" class="0">
+<segment>
+<pinref part="U$87" gate="G$1" pin="DI"/>
+<pinref part="U$86" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$90" class="0">
+<segment>
+<pinref part="U$88" gate="G$1" pin="DI"/>
+<pinref part="U$87" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$91" class="0">
+<segment>
+<pinref part="U$89" gate="G$1" pin="DI"/>
+<pinref part="U$88" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$92" class="0">
+<segment>
+<pinref part="U$90" gate="G$1" pin="DI"/>
+<pinref part="U$89" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$93" class="0">
+<segment>
+<pinref part="U$91" gate="G$1" pin="DI"/>
+<pinref part="U$90" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$94" class="0">
+<segment>
+<pinref part="U$92" gate="G$1" pin="DI"/>
+<pinref part="U$91" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$95" class="0">
+<segment>
+<pinref part="U$93" gate="G$1" pin="DI"/>
+<pinref part="U$92" gate="G$1" pin="DO"/>
+</segment>
+</net>
+<net name="N$96" class="0">
+<segment>
+<pinref part="U$94" gate="G$1" pin="DI"/>
+<pinref part="U$93" gate="G$1" pin="DO"/>
 </segment>
 </net>
 </nets>
